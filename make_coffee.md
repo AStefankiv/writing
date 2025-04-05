@@ -1,5 +1,9 @@
 # How to start brewing bulletproof espresso at home
-## In this article you will learn how to choose the right equipment, proper coffee beans and other ingredients for your bulletproof coffee. It will give you a gradual release of energy, support your digestive health, manage your blood sugar, and aid in weight loss.
+## Learn how to choose the right equipment, proper coffee beans and other ingredients for your bulletproof coffee. It helps to:
+- get a gradual release of energy
+- support your digestive health
+- manage your blood sugar
+- aid in weight loss
 
 ### Things you will need:
 - Espresso machine
@@ -9,22 +13,22 @@
 - Espresso cups
 
 ### Beginner-friendly espresso machine
-#### You may need a simple machine that won't overwhelm you with abundance of buttons and modes. Consider the following tips:
+#### Choose a simple machine that won't overwhelm you with abundance of buttons and modes. Consider the following tips:
 - Look for machines with intuitive control and features that simplify the brewing process.
 - Consider machines with clear instructions and available online tutorials.
 - Look for machines with the stable pump, as they have consistent pressure.
 - Choose a machine that's easy to clean. Disassambling your machine will make maintenance less of a chore.
 
 ### Find a convenient grinder
-#### Choosing the best coffee bean grinder may determine most of your brewing experience.
-#### !Note: If your espresso machine already has an inbuild grinder, you may skip this part.
+#### Choosing the best coffee bean grinder may determine most of your brewing experience. The proper grind significantly affects the coffee taste.
+#### `!Note: If your espresso machine already has an inbuild grinder, you may skip this part.`
 **A perfect grinder has**:
-- Grind size modes, to always get the same size, which would be perfect for your espresso.
-- Serving amount, to grind a single, double espresso shot or more, if you brew for more that one person.
+- **Grind modes:** You always get the same grind size. Generally, fine grinds are preferred for espresso.
+- **Serving amount:** Grind the exact amount for a single or double espresso shot.
 
-**Avoid blade grinders, because:**
-- It's really difficult to make the same ground level each time you brew your coffee.
-- Every time you will have to measure the amount of beans manually, which may add some hussle to your morning routine.
+**Avoid blade grinders for the following reasons:**
+- **Too fine/too course:** It's really difficult to make the same ground level each time you brew your coffee.
+- **Wrong amount:** Each time you will have to measure the amount of beans manually. It may add some inconvenience to your morning routine.
 
 ### Type of bean roast
 #### There are four main types of roast levels:
@@ -38,7 +42,8 @@ Most people typically prefer either **medium-dark roast** or **dark roast**. The
 **Medium roast** is also very popular, offering a balance between origin character and roast notes.
 
 ### Oil
-- **MCT oil** - Use MCT oil, a special liquid fat, for fast energy your body can easily use.
+#### Adding oil lets caffeine gradually get into blood and gives you longer term energy. Therefore, you won't get spikes of anxiety.
+- **MCT oil** - Use MCT oil, a special liquid fat, for fast energy for your body.
 - **Coconut oil** - Choose coconut oil, made from coconuts, for its healthy fats and unique taste, just remember it gets solid when cold.
 - **Butter** - Add butter, made from milk cream, to give food a rich flavor and creamy feel.
 
