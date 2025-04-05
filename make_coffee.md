@@ -12,6 +12,8 @@
 - Oil
 - Espresso cups
 
+[bulletproof_coffee_items](./bulletproof_coffee_items.png)
+
 ### Beginner-friendly espresso machine
 #### Choose a simple machine that won't overwhelm you with abundance of buttons and modes. Consider the following tips:
 - Look for machines with intuitive control and features that simplify the brewing process.
