@@ -42,7 +42,17 @@ This way of installing Node.js allows you to intall and switch between many diff
 
 In your terminal, the last lines will look something like this:
 
-![nvm_installed](nvm_installed.png)
+```
+=> => Compressing and cleaning up git repository
+
+=> nvm source string already in /home/labber/.bashrc
+=> bash_completion source string already in /home/labber/.bashrc
+=> Close and reopen your terminal to start using nvm or run the following to use it now:
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
 
 Then restart your terminal or run:
 
@@ -55,3 +65,68 @@ Then restart your terminal or run:
 ```nvm use --lts```
 
 You will get the latest Node.js version.
+
+**Step 3 - Choose any other Node.js version**
+
+See the list of available versions (it's much longer):
+
+```nvm list-remote```
+
+Example output
+```
+        v22.4.1
+        v22.5.0
+        v22.5.1
+        v22.6.0
+        v22.7.0
+        v22.8.0
+        v22.9.0
+        v22.10.0
+        v22.11.0   (LTS: Jod)
+        v22.12.0   (LTS: Jod)
+        v22.13.0   (LTS: Jod)
+        v22.13.1   (LTS: Jod)
+->      v22.14.0   (Latest LTS: Jod)
+        v23.0.0
+        v23.1.0
+        v23.2.0
+        v23.3.0
+        v23.4.0
+```
+Choose the version and install it:
+
+```nvm install v18.20.0```
+
+View the list of your installed Node.js versions:
+
+```nvm list```
+
+```
+       v18.20.0
+->     v19.9.0
+       v22.14.0
+default -> lts/* (-> v22.14.0)
+iojs -> N/A (default)
+unstable -> N/A (default)
+node -> stable (-> v22.14.0) (default)
+stable -> 22.14 (-> v22.14.0) (default)
+```
+The current version is marked with an arrow sign **->**, occasionally followed by some name aliases.
+
+There are different aliases for the [long-term support releases](https://nodejs.org/en/about/previous-releases):
+```
+lts/* -> lts/hydrogen (-> N/A)
+lts/argon -> v4.9.1 (-> N/A)
+lts/boron -> v6.17.1 (-> N/A)
+lts/carbon -> v8.17.0 (-> N/A)
+lts/dubnium -> v10.24.1 (-> N/A)
+lts/erbium -> v12.22.12 (-> N/A)
+lts/fermium -> v14.21.2
+lts/gallium -> v16.19.0 (-> N/A)
+lts/hydrogen -> v18.13.0 (-> N/A)
+```
+You can install Node.js versions based on aliases as well. For example, to install the latest long-term support version, **Jod**, run this command:
+
+```nvm install lts/jod```
+
+g
