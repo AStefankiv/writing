@@ -129,4 +129,16 @@ You can install Node.js versions based on aliases as well. For example, to insta
 
 ```nvm install lts/jod```
 
-g
+```
+Downloading and installing node v22.14.0...
+. . .
+Now using node v22.14.0 (npm v10.9.2)
+```
+
+You can switch any other version, using ```nvm use```:
+
+```nvm use v18.20.0```
+
+```
+Now using node v18.20.0 (npm v10.5.0)
+```
