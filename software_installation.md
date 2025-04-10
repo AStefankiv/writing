@@ -142,3 +142,70 @@ You can switch any other version, using ```nvm use```:
 ```
 Now using node v18.20.0 (npm v10.5.0)
 ```
+
+## Option 3 - Install Node.js with with Apt + [NodeSource PPA](https://github.com/nodesource/distributions/blob/master/README.md)
+If you need a different version of Node.js, use a PPA (personal package archive) developed by NodeSource. PPAs have more available versions than default Ubuntu repositories. Node.js v20.x is available as of April 2025
+
+**Step 1 - Choose your version**
+Decide what version you want. Let's say you want version 18.
+
+**Step 2 - Download the setup script**
+
+In your terminal, run:
+```
+cd ~
+curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
+```
+
+**Step 3 - (Optional) Check the script**
+
+Check the contents of the script before running it.
+
+```
+nano nodesource_setup.sh
+```
+You will see:
+```
+Logger Function
+log() {
+  local message="$1"
+  local type="$2"
+  local timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+  local color
+  local endcolor="\033[0m"
+
+  case "$type" in
+    "info") color="\033[38;5;79m" ;;
+    "success") color="\033[1;32m" ;;
+    "error") color="\033[1;31m" ;;
+    *) color="\033[1;34m" ;;
+  esac
+```
+Press Ctrl + X to exit.
+
+**Step 4 - Run the setup script**
+
+```
+sudo bash nodesource_setup.sh
+```
+**Step 5 - Install Node.js + NPM**
+
+Now install Node.js:
+```
+sudo apt install nodejs -y
+```
+
+**Step 6 - Verify installation**
+
+Check that Node.js and NPM are installed:
+```
+node -v
+npm -v
+```
+
+Output:
+```
+v18.20.8
+```
+
+You have successfully installed Node.js and npm using Spt + NodeSource PPA.
