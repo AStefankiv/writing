@@ -6,26 +6,38 @@
 - Good use of formatting (numbered steps, notes, callouts)
 
 ### 🌐 How to Setup a Github Page With a Custom Domain
-**💡 Description:**  
-A slightly more advanced but super satisfying tutorial! Show how to register a custom domain, update DNS settings, and link it to your GitHub Pages project. Bonus: HTTPS setup.
----
-✅ **Bonus Tip:** Use visuals (screenshots, callouts, tooltips) and real use-case examples to make these guides more engaging and beginner-friendly.
 
-## Introduction (Explain GitHub Pages and benefits of using a custom domain)
+## **Introduction (Explain GitHub Pages and benefits of using a custom domain)**
+[GitHub](https://github.com/) is a developer platform used to host code, collaborate on projects, and build and publish websites for free using [GitHub Pages](https://pages.github.com/).
 
-## Prerequisites (GitHub account, basic git knowledge, domain registrar account)
+With Github Pages, you can turn your repository into a live website. If you want to make your website look more professional, you can connect it to a custom domain `(e.g., yourname.com)`, instead of using GitHub’s default domain `(e.g., username.github.io)`.
 
-## Create a Github Page
+By the end of this tutorial, you will learn how to:
+- Create and publish Github Page
+- Register a custom domain
+- Connest your domain to your Github Page
+- Enable HTTPS for security
 
-## Enable GitHub Pages - ?
+## **Prerequisites**
+To get started, make sure you have the following:
+- A Github account
+If you don't have one, go to https://github.com/join, type a user name, email address, and a password, and follow the instructions.
+- Basic git knowledge
+You only need to understand how repositories, commits. and branches work. Go to [Github Hello World guide](https://docs.github.com/en/get-started/start-your-journey/hello-world#introduction) to get started.
+- A domain registrar account
+You can register at [Namecheap](https://www.namecheap.com/), [GoDaddy](https://www.godaddy.com/), or any other registrar you prefer.
 
-## Register a Custom Domain (Ex: Namecheap registrar)
+## Step 1 - Create a Github Page
 
-## Configure DNS Settings on the Domain Registrar
+## Step 2 - Enable GitHub Pages - ?
 
-## Add Your Custom Domain in Github
+## Step 3 - Register a Custom Domain (Ex: Namecheap registrar)
 
-## Enforce HTTPS and Final Verification
+## Step 4 - Configure DNS Settings on the Domain Registrar
+
+## Step 5 - Add Your Custom Domain in Github
+
+## Step 6 - Enforce HTTPS and Final Verification
 
 ## Troubleshooting and Tips
 
