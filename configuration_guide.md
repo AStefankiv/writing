@@ -10,7 +10,11 @@ By the end of this guide, you'll learn:
 - How to create and configure a **.gitignore** file
 - What kinds of files should (and shouldn't) be ignored
 
-## Requirements (Code editor, basic JavScript or any other language knowledge)
+## Prerequisites (Code editor, basic JavScript or any other language knowledge)
+To get started, make sure you have the following:
+- A code editor — such as [Visual Studio Code](https://code.visualstudio.com/) to create and edit project files.
+- Basic programming knowledge — such as JavaScript, Python, or any other language to create a project
+- Basic Git skills — such as initializing a repository, committing changes, and pushing to GitHub. If you're new to [GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git), go to [Github Hello World guide](https://docs.github.com/en/get-started/start-your-journey/hello-world#introduction) to get started.
 
 ## Syntax
 
