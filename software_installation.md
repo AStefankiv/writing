@@ -31,7 +31,7 @@ npm -v
 ```
 You will get NPM npm 8.z.z to 10.w.w
 
-![check_node_npm_installed](check_node_npm_installed.png)
+![check_node_npm_installed](media/check_node_npm_installed.png)
 
 >If NPM failed to install, run ```sudo apt install npm```
 

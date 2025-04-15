@@ -16,7 +16,7 @@ Bulletproof espresso can help:
 - Espresso cups
 
 <p align='center'>
-<img src="bulletproof_coffee_items.png" alt="Coffee Setup" width="400">
+<img src="media/bulletproof_coffee_items.png" alt="Coffee Setup" width="400">
 </p>
 
 ---

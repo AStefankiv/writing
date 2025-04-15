@@ -34,7 +34,7 @@ Here's a concise cheat-sheet for `.gitignore` patterns:
 ## Files to Ignore vs. Keep in Git
 Here’s a quick visual breakdown to help you decide what belongs in .gitignore and what should stay tracked in Git:
 
-![Table showing examples of what files to ignore and not ignore in a Git project](table_ignore.drawio.svg)
+![Table showing examples of what files to ignore and not ignore in a Git project](media/table_ignore.drawio.svg)
 <!-- Here's a common list of files and repositories to ignore:
 ### Build Artifacts
 - build/​
