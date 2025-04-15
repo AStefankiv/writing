@@ -31,8 +31,11 @@ Here's a concise cheat-sheet for `.gitignore` patterns:
 | `#`                 | Line is a comment, ignored by Git                             | `# This is a note`                               |
 
 
-## What files can be ignored
-In your `.gitignore` file, exclude files that are created during development, or build process. These files typically won't be edited and they may clutter your repository. Here's a common list of files and repositories to ignore:
+## Files to Ignore vs. Keep in Git
+Here’s a quick visual breakdown to help you decide what belongs in .gitignore and what should stay tracked in Git:
+
+![Table showing examples of what files to ignore and not ignore in a Git project](table_ignore.drawio.svg)
+<!-- Here's a common list of files and repositories to ignore:
 ### Build Artifacts
 - build/​
 - dist/​
@@ -46,7 +49,8 @@ In your `.gitignore` file, exclude files that are created during development, or
 ### System & IDE Files
 - .DS_Store (macOS)​
 - Thumbs.db (Windows)​
-- .vscode/, .idea/​
+- .vscode/, 
+- .idea/​
 
 ### Sensitive Configurations
 - .env​
@@ -54,13 +58,13 @@ In your `.gitignore` file, exclude files that are created during development, or
 
 ### Logs & Temp Files
 - *.log​
-- *.tmp, *.swp​
+- *.tmp, *.swp​ -->
 
-## What You Should Not Ignore
+<!-- ## What You Should Not Ignore
 Do not include these files in your `.gitignore`:
 - **Source code files**, containing the application's logic, such as `.js`, `.py`, `.java`, `.ts`, `.rb`, `.go`, etc.​
 - **Configuration files**, required for the application to run correctly, like `package.json`, `package-lock.json`, `yarn.lock`, `webpack.config.js`, or `tsconfig.json`.​
-- **Documentation files**, providing information about the project, including `README.md`, `CONTRIBUTING.md`, `LICENSE`, and `CONTRIBUTING.md`.
+- **Documentation files**, providing information about the project, including `README.md`, `LICENSE.md`, and `CONTRIBUTING.md`. -->
 
 ## When gitignore will not work
 ### Syntax mistake
