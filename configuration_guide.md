@@ -18,15 +18,18 @@ To get started, make sure you have the following:
 
 ## Syntax
 Here's a concise cheat-sheet for `.gitignore` patterns:
-- `*.txt` — ignore all `.txt` files
-- `example.txt` — ignore specific file `example.txt`
-- `!example.txt` — do not ignore `example.txt` file (even if `*.txt` is ignored)
-- `examples/` — ignore entire `examples` directory
-- `example*` — ignore all files starting with `example`
-- `example/*.txt` — ignore all `.txt` files inside the `example` folder
-- `/example.js` — ignore `example.js` only in the root directory
-- `**/example.txt` — ignore example.txt in any subdirectory
-- `#` — lines starting with `#` are comments
+| Pattern             | Meaning                                                       | Example Result                                   |
+|---------------------|---------------------------------------------------------------|--------------------------------------------------|
+| `*.txt`             | Ignore all `.txt` files                                       | `notes.txt`, `log.txt`                           |
+| `example.txt`       | Ignore a specific file named `example.txt`                    | Only `example.txt`, regardless of location       |
+| `!example.txt`      | Do **not** ignore `example.txt` (even if `*.txt` is ignored)  | Keeps `example.txt` tracked                      |
+| `examples/`         | Ignore the entire `examples` directory                        | `examples/index.js`, `examples/file.txt`         |
+| `example*`          | Ignore all files starting with `example`                      | `example.js`, `example_backup.txt`, `example123` |
+| `example/*.txt`     | Ignore all `.txt` files inside `example/` folder              | `example/data.txt`, but not `example.log`        |
+| `/example.js`       | Ignore `example.js` only in the **root** directory            | Ignores `/example.js` but not `sub/example.js`   |
+| `**/example.txt`    | Ignore `example.txt` in **any** subdirectory                  | `src/example.txt`, `tests/unit/example.txt`      |
+| `#`                 | Line is a comment, ignored by Git                             | `# This is a note`                               |
+
 
 ## What files can be ignored
 In your `.gitignore` file, exclude files that are created during development, or build process. These files typically won't be edited and they may clutter your repository. Here's a common list of files and repositories to ignore:
@@ -54,7 +57,10 @@ In your `.gitignore` file, exclude files that are created during development, or
 - *.tmp, *.swp​
 
 ## What You Should Not Ignore
-Do not include **source code files** (like .js, .py, .java), **configuration files** necessary for the application to run (e.g., App.js, index.html, package.json), and **documentation files** (such as README.md) in your `.gitignore`.
+Do not include these files in your `.gitignore`:
+- **Source code files**, containing the application's logic, such as `.js`, `.py`, `.java`, `.ts`, `.rb`, `.go`, etc.​
+- **Configuration files**, required for the application to run correctly, like `package.json`, `package-lock.json`, `yarn.lock`, `webpack.config.js`, or `tsconfig.json`.​
+- **Documentation files**, providing information about the project, including `README.md`, `CONTRIBUTING.md`, `LICENSE`, and `CONTRIBUTING.md`.
 
 ## When gitignore will not work
 ### Syntax mistake
