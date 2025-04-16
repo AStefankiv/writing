@@ -1,16 +1,21 @@
 # 🖋️ Andrii Stefankiv – Technical Writing Portfolio
 
-Welcome! This repository contains a curated selection of my technical writing samples, created to demonstrate my ability to clearly and effectively communicate technical information to diverse audiences. As a junior software developer with strong documentation and communication skills, I’m passionate about building high-quality, user-focused content that empowers others to learn and create with confidence.
+Welcome! This repository contains my technical writing samples, created to demonstrate my ability to clearly and effectively deliver technical information to diverse audiences. As a software developer with strong documentation and communication skills, I’m passionate about building user-focused content that is clear and easy to understand for everyone.
 
 ## 👨‍💻 About Me
 
-I'm an **ESL Instructor** and **Junior Software Developer** with a strong foundation in **JavaScript**, **TypeScript**, **Python**, and modern web development frameworks like **React**, **Node.js**, and **Next.js**. With 8+ years of teaching experience and a love for clear communication, I specialize in turning complex technical ideas into accessible, engaging content for a wide audience.
+I'm an **ESL Instructor** and **Junior Software Developer** with a strong foundation in **JavaScript**, **TypeScript**, **Python**, and modern web development frameworks like **React**, **Node.js**, and **Next.js**. With 10+ years of teaching experience and a love for clear communication, my goal is always the same: make things clear, helpful, and easy to understand.
 
 📍 Based in Calgary, AB
+
 🎓 **Bootcamp**: Full-Stack Web Development at **Lighthouse Labs** (Oct 2023 – May 2024)
+
 🎓 **Course**: [Technical Writing: How to Write Software Documentation (Udemy)](https://www.udemy.com/course/start-your-career-as-user-assistance-developer/?couponCode=ST14MT150425G1)
+
 💬 ESL Instructor at Global Village, Calgary
+
 🌐 [LinkedIn Profile](https://www.linkedin.com/in/andrii-stefankiv/)
+
 📫 stefankif35@gmail.com
 
 ---
@@ -80,5 +85,4 @@ If you’d like to collaborate, need help with your product documentation, or ju
 
 ---
 
-> “Good documentation is the bridge between invention and adoption.”  
-> – Me (and probably every developer who’s had to read complicated docs 😄)
+> “Great documentation is like a great teacher—it takes something complex and makes it feel simple.”
