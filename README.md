@@ -6,13 +6,12 @@ Welcome! This repository contains a curated selection of my technical writing sa
 
 I'm an **ESL Instructor** and **Junior Software Developer** with a strong foundation in **JavaScript**, **TypeScript**, **Python**, and modern web development frameworks like **React**, **Node.js**, and **Next.js**. With 8+ years of teaching experience and a love for clear communication, I specialize in turning complex technical ideas into accessible, engaging content for a wide audience.
 
-📍 Based in Calgary, AB  
-🎓 **Bootcamp**: Full-Stack Web Development at Lighthouse Labs (Oct 2023 – May 2024)  
-🎓 **Course**: [Start Your Career as a User Assistance Developer (Udemy)](https://www.udemy.com/course/start-your-career-as-user-assistance-developer/?couponCode=ST14MT150425G1)  
+📍 Based in Calgary, AB
+🎓 **Bootcamp**: Full-Stack Web Development at **Lighthouse Labs** (Oct 2023 – May 2024)
+🎓 **Course**: [Technical Writing: How to Write Software Documentation (Udemy)](https://www.udemy.com/course/start-your-career-as-user-assistance-developer/?couponCode=ST14MT150425G1)
 💬 ESL Instructor at Global Village, Calgary
-🌐 [LinkedIn Profile](https://www.linkedin.com/in/andrii-stefankiv/)  
-📫 stefankif35@gmail.com  
-🔗 [GitHub Profile](https://github.com/AStefankiv)  
+🌐 [LinkedIn Profile](https://www.linkedin.com/in/andrii-stefankiv/)
+📫 stefankif35@gmail.com
 
 ---
 
@@ -51,13 +50,13 @@ I focus on:
 
 ## 🔧 Technical Skills
 
-- **Languages**: JavaScript, TypeScript, Python, Ruby, HTML/CSS, SQL  
-- **Frameworks**: Node.js, React, Next.js, Vue, Express.js, Django, Flask  
-- **Tools**: Git, GitHub, Markdown, VS Code, Postman  
-- **Docs & Deployment**: Markdown, Netlify, GitHub Pages, API Docs  
-- **Testing**: Jest, Mocha & Chai, Cypress  
-- **Databases**: PostgreSQL, MongoDB, Firebase  
-- **DevOps**: Docker (learning), JWT, Prisma  
+- **Languages**: JavaScript, TypeScript, Python, Ruby, HTML/CSS, SQL
+- **Frameworks**: Node.js, React, Next.js, Vue, Express.js, Django, Flask
+- **Tools**: Git, GitHub, Markdown, VS Code, Postman
+- **Docs & Deployment**: Markdown, Netlify, GitHub Pages, API Docs
+- **Testing**: Jest, Mocha & Chai, Cypress
+- **Databases**: PostgreSQL, MongoDB, Firebase
+- **DevOps**: Docker (learning), JWT, Prisma
 
 ---
 
@@ -65,9 +64,9 @@ I focus on:
 
 You can check out my development projects where I also practiced documentation and UX writing:
 
-- [GPT Grammar](https://gptgrammar.netlify.app/) – AI-powered grammar assistant  
-- [Andrew Chat](https://andrew-chatt.netlify.app/) – A Firebase-based messaging app  
-- [Intro Foods](https://github.com/AStefankiv/intro-foods) – Restaurant service platform built with Next.js and PostgreSQL  
+- [GPT Grammar](https://gptgrammar.netlify.app/) – AI-powered grammar assistant
+- [Andrew Chat](https://andrew-chatt.netlify.app/) – A Firebase-based messaging app
+- [Intro Foods](https://github.com/AStefankiv/intro-foods) – Restaurant service platform built with Next.js and PostgreSQL
 
 ---
 
@@ -75,8 +74,8 @@ You can check out my development projects where I also practiced documentation a
 
 If you’d like to collaborate, need help with your product documentation, or just want to talk about technical writing or web dev—reach out!
 
-📧 Email: stefankif35@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/andrii-stefankiv/)  
+📧 Email: stefankif35@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/andrii-stefankiv/)
 🐙 [GitHub](https://github.com/AStefankiv)
 
 ---
