@@ -7,8 +7,9 @@ Welcome! This repository contains a curated selection of my technical writing sa
 I'm an **ESL Instructor** and **Junior Software Developer** with a strong foundation in **JavaScript**, **TypeScript**, **Python**, and modern web development frameworks like **React**, **Node.js**, and **Next.js**. With 8+ years of teaching experience and a love for clear communication, I specialize in turning complex technical ideas into accessible, engaging content for a wide audience.
 
 📍 Based in Calgary, AB  
-🛠️ Completed the **Lighthouse Labs Full-Stack Web Development Bootcamp** (Oct 2023 – May 2024)  
-💬 Working as an ESL Instructor at Global Village while transitioning into tech writing
+🎓 **Bootcamp**: Full-Stack Web Development at Lighthouse Labs (Oct 2023 – May 2024)  
+🎓 **Course**: [Start Your Career as a User Assistance Developer (Udemy)](https://www.udemy.com/course/start-your-career-as-user-assistance-developer/?couponCode=ST14MT150425G1)  
+💬 ESL Instructor at Global Village, Calgary
 🌐 [LinkedIn Profile](https://www.linkedin.com/in/andrii-stefankiv/)  
 📫 stefankif35@gmail.com  
 🔗 [GitHub Profile](https://github.com/AStefankiv)  
@@ -25,10 +26,13 @@ A concise guide on creating and managing `.gitignore` files to keep repositories
 ### 2. [Install and Configure Node & NPM on Ubuntu](./install_and_configure_node_&_npm_on_ubuntu.md)
 Step-by-step instructions for setting up a Node.js development environment on Ubuntu-based systems.
 
-### 3. [Set Up a GitHub Page with a Custom Domain](./setup _a_github_page_with_a_custom_domain.md)
+### 3. [Set Up a GitHub Page with a Custom Domain](./setup_a_github_page_with_a_custom_domain.md)
 A practical tutorial on publishing a static site via GitHub Pages and linking it to a custom domain.
 
-### 4. [Start Brewing Bulletproof Espresso ☕](./start_brewing_bulletproof_espresso.md)
+### 4. [Get Started with NASA’s API](./NASA_api_documentation.md)
+A concise guide to NASA's Astronomy Picture of the Day (APOD) API, featuring step-by-step instructions and code examples for integrating daily space imagery into applications.
+
+### 5. [Start Brewing Bulletproof Espresso ☕](./start_brewing_bulletproof_espresso.md)
 A fun technical-meets-lifestyle guide showing attention to audience tone and structure.
 
 ---
