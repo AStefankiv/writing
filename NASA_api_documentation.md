@@ -6,7 +6,7 @@ NASA's [Astronomy Picture of the Day](https://en.wikipedia.org/wiki/Astronomy_Pi
 ## Prerequisites
 To get started with the APOD API, make sure you have:
 - Basic knowledge of JavaScript and HTML
-- A code editor (e.g,. [Visual Studio Code](https://code.visualstudio.com/))
+- A code editor (e.g., [Visual Studio Code](https://code.visualstudio.com/))
 - [Postman](https://www.postman.com/) API testing tool
 
 ## Obtaining an API Key
@@ -51,7 +51,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 5. Receive the JSON response
 
 ## Handling API Responses
-A successful response from the APOD API returns a JSON object that includes the image or video of the day, its metadata, and a written description.
+When **successful**, the APOD API returns a JSON object that includes the image or video of the day, its metadata, and a written description.
 <!-- - `copyright`: name of the legal right author
 - `date`: The date of the APOD
 - `explanation`: Description of the media
@@ -113,7 +113,7 @@ https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY&date=2024-10-01&concept
 Here are basic examples using both JavaScript and Python to help you fetch and display data from the APOD API.
 
 ###JavaScript (Fetch API)
-```bash
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -129,7 +129,7 @@ Here are basic examples using both JavaScript and Python to help you fetch and d
     const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
 
     fetch(url)
-      .then(response => response.json())
+      .then(response => response.json()) // Parse response as JSON
       .then(data => {
         const container = document.getElementById('apod');
         container.innerHTML = `
@@ -147,13 +147,13 @@ Here are basic examples using both JavaScript and Python to help you fetch and d
 </html>
 ```
 Python (using requests)
-```bash
+```python
 import requests
 
 API_KEY = "YOUR_API_KEY"  # Replace with your own key
 url = f"https://api.nasa.gov/planetary/apod?api_key={API_KEY}"
 
-response = requests.get(url)
+response = requests.get(url)  # Send the GET request to NASA's APOD API
 
 if response.status_code == 200:
     data = response.json()
@@ -165,13 +165,60 @@ else:
     print("Failed to retrieve data. Status code:", response.status_code)
 ```
 
-
-
 ## Use Cases
-Show practical application of APOD API (integrate daily images into a website, create a desktop widget)
+NASA's APOD API can be ued in a variety of projects. Here are some ideas:
+1. Daily Image Website
+Build a personal or public site that displays the Astronomy Picture of the Day. Use HTML/CSS/JavaScript to fetch and update the content daily via the API.
+
+2. Desktop Widget or Wallpaper Rotator
+Use the API to fetch a new image each day and set it as your desktop wallpaper (using Python with pywallpaper or platform-specific tools).
+
+3. Mobile App
+Integrate APOD into a mobile app using frameworks like React Native or Flutter, displaying daily space content in a beautiful layout.
+
+4. Classroom/Education Tool
+Use it to introduce astronomy in educational settings. Create an interactive gallery or timeline with daily images, explanations, and media types.
+
+5. AI/ML Projects
+Use the image metadata and explanations to build a dataset for natural language processing, concept extraction, or image classification.
 
 ## Troubleshooting
-Address issues and solutions
+If you're experiencing issues with the APOD API, here are some common problems and their solutions:
+
+1. API Key Errors
+Problem: “API_KEY_INVALID” or similar message
+
+Solution: Double-check you copied your API key correctly and didn’t accidentally include spaces or quotes.
+
+2. Rate Limit Exceeded
+Problem: You hit the demo key’s rate limit.
+
+Solution: Register for a free API key to unlock more requests (30/hr for demo vs. higher limits for registered keys).
+
+3. Invalid Date Format
+Problem: `date` parameter returns an error.
+
+Solution: Make sure the format is `YYYY-MM-DD`. Avoid dates before June 1995, when APOD started.
+
+4. Empty or Incomplete Response
+Problem: The JSON response is missing fields like `hdurl`.
+
+Solution: Not all images have HD versions. Check `media_type` and use fallbacks where needed.
+
+5. Video Handling
+Problem: Trying to display a video as an image.
+
+Solution: If `media_type` is `"video"`, use an `<iframe>` instead of `<img>`, or request the `thumbnail_url` with `thumbs=true`.
+
+**Example:** Handling Media Types in JS
+```javascript
+if (data.media_type === "image") {
+  document.body.innerHTML += `<img src="${data.url}" width="600">`;
+} else if (data.media_type === "video") {
+  document.body.innerHTML += `<iframe width="600" src="${data.url}" frameborder="0" allowfullscreen></iframe>`;
+}
+
+```
 
 ## Reference
 Github APOD API Documentation - https://github.com/nasa/apod-api
