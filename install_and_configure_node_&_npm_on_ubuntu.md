@@ -216,7 +216,7 @@ You have successfully installed Node.js and npm. Try building your first CLI app
 ## **Which method should I Use?**
 
 | Method             | Best for...                                 | Notes                                  |
-|--------------------|----------------------------------------------|----------------------------------------|
+|--------------------|---------------------------------------------|----------------------------------------|
 | **Apt (Option 1)** | Beginners, simple installs                  | May not have the latest version        |
 | **NVM (Option 2)** | Developers who need multiple Node versions  | Lightweight and flexible               |
 | **NodeSource (Opt 3)** | Specific versions without using NVM     | Good for controlled version installs   |

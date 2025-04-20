@@ -11,6 +11,13 @@ By the end of this tutorial, you will learn how to:
 - Connect your domain to your Github Page
 - Enable HTTPS for security
 
+### Overview of the Setup Process
+Here’s a quick visual summary of the entire process we’ll cover in this guide:
+
+![overview_of_the_setup_process](media/overview_of_the_setup_process.png)
+
+We’ll go step-by-step through this journey—from creating a GitHub Page to securing it with HTTPS on your custom domain.
+
 ## **Prerequisites**
 To get started, make sure you have the following:
 - A Github account
