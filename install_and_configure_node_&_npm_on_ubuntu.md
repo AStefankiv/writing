@@ -213,6 +213,12 @@ v18.x.x
 #### **Success!**
 You have successfully installed Node.js and npm. Try building your first CLI app, install a popular framework like Express.js, or explore npm packages to extend your project.
 
+## **Visual Summary - Node.js Installation Methods**
+
+The diagram below provides a quick overview of the three different ways to install Node.js and npm on Ubuntu:
+
+![node_npm_ubuntu](media/node_npm_ubuntu.png)
+
 ## **Which method should I Use?**
 
 | Method             | Best for...                                 | Notes                                  |
