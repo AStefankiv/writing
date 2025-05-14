@@ -1,7 +1,7 @@
 # How to Configure a `.gitignore` File
 
 ## Introduction
-The **.gitignore** file specifies intentionally untracked files that [Git](https://git-scm.com/) which files or folders to ignore when committing changes to your repository. Think of .gitignore as a **do-not-pack** list when you’re preparing your project for sharing—it keeps out files that are unnecessary, sensitive, or too large.
+The **.gitignore** file specifies intentionally untracked files that [Git](https://git-scm.com/) should ignore — meaning it tells Git which files or folders to ignore when committing changes to your repository. Think of .gitignore as a **do-not-pack** list when you’re preparing your project for sharing—it keeps out files that are unnecessary, sensitive, or too large.
 
 For example, if your project uses an API key saved in a **.env** file, you don’t want that file uploaded to GitHub where others can see it. You can add **.env** to your **.gitignore** file to keep it private.
 

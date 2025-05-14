@@ -6,17 +6,17 @@ Welcome! This repository contains my technical writing samples, created to demon
 
 I'm an **ESL Instructor** and **Junior Software Developer** with a strong foundation in **JavaScript**, **TypeScript**, **Python**, and modern web development frameworks like **React**, **Node.js**, and **Next.js**. With 10+ years of teaching experience and a love for clear communication, my goal is always the same: make things clear, helpful, and easy to understand.
 
-📍 Based in Calgary, AB
+- Based in Calgary, AB
 
-🎓 **Bootcamp**: Full-Stack Web Development at **Lighthouse Labs** (Oct 2023 – May 2024)
+- **Bootcamp**: Full-Stack Web Development at **Lighthouse Labs** (Oct 2023 – May 2024)
 
-🎓 **Course**: [Technical Writing: How to Write Software Documentation (Udemy)](https://www.udemy.com/course/start-your-career-as-user-assistance-developer/?couponCode=ST14MT150425G1)
+- **Course**: [Technical Writing: How to Write Software Documentation (Udemy)](https://www.udemy.com/course/start-your-career-as-user-assistance-developer/?couponCode=ST14MT150425G1)
 
-💬 ESL Instructor at Global Village, Calgary
+- ESL Instructor at Global Village, Calgary
 
-🌐 [LinkedIn Profile](https://www.linkedin.com/in/andrii-stefankiv/)
+- [LinkedIn Profile](https://www.linkedin.com/in/andrii-stefankiv/)
 
-📫 stefankif35@gmail.com
+- stefankif35@gmail.com
 
 ---
 
@@ -36,20 +36,8 @@ A practical tutorial on publishing a static site via GitHub Pages and linking it
 ### 4. [Get Started with NASA’s API](./NASA_api_documentation.md)
 A concise guide to NASA's Astronomy Picture of the Day (APOD) API, featuring step-by-step instructions and code examples for integrating daily space imagery into applications.
 
-### 5. [Start Brewing Bulletproof Espresso ☕](./start_brewing_bulletproof_espresso.md)
+### 5. [Start Brewing Bulletproof Espresso](./start_brewing_bulletproof_espresso.md)
 A fun technical-meets-lifestyle guide showing attention to audience tone and structure.
-
----
-
-## 🧠 My Approach to Technical Writing
-
-I focus on:
-
-- ✅ Clarity: Explaining *why*, not just *how*
-- ✅ Structure: Clear sections, consistent formatting, headings, and tables
-- ✅ Empathy: Thinking from the reader’s perspective, especially beginners
-- ✅ Accuracy: Providing working examples and tested steps
-- ✅ Simplicity: Plain English over technical jargon (unless needed)
 
 ---
 
@@ -79,9 +67,9 @@ You can check out my development projects where I also practiced documentation a
 
 If you’d like to collaborate, need help with your product documentation, or just want to talk about technical writing or web dev—reach out!
 
-📧 Email: stefankif35@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/andrii-stefankiv/)
-🐙 [GitHub](https://github.com/AStefankiv)
+- Email: stefankif35@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/andrii-stefankiv/)
+- [GitHub](https://github.com/AStefankiv)
 
 ---
 
