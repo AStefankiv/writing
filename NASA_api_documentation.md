@@ -1,7 +1,7 @@
 # Get Started with NASA’s API
 
 ## Overview
-NASA's [Astronomy Picture of the Day](https://en.wikipedia.org/wiki/Astronomy_Picture_of_the_Day) (APOD) provides a different image of our universe each day, along with a brief explanation written by a professional astronomer. This documentation guides developers through the process of obtaining an API key, making requests to the APOD API, and handling the JSON response to get the media content.
+NASA's [Astronomy Picture of the Day](https://en.wikipedia.org/wiki/Astronomy_Picture_of_the_Day) (APOD) shares a new space-related image every day, each accompanied by a short explanation from a NASA astronomer. This documentation guides developers through the process of obtaining an API key, making requests to the APOD API, and handling the JSON response to get the media content.
 
 ## Prerequisites
 To get started with the APOD API, make sure you have:
@@ -112,7 +112,7 @@ https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY&date=2024-10-01&concept
 ## Code Examples
 Here are basic examples using both JavaScript and Python to help you fetch and display data from the APOD API.
 
-###JavaScript (Fetch API)
+### JavaScript (Fetch API)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -146,7 +146,7 @@ Here are basic examples using both JavaScript and Python to help you fetch and d
 </body>
 </html>
 ```
-Python (using requests)
+### Python (using requests)
 ```python
 import requests
 

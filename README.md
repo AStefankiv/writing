@@ -16,6 +16,8 @@ I'm an **ESL Instructor** and **Junior Software Developer** with a strong founda
 
 - [LinkedIn Profile](https://www.linkedin.com/in/andrii-stefankiv/)
 
+- [Online Portfolio](https://portfolioandrew.netlify.app/) 
+
 - stefankif35@gmail.com
 
 ---
@@ -63,6 +65,10 @@ You can check out my development projects where I also practiced documentation a
 
 ---
 
+> “Great documentation is like a great teacher—it takes something complex and makes it feel simple.”
+
+---
+
 ## 💬 Let’s Connect
 
 If you’d like to collaborate, need help with your product documentation, or just want to talk about technical writing or web dev—reach out!
@@ -70,7 +76,3 @@ If you’d like to collaborate, need help with your product documentation, or ju
 - Email: stefankif35@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/andrii-stefankiv/)
 - [GitHub](https://github.com/AStefankiv)
-
----
-
-> “Great documentation is like a great teacher—it takes something complex and makes it feel simple.”
