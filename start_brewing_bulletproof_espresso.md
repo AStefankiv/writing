@@ -1,10 +1,10 @@
 # ☕ How to Start Brewing Bulletproof Espresso at Home
 ## ✅ Learn how to choose the right equipment, proper coffee beans and other ingredients for your bulletproof coffee.
 Bulletproof espresso can help:
-- ✅ Provide a gradual release of energy
-- ✅ Support your digestive health
-- ✅ Manage your blood sugar
-- ✅ Aid in weight loss
+- Provide a gradual release of energy
+- Support your digestive health
+- Manage your blood sugar
+- Aid in weight loss
 
 ---
 
@@ -32,15 +32,15 @@ Bulletproof espresso can help:
 
 ## ⚙️ Find a Convenient Grinder
 ### A good coffee bean grinder determines most of your brewing experience and taste.
-> 💡 **!Note:** If your espresso machine already has a built-in grinder, you may skip this section.
+> **!Note:** If your espresso machine already has a built-in grinder, you may skip this section.
 
 **A good grinder should have**:
 - **Grind modes:** Consistent grind size (fine for espresso)
 - **Serving amount selector:** Precise portioning
 
 **Avoid blade grinders due to:**
-- ❌ **Inconsistent grind size**
-- ❌ **Manual bean measurement every time**
+- **Inconsistent grind size**
+- **Manual bean measurement every time**
 
 ---
 

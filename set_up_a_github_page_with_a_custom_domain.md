@@ -92,6 +92,7 @@ Your link is active now!
 2. Sign in and enter a desired domain address. Eg,. *example_web*. You will see a list of available domains and prices, depending on domain extensions.
 
 ![domain_search](media/domain_search.png)
+
 3. Choose your desired domain and proceed to checkout.
 
 ## Step 4 - Configure DNS Settings on the Domain Registrar
@@ -104,15 +105,18 @@ Your link is active now!
 > An A record maps your domain to an IP address.
 
 ![section_five](media/section_five.png)
+
 3. Click **Manage** on the right.
 
 4. Choose the **Advanced DNS** tab. Add your GitHub repository four **A** records to your namecheap DNS settings, one by one.
 5. Click **ADD NEW RECORD**.
 
 ![add_new_record](media/add_new_record.png)
+
 6. Choose **A Record** from a dropdown menu. Host - @. Value - your GitHub **A** record.
 
 ![add_a_record](media/add_a_record.png)
+
 7. Repeat the process three more times.
 8. Add a **CNAME Record**. Host - www. Value - your GitHub Pages domain.
 

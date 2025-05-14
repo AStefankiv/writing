@@ -30,7 +30,7 @@ A concise guide on creating and managing `.gitignore` files to keep repositories
 ### 2. [Install and Configure Node & NPM on Ubuntu](./install_and_configure_node_&_npm_on_ubuntu.md)
 Step-by-step instructions for setting up a Node.js development environment on Ubuntu-based systems.
 
-### 3. [Set Up a GitHub Page with a Custom Domain](./setup_a_github_page_with_a_custom_domain.md)
+### 3. [Set Up a GitHub Page with a Custom Domain](./set_up_a_github_page_with_a_custom_domain.md)
 A practical tutorial on publishing a static site via GitHub Pages and linking it to a custom domain.
 
 ### 4. [Get Started with NASA’s API](./NASA_api_documentation.md)

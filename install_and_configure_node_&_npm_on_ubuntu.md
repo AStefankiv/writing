@@ -229,5 +229,6 @@ The diagram below provides a quick overview of the three different ways to insta
 
 > Only use **one installation method** at a time. If you mix `apt`, `nvm`, and `nodesource`, you might run into version conflicts.
 - To remove previous installs:
-  ```bash
+```bash
   sudo apt remove nodejs npm
+```
