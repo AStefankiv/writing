@@ -1,22 +1,26 @@
 # Get Started with NASA’s API
 
 ## Overview
-NASA's [Astronomy Picture of the Day](https://en.wikipedia.org/wiki/Astronomy_Picture_of_the_Day) (APOD) shares a new space-related image every day, each accompanied by a short explanation from a NASA astronomer. This documentation guides developers through the process of obtaining an API key, making requests to the APOD API, and handling the JSON response to get the media content.
+
+NASA's [Astronomy Picture of the Day](https://en.wikipedia.org/wiki/Astronomy_Picture_of_the_Day) (APOD) shares a new space-related image every day, each accompanied by a short explanation from a NASA astronomer. This documentation guides developers through the process of obtaining an API Key, making requests to the APOD API, and handling the JSON response to get the media content.
 
 ## Prerequisites
+
 To get started with the APOD API, make sure you have:
 - Basic knowledge of JavaScript and HTML
 - A code editor (e.g., [Visual Studio Code](https://code.visualstudio.com/))
 - [Postman](https://www.postman.com/) API testing tool
 
 ## Obtaining an API Key
+
 To access NASA's APIs:
 1. Navigate to [NASA APIs](https://api.nasa.gov/)
 2. Fill out the registration form with your first name, last name, and email address.
-3. Submit the form to receive an email with your unique API key.
-> NOTE: NASA's demo API key is limited to 30 requests per IP address per hour or 50 requests per IP address per day. For increased limits, register for a free API key.
+3. Submit the form to receive an email with your unique API Key.
+> NOTE: NASA's demo API Key is limited to 30 requests per IP address per hour or 50 requests per IP address per day. For increased limits, register for a free API Key.
 
 ## Making API Requests
+
 The basic APOD API endpoint:
 ```bash
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
@@ -24,7 +28,8 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 Replace YOUR_API_KEY with your actual key (or use DEMO_KEY for limited testing).
 
 ### JavaScript Fetch Example:
-```bash
+
+```javascript
 const apiKey = 'YOUR_API_KEY';
 const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
 
@@ -40,7 +45,7 @@ fetch(url)
 This snippet uses the **Fetch API** to send a GET request and log the JSON response to the console.
 
 ### Test with Postman
-To manually test the API using [Postman](https://www.postman.com/):
+To manually test the API using [Postman](https://www.postman.com/), follow these steps:
 1. Open Postman and start a new tab
 2. Select the `GET` type request.
 3. Paste your request URL:
@@ -51,15 +56,8 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 5. Receive the JSON response
 
 ## Handling API Responses
+
 When **successful**, the APOD API returns a JSON object that includes the image or video of the day, its metadata, and a written description.
-<!-- - `copyright`: name of the legal right author
-- `date`: The date of the APOD
-- `explanation`: Description of the media
-- `hdurl`: URL to the high-definition version (if available)
-- `media_type`: Type of media (image or video)
-- `service version`:
-- `title`: Title of the APOD
-- `URL`: URL to the media -->
 
 Sample JSON response
 ```json
@@ -76,6 +74,7 @@ Sample JSON response
 ```
 
 ### Response fields
+
 | Field            | Description                                                              |
 |------------------|--------------------------------------------------------------------------|
 | `title`          | Title of the image or video.                                             |
@@ -89,9 +88,9 @@ Sample JSON response
 | `service_version`| Version of the API.                                                      |
 | `concept_tags`   | Indicates if concept tags were requested.                                |
 | `concepts`       | Array of relevant concept tags (if `concept_tags=true`).                 |
+<br>
+### Optional URL Parameters
 
-
-## Optional URL Parameters
 Customize your request with the following URL query parameters:
 | Param         | Type    | Description                                                                 |
 |---------------|---------|-----------------------------------------------------------------------------|
@@ -110,9 +109,11 @@ https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY&date=2024-10-01&concept
 ```
 
 ## Code Examples
+
 Here are basic examples using both JavaScript and Python to help you fetch and display data from the APOD API.
 
 ### JavaScript (Fetch API)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -146,7 +147,9 @@ Here are basic examples using both JavaScript and Python to help you fetch and d
 </body>
 </html>
 ```
+
 ### Python (using requests)
+
 ```python
 import requests
 
@@ -166,6 +169,7 @@ else:
 ```
 
 ## Use Cases
+
 NASA's APOD API can be ued in a variety of projects. Here are some ideas:
 1. Daily Image Website
 Build a personal or public site that displays the Astronomy Picture of the Day. Use HTML/CSS/JavaScript to fetch and update the content daily via the API.
@@ -183,32 +187,36 @@ Use it to introduce astronomy in educational settings. Create an interactive gal
 Use the image metadata and explanations to build a dataset for natural language processing, concept extraction, or image classification.
 
 ## Troubleshooting
+
 If you're experiencing issues with the APOD API, here are some common problems and their solutions:
 
-1. API Key Errors
-Problem: “API_KEY_INVALID” or similar message
+- **API Key Errors:**
+- Problem: “API_KEY_INVALID” or similar message
+- Solution: Double-check you copied your API Key correctly and didn’t accidentally include spaces or quotes.
 
-Solution: Double-check you copied your API key correctly and didn’t accidentally include spaces or quotes.
+<br>
 
-2. Rate Limit Exceeded
-Problem: You hit the demo key’s rate limit.
+- **Rate Limit Exceeded**
+- Problem: You hit the demo key’s rate limit.
+- Solution: Register for a free API Key to unlock more requests (30 requests per hour with a demo key vs. higher limits with a registered key).
 
-Solution: Register for a free API key to unlock more requests (30/hr for demo vs. higher limits for registered keys).
+<br>
 
-3. Invalid Date Format
-Problem: `date` parameter returns an error.
+- **Invalid Date Format**
+- Problem: `date` parameter returns an error.
+- Solution: Make sure the format is `YYYY-MM-DD`. Avoid dates before June 1995, when APOD started.
 
-Solution: Make sure the format is `YYYY-MM-DD`. Avoid dates before June 1995, when APOD started.
+<br>
 
-4. Empty or Incomplete Response
-Problem: The JSON response is missing fields like `hdurl`.
+- **Empty or Incomplete Response**
+- Problem: The JSON response is missing fields like `hdurl`.
+- Solution: Not all images have HD versions. Check `media_type` and use fallbacks where needed.
 
-Solution: Not all images have HD versions. Check `media_type` and use fallbacks where needed.
+<br>
 
-5. Video Handling
-Problem: Trying to display a video as an image.
-
-Solution: If `media_type` is `"video"`, use an `<iframe>` instead of `<img>`, or request the `thumbnail_url` with `thumbs=true`.
+- **Video Handling**
+- Problem: Trying to display a video as an image.
+- Solution: If `media_type` is `"video"`, use an `<iframe>` instead of `<img>`, or request the `thumbnail_url` with `thumbs=true`.
 
 **Example:** Handling Media Types in JS
 ```javascript
@@ -217,7 +225,6 @@ if (data.media_type === "image") {
 } else if (data.media_type === "video") {
   document.body.innerHTML += `<iframe width="600" src="${data.url}" frameborder="0" allowfullscreen></iframe>`;
 }
-
 ```
 
 ## Reference
