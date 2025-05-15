@@ -1,5 +1,8 @@
 # ☕ How to Start Brewing Bulletproof Espresso at Home
 ## ✅ Learn how to choose the right equipment, proper coffee beans and other ingredients for your bulletproof coffee.
+
+**Bulletproof coffee** is a high-fat, low-carb beverage made by blending freshly brewed coffee with unsalted grass-fed butter, MCT oil, or coconut oil (medium-chain triglyceride oil). It provides sustained energy, mental clarity, and appetite control, especially for people following a ketogenic or intermittent fasting diet.
+
 Bulletproof espresso can help:
 - Provide a gradual release of energy
 - Support your digestive health
@@ -92,6 +95,8 @@ Bulletproof espresso can help:
 8. **Lock portafilter and position the cup** under the spout
 9. **Start brewing**
 10. **Monitor the brewing process** start - dark drips, then - steady streams, becomes golden
+11. **Stir your espresso with a teaspoon** to emulsify the fat and coffee. Mix until the texture looks smooth and slightly frothy for a more unified flavor.
+> **💡Tip**: If you prefer a creamier texture, pour your espresso and fats into a larger cup or jar and use a handheld frother or small immersion blender.
 
 ---
 
