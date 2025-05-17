@@ -1,2 +1,7 @@
 all_files.html
 all_files.md
+node_modules/
+*.log
+.DS_Store
+*.bak
+*.tmp
