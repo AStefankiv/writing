@@ -184,12 +184,7 @@ else:
 
 Here’s a quick visual preview of the Astronomy Picture of the Day fetched from the API and rendered on a webpage:
 
-![APOD Example Screenshot](https://apod.nasa.gov/apod/image/2504/CatsEyeWide_Niittee_960.jpg)
-
 > Example: This screenshot shows how the fetched title, date, image, and description appear on a simple HTML page using the Fetch API.
-
-You can create something similar using the JavaScript code example in the previous section. Try customizing it with your own styles or layout!
-
 
 <!-- START_APOD -->
 ### 🚀 NASA Astronomy Picture of the Day (APOD)
@@ -200,6 +195,8 @@ This close-up from the Mars Reconnaissance Orbiter's HiRISE camera shows weather
 
 ![APOD Image](https://apod.nasa.gov/apod/image/2505/PIA19363_1024.jpg)
 <!-- END_APOD -->
+
+You can create something similar using the JavaScript code example in the previous section. Try customizing it with your own styles or layout!
 
 
 ## Use Cases
