@@ -221,31 +221,31 @@ Use the image metadata and explanations to build a dataset for natural language 
 
 If you're experiencing issues with the APOD API, here are some common problems and their solutions:
 
-- **API Key Errors:**
+**API Key Errors:**
 - Problem: “API_KEY_INVALID” or similar message
 - Solution: Double-check you copied your API Key correctly and didn’t accidentally include spaces or quotes.
 
 <br>
 
-- **Rate Limit Exceeded**
+**Rate Limit Exceeded**
 - Problem: You hit the demo key’s rate limit.
 - Solution: Register for a free API Key to unlock more requests (30 requests per hour with a demo key vs. higher limits with a registered key).
 
 <br>
 
-- **Invalid Date Format**
+**Invalid Date Format**
 - Problem: `date` parameter returns an error.
 - Solution: Make sure the format is `YYYY-MM-DD`. Avoid dates before June 1995, when APOD started.
 
 <br>
 
-- **Empty or Incomplete Response**
+**Empty or Incomplete Response**
 - Problem: The JSON response is missing fields like `hdurl`.
 - Solution: Not all images have HD versions. Check `media_type` and use fallbacks where needed.
 
 <br>
 
-- **Video Handling**
+**Video Handling**
 - Problem: Trying to display a video as an image.
 - Solution: If `media_type` is `"video"`, use an `<iframe>` instead of `<img>`, or request the `thumbnail_url` with `thumbs=true`.
 
