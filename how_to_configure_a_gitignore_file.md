@@ -4,7 +4,7 @@
 
 The `.gitignore` file tells [Git](https://git-scm.com/) which files or folders **not to include** in version control. Think of it as a **"do-not-pack" list** when you're preparing your project for sharing — it keeps out files that are unnecessary, sensitive, or too large.
 
-For example, if your project uses an API key saved in a `.env` file, you don’t want that file uploaded to GitHub where others can see it. You can add `.env` to `.gitignore` to keep it private.
+For example, if your project uses an API key saved in a `.env` file, you don’t want that file uploaded to GitHub, where others can see it. You can add `.env` to `.gitignore` to keep it private.
 
 By the end of this guide, you'll learn:
 - What `.gitignore` is and how it works
@@ -82,44 +82,45 @@ cd my-react-app
 
 ### 2. Review the Default `.gitignore`
 
-When you `Create React App`, it generates a `.gitignore` file in the project's root directory. The file typically contains default files to ignore:
-- node_modules/​
-- build/​
-- .env.local, .env.development.local, .env.test.local, .env.production.local​
-- npm-debug.log*, yarn-debug.log*, yarn-error.log*​
+When you use `Create React App`, it generates a `.gitignore` file in the project's root directory. The file typically contains default files to ignore:
+- `node_modules/​`
+- `build/​`
+- `.env.local`, `.env.development.local`, `.env.test.local`, `.env.production.local​`
+- `npm-debug.log*`, `yarn-debug.log*`, `yarn-error.log*​`
 
 ### 3. Customize `.gitignore`
 
 Depending on your desired tools, you may add extra files. For example:
-### Optional environment variables
-.env
+### Optional environment variables:
+- .env
 
 ### macOS system files
-.DS_Store
+- .DS_Store
 
 ### IDE directories
-.vscode/
-.idea/
+- .vscode/
+- .idea/
 
 It will keep your repository clean, hide non-essential files and API keys.
 
 ### 4. Apply Changes to Tracked Files
 If you've added new files to `.gitignore` but Git is still tracking those files, remove them from the index:
 ```bash
-git rm -r --cached .
-git add .
+git rm -r --cached . "Untrack all files while preserving them locally"
+git add . "Stage all current files"
 git commit -m "Update .gitignore to exclude unnecessary files"
 ```
 
 ## Best Practices
 
-- Keep .gitignore organized by file type or tool
+- Keep `.gitignore` organized by file type or tool
+- Double-check what's staged with git status before pushing
 - Use a template (like GitHub’s language-specific ones)
-- Don’t rely on .gitignore to protect sensitive data (use .git-crypt, .env.local, etc.)
+- Don’t rely on .gitignore to protect sensitive data (use `.git-crypt`, `.env.local`, etc.)
 
 ## Summary
 
-Now you know how to keep your Git repo clean and secure using `.gitignore`. Whether you're working solo or collaborating, using `.gitignore` properly can prevent headaches and safeguard sensitive data. Happy coding!
+Now you know how to keep your Git repo clean and secure using `.gitignore`. Whether you're working solo or collaborating, a well-configured `.gitignore` can prevent headaches and help protect sensitive data. Happy coding!
 
 ## Resources:
 
