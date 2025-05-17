@@ -2,7 +2,7 @@
 ## **Introduction**
 
 [Node.js](https://nodejs.org/en/about) is a cross-platform, open-source JavaScript runtime environment that can run on server-side. [NPM](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager) (Node Package Manager) is a default package manager for Node.js.
-By the end of this tutorial, you will have Node.js and NPM installed using three different methods — whether you want the latest version, multiple versions, or long-term support (LTS) versions.
+By the end of this tutorial, you will have Node.js and npm installed using three different methods — whether you want the latest version, multiple versions, or long-term support (LTS) versions.
 ## **Prerequisites**
 Before installing anything, make sure your system is up to date. Run this command directly in your Ubuntu terminal:
 ```bash
@@ -10,10 +10,10 @@ sudo apt update && sudo apt upgrade -y
 ```
 This ensures your system has the latest version of packages.
 
-## **Option 1 - Install Using Apt from Ubuntu Repos (recommended)**
-This is the most popular way to get the latest version of Node.js and NPM.
+## **Option 1 – Install via APT from Ubuntu Repositories (Beginner-Friendly)**
+This is the most popular way to get the latest version of Node.js and npm.
 
-### **Step 1 - Install Node.js and NPM**
+### **Step 1 - Install Node.js and npm**
 ```bash
 sudo apt install -y nodejs
 ```
@@ -23,24 +23,28 @@ Check that Node.js is installed:
 ```bash
 node -v
 ```
-You will get Node.js 16.z.z or 18.w.w
+You will likely get Node.js 16.z.z or 18.w.w
 
 For npm, run:
 ```bash
 npm -v
 ```
-You will get NPM npm 8.z.z to 10.w.w
+You will get npm 8.z.z to 10.w.w
 
 ![check_node_npm_installed](media/check_node_npm_installed.png)
 
->If NPM failed to install, run ```sudo apt install npm```
+>If npm fails to install, run `sudo apt install npm`
 
-You have successfully installed **Node.js** and **NPM** using the apt method.
+You have successfully installed **Node.js** and **npm** using the apt method.
 
 ---
 
 ## **Option 2 - Install Using Node Version Manager (NVM)**
-[NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#about) allows you to intall and switch between different versions of Node.js. Initially, you will get the latest versions for both Node.js and NPM.
+[NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#about) allows you to install and switch between different versions of Node.js. Initially, you will get the latest versions for both Node.js and npm.
+
+> **Why use NVM?**  
+> NVM is the preferred tool for developers because it allows you to switch between Node.js versions without affecting your system-wide (global) Node installation.  
+> This is especially useful when working on multiple projects that require different versions of Node.
 
 ### **Step 1 - Install NVM**
 Run the following command:
@@ -195,13 +199,13 @@ Execute the setup script:
 ```bash
 sudo bash nodesource_setup.sh
 ```
-### **Step 5 - Install Node.js + NPM**
-Now install Node.js:
+### **Step 5 - Install Node.js + npm**
+Next, install Node.js:
 ```bash
 sudo apt install nodejs -y
 ```
 ### **Step 6 - Verify installation**
-Check that Node.js and NPM are installed:
+Check that Node.js and npm are installed:
 ```bash
 node -v
 npm -v
