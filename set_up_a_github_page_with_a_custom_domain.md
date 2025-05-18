@@ -1,4 +1,4 @@
-# How to Setup a GitHub Page With a Custom Domain
+# How to Set Up a GitHub Page With a Custom Domain
 
 ## Table of Contents
 - [Introduction](#introduction)
