@@ -12,7 +12,7 @@ I'm an **ESL Instructor** and **Junior Software Developer** with a strong founda
 
 - **Course**: [Technical Writing: How to Write Software Documentation (Udemy)](https://www.udemy.com/course/start-your-career-as-user-assistance-developer/?couponCode=ST14MT150425G1)
 
-- ESL Instructor at Global Village, Calgary
+- ESL Instructor at [Global Village, Calgary](https://gvenglish.com/canada/calgary/)
 
 - [LinkedIn Profile](https://www.linkedin.com/in/andrii-stefankiv/)
 
