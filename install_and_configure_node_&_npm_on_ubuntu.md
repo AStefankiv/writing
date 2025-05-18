@@ -221,7 +221,7 @@ You have successfully installed Node.js and npm. Try building your first CLI app
 
 The diagram below provides a quick overview of the three different ways to install Node.js and npm on Ubuntu:
 
-![node_npm_ubuntu](../media/node_npm_ubuntu.png)
+![node_npm_ubuntu](https://github.com/AStefankiv/writing/blob/main/media/node_npm_ubuntu.png)
 
 ## **Which method should I Use?**
 
