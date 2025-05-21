@@ -6,7 +6,9 @@ In today’s globalized world, communication often happens between people from d
 ## 🗣️ Speak Slowly and Clearly
 Just because someone introduces themselves fluently doesn’t mean they understand everything you say. Give them time to adjust to your speaking style. Start with a slower pace and clear pronunciation, then gradually increase speed as they grow more comfortable.
 
-## 📘 Use Basic Vocabulary
+🟡 Tip: I recommend speaking at the same pace you would use with a 3- or 4-year-old toddler — slow enough to be clear, but still natural. Be careful not to speak too slowly, though. Otherwise, your conversation partner might feel like you’re mocking them or treating them as if they’re not intelligent.
+
+## 📘 Keep Vocabulary Simple
 When choosing words, aim for clarity over sophistication. Use basic vocabulary, especially when introducing new ideas. For example, prefer “small” over “tiny,” “minor,” or “petty,” which may be unfamiliar or carry nuanced meanings.
 
 ## 🚫 Avoid Slang, Idioms, and Phrasal Verbs
@@ -52,11 +54,13 @@ Examples include:
 
 - “What do you think about that?”
 
-- “Can you explain it in your own words?”
+- “Should I break it down?”
 
 - “Do you want me to explain it again?”
 
 These questions create a safe space for the listener to ask for clarification without feeling embarrassed.
+
+🚦Tone Matters: These questions should always sound friendly, not like a test. Use a warm tone, soft eye contact, and a smile to show you’re supporting, not evaluating.
 
 ## 👀 Observe Non-Verbal Cues
 Be aware of non-verbal cues. Constant nodding or smiling may be polite behavior rather than a sign of understanding. If a person seems overly agreeable, it’s worth pausing and checking if they’re following the conversation.
@@ -73,7 +77,7 @@ When someone is speaking and their message is clear, avoid correcting every smal
 
 If the person is speaking slowly or searching for words, you might feel tempted to interrupt or finish their sentence for them. Try to resist that urge. Give them time and space to express themselves.
 
-🗣️ Mind Specific Pronunciation
+## 🗣️ Mind Specific Pronunciation
 Speakers of different languages often struggle with particular English sounds that don’t exist in their native tongues. This can lead to unintentionally confusing or humorous mispronunciations. These difficulties are not a sign of low ability—they’re natural results of phonetic differences between languages.
 
 🔄 Common Examples by Language
