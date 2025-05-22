@@ -1,7 +1,10 @@
-# How to Communicate With Non-Native English Speakers
+# How to Communicate With Non-Fluent English Speakers
 
 ## 🌐 Intro
-In today’s globalized world, communication often happens between people from different linguistic backgrounds. While English is widely used as a common language, not everyone speaks it fluently. As a result, it's important to communicate in ways that ensure clarity, especially when working with non-native English speakers. Adults may hesitate to admit confusion, so it’s essential to be proactive in promoting understanding.
+This article is for anyone who communicates with non-fluent English speakers — including travelers, teachers, team leaders, customer service staff, or international colleagues.
+It’s especially helpful when interacting with people who have a beginner or pre-intermediate level of English, and who may struggle with complex vocabulary, fast speech, or idiomatic expressions.
+
+Whether you're speaking face-to-face, online, or in writing, these tips will help you speak more clearly, avoid misunderstandings, and create a friendlier experience for everyone.
 
 ---
 
@@ -111,6 +114,6 @@ Speakers of different languages often struggle with particular English sounds th
 ---
 
 ## Conclusion
-Clear, kind, and thoughtful communication goes a long way. By adjusting your pace, vocabulary, and tone—and showing patience—you help create an environment where non-native speakers feel safe, respected, and heard.
+Clear, kind, and thoughtful communication goes a long way. By adjusting your pace, vocabulary, and tone—and showing patience—you help create an environment where non-fluent speakers feel safe, respected, and heard.
 
 Support, don’t stress. Encourage, don’t overwhelm. Communicate to connect.
