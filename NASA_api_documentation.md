@@ -29,7 +29,7 @@ To access NASA's APIs:
 1. Navigate to [NASA APIs](https://api.nasa.gov/)
 2. Fill out the registration form with your first name, last name, and email address.
 3. Submit the form to receive an email with your unique API Key.
-> NOTE: NASA's demo API Key is limited to 30 requests per IP address per hour or 50 requests per IP address per day. For increased limits, register for a free API Key.
+> 💡NOTE: NASA's demo API Key is limited to 30 requests per IP address per hour or 50 requests per IP address per day. For increased limits, register for a free API Key.
 
 ## Making API Requests
 
@@ -39,7 +39,7 @@ https://api.nasa.gov/planetary/apod?api_key=${YOUR_API_KEY}
 ```
 Replace YOUR_API_KEY with your API key (or use `DEMO_KEY` for limited testing).
 
-### JavaScript Fetch Example:
+### JavaScript (Fetch API):
 
 ```javascript
 const apiKey = 'YOUR_API_KEY';
@@ -62,7 +62,7 @@ To manually test the API using [Postman](https://www.postman.com/), follow these
 2. Select the `GET` type request.
 3. Paste your request URL:
 ```bash
-https://api.nasa.gov/planetary/apod?api_key=${YOUR_API_KEY}
+https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY
 ```
 4. Click **Send**
 5. Receive the JSON response
@@ -71,19 +71,23 @@ https://api.nasa.gov/planetary/apod?api_key=${YOUR_API_KEY}
 
 When **successful**, the APOD API returns a JSON object that includes the image or video of the day, its metadata, and a written description.
 
-Sample JSON response
+<details>
+<summary>Click to view sample JSON response example</summary>
+
 ```json
 {
-    "copyright": "\nTaavi Niittee  \n(Tõrva Astronomy Club) \n",
-    "date": "2025-04-16",
-    "explanation": "What created the unusual halo around the Cat's Eye Nebula? No one is sure...",
-    "hdurl": "https://apod.nasa.gov/apod/image/2504/CatsEyeWide_Niittee_960.jpg",
-    "media_type": "image",
-    "service_version": "v1",
-    "title": "Halo of the Cat's Eye",
-    "url": "https://apod.nasa.gov/apod/image/2504/CatsEyeWide_Niittee_960.jpg"
+  "copyright": "\nTaavi Niittee  \n(Tõrva Astronomy Club) \n",
+  "date": "2025-04-16",
+  "explanation": "What created the unusual halo around the Cat's Eye Nebula? No one is sure...",
+  "hdurl": "https://apod.nasa.gov/apod/image/2504/CatsEyeWide_Niittee_960.jpg",
+  "media_type": "image",
+  "service_version": "v1",
+  "title": "Halo of the Cat's Eye",
+  "url": "https://apod.nasa.gov/apod/image/2504/CatsEyeWide_Niittee_960.jpg",
+  ...
 }
 ```
+</details>
 
 ### Response fields
 
@@ -100,7 +104,7 @@ Sample JSON response
 | `service_version`| Version of the API.                                                      |
 | `concept_tags`   | Indicates if concept tags were requested.                                |
 | `concepts`       | Array of relevant concept tags (if `concept_tags=true`).                 |
-<br>
+
 ### Optional URL Parameters
 
 Customize your request with the following URL query parameters:
@@ -122,7 +126,7 @@ https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY&date=2024-10-01&concept
 
 Before diving into the code, here’s a quick visual preview of what you can build with the APOD API.
 
-> NOTE: This simple HTML page dynamically fetches and displays the Astronomy Picture of the Day using JavaScript.
+> 💡NOTE: This simple HTML page dynamically fetches and displays the Astronomy Picture of the Day using JavaScript.
 
 ### Visual Demo
 
@@ -136,11 +140,11 @@ A bright spiral galaxy of the northern sky, Messier 63 is nearby, about 30 milli
 <!-- END_APOD -->
 
 You can build a similar page using the JavaScript or Python code below. Try customizing the layout or styling to match your needs!
-> NOTE: Use **JavaScript** for client-side web applications, or **Python** for backend scripts and data processing.
+> 💡NOTE: Use **JavaScript** for client-side web applications, or **Python** for backend scripts and data processing.
 
 ---
 
-### JavaScript (Fetch API)
+### JavaScript Example: Client-Side Web App
 
 ```html
 <!DOCTYPE html>
@@ -176,7 +180,7 @@ You can build a similar page using the JavaScript or Python code below. Try cust
 </html>
 ```
 
-### Python (using requests)
+### Python Example: Backend Script
 
 ```python
 import requests
@@ -256,4 +260,4 @@ if (data.media_type === "image") {
 ```
 
 ## Reference
-Github APOD API Documentation - https://github.com/nasa/apod-api
+**GitHub APOD API Documentation**: [https://github.com/nasa/apod-api](https://github.com/nasa/apod-api)
