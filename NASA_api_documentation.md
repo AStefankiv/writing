@@ -35,9 +35,9 @@ To access NASA's APIs:
 
 The basic APOD API endpoint:
 ```bash
-https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+https://api.nasa.gov/planetary/apod?api_key=${YOUR_API_KEY}
 ```
-Replace YOUR_API_KEY with your actual key (or use DEMO_KEY for limited testing).
+Replace YOUR_API_KEY with your API key (or use `DEMO_KEY` for limited testing).
 
 ### JavaScript Fetch Example:
 
@@ -62,7 +62,7 @@ To manually test the API using [Postman](https://www.postman.com/), follow these
 2. Select the `GET` type request.
 3. Paste your request URL:
 ```bash
-https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+https://api.nasa.gov/planetary/apod?api_key=${YOUR_API_KEY}
 ```
 4. Click **Send**
 5. Receive the JSON response
@@ -110,10 +110,8 @@ Customize your request with the following URL query parameters:
 | `start_date`  | string  | Start of a date range. Returns multiple results.                            |
 | `end_date`    | string  | End of a date range (optional). Defaults to today if omitted.               |
 | `count`       | int     | Returns a random list of images. Max: 100. Cannot be used with `date`.      |
-| `hd`          | bool    | Ignored by API. High-res images are returned if available.                  |
 | `thumbs`      | bool    | If true, returns a video thumbnail (only applies to video media).           |
-| `concept_tags`| bool    | If true, includes relevant search tags based on image explanation.          |
-
+| `api_key`     | string  | api.nasa.gov key for personal usage.                                        |
 
 Examples:
 ```bash
@@ -122,7 +120,25 @@ https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY&date=2024-10-01&concept
 
 ## Code Examples
 
-Here are basic examples using both JavaScript and Python to help you fetch and display data from the APOD API.
+Before diving into the code, here’s a quick visual preview of what you can build with the APOD API.
+
+> NOTE: This simple HTML page dynamically fetches and displays the Astronomy Picture of the Day using JavaScript.
+
+### Visual Demo
+
+<!-- START_APOD -->
+**Curly Spiral Galaxy M63**  
+**2025-05-22**
+
+A bright spiral galaxy of the northern sky, Messier 63 is nearby, about 30 million light-years distant toward the loyal constellation Canes Venatici. Also cataloged as NGC 5055, the majestic island universe is nearly 100,000 light-years across—about the size of our own Milky Way. Its bright core and majestic spiral arms lend the galaxy its popular name, *The Sunflower Galaxy*. This exceptionally deep exposure also follows faint loops and curling star streams far into the galaxy's halo. Extending nearly 180,000 light-years from the galactic center, the star streams are likely remnants of tidally disrupted satellites of M63. Other satellite galaxies of M63 can be spotted in the remarkable wide-field image, including dwarf galaxies, which could contribute to M63's star streams in the next few billion years.
+
+![Curly Spiral Galaxy M63](https://apod.nasa.gov/apod/image/2505/M63_HaLRGB_Apod2048.jpg)
+<!-- END_APOD -->
+
+You can build a similar page using the JavaScript or Python code below. Try customizing the layout or styling to match your needs!
+> NOTE: Use **JavaScript** for client-side web applications, or **Python** for backend scripts and data processing.
+
+---
 
 ### JavaScript (Fetch API)
 
@@ -138,11 +154,11 @@ Here are basic examples using both JavaScript and Python to help you fetch and d
   <div id="apod"></div>
 
   <script>
-    const apiKey = 'YOUR_API_KEY';  // Replace with your real API key
+    const apiKey = 'YOUR_API_KEY';  // Replace with your API key
     const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
 
     fetch(url)
-      .then(response => response.json()) // Parse response as JSON
+      .then(response => response.json())
       .then(data => {
         const container = document.getElementById('apod');
         container.innerHTML = `
@@ -165,7 +181,7 @@ Here are basic examples using both JavaScript and Python to help you fetch and d
 ```python
 import requests
 
-API_KEY = "YOUR_API_KEY"  # Replace with your own key
+API_KEY = "YOUR_API_KEY"  # Replace with your API key
 url = f"https://api.nasa.gov/planetary/apod?api_key={API_KEY}"
 
 response = requests.get(url)  # Send the GET request to NASA's APOD API
@@ -179,25 +195,6 @@ if response.status_code == 200:
 else:
     print("Failed to retrieve data. Status code:", response.status_code)
 ```
-
-## Visual Demo
-
-Here’s a quick visual preview of the Astronomy Picture of the Day fetched from the API and rendered on a webpage:
-
-> Example: This screenshot shows how the fetched title, date, image, and description appear on a simple HTML page using the Fetch API.
-
-<!-- START_APOD -->
-### 🚀 NASA Astronomy Picture of the Day (APOD)
-**Ares 3 Landing Site: The Martian Revisited**  
-📅 2025-05-17  
-
-This close-up from the Mars Reconnaissance Orbiter's HiRISE camera shows weathered craters and windblown deposits in southern Acidalia Planitia. A striking shade of blue in standard HiRISE image colors, to the human eye the area would probably look grey or a little reddish. But human eyes have not gazed across this terrain, unless you count the eyes of NASA astronauts in the sci-fi novel, "The Martian," by Andy Weir. The novel chronicles the adventures of Mark Watney, an astronaut stranded at the fictional Mars mission Ares 3 landing site, corresponding to the coordinates of this cropped HiRISE frame. For scale, Watney's 6-meter-diameter habitat at the site would be about 1/10th the diameter of the large crater. Of course, the Ares 3 landing coordinates are only about 800 kilometers north of the (real life) Carl Sagan Memorial Station, the 1997 Pathfinder landing site.
-
-![APOD Image](https://apod.nasa.gov/apod/image/2505/PIA19363_1024.jpg)
-<!-- END_APOD -->
-
-You can create something similar using the JavaScript code example in the previous section. Try customizing it with your own styles or layout!
-
 
 ## Use Cases
 
