@@ -1,4 +1,4 @@
-# How to Set Up a GitHub Page With a Custom Domain
+# How to Set Up a GitHub Page with a Custom Domain
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -15,7 +15,7 @@
 ## **Introduction**
 [GitHub](https://github.com/) is a developer platform used to host code, collaborate on projects, and build and publish websites for free using [GitHub Pages](https://pages.github.com/).
 
-With GitHub Pages, you can turn your repository into a live website. If you want to make your website look more professional, you can connect it to a custom domain `(e.g., yourname.com)`, instead of using GitHub’s default domain `(e.g., username.github.io)`.
+With GitHub Pages, you can turn your repository into a live website. If you want your website to look more professional, you can connect it to a custom domain `(e.g., yourname.com)`, instead of using GitHub’s default domain `(e.g., username.github.io)`.
 
 By the end of this tutorial, you will learn how to:
 - Create and publish a GitHub Page
@@ -34,22 +34,21 @@ We’ll go step-by-step through this journey—from creating a GitHub Page to se
 To get started, make sure you have the following:
 - A GitHub account
 
-> If you don't have one, go to https://github.com/join, type a user name, email address, and a password, and follow the instructions.
+> If you don't have one, go to [GitHub Join](https://github.com/join), type a user name, email address, and a password, and follow the instructions.
 - Basic git knowledge
 
 You only need to understand how [repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories), [commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits), and [branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) work. Go to [GitHub Hello World guide](https://docs.github.com/en/get-started/start-your-journey/hello-world#introduction) to get started.
 - A domain registrar account
 
-You can register at [Namecheap](https://www.namecheap.com/), [GoDaddy](https://www.godaddy.com/), or any other registrar you prefer.
+Register a domain with [Namecheap](https://www.namecheap.com/), [GoDaddy](https://www.godaddy.com/), or another registrar of your choice.
 
 ## Step 1 - Create a GitHub Page
 Go to your GitHub account. In the top-left corner click the **New** button to create a new repository.
 
-Enter the repository name. This name will be temporarily displayed as your domain name.
-At the bottom, click **Create repository** button.
+Enter the repository name. This name will temporarily serve as your website’s URL until you connect your custom domain. At the bottom, click **Create repository** button.
 
 To enable your page, create at least one file. In your repository, click **creating a new file** button.
-![creating_a_new_file](media/creating_a_new_file.png)
+![Create a new file in GitHub repo](media/creating_a_new_file.png)
 
 > You can also create files by uploading them, or by initializing your repository and editing it in a code editor like VSCode.
 
@@ -58,7 +57,7 @@ Let's create our first file:
 1. In the top-left corner, name the file **index.html**.
 
 2. In the edit field, paste:
-```bash
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,7 +73,7 @@ Let's create our first file:
 ```
 > You may edit your website later, as you want.
 
-3. In the top-right corner, click **Commit changes...**
+3. In the top-right corner, click **Commit changes…**
 
 4. Add a commit message like: *Create index.html*
 
@@ -89,8 +88,8 @@ Enabling your GitHub Pages will publish your site and give you a public URL to s
 ![settings_webpage](media/settings_webpage.png)
 
 2. Select **Pages**
-3. Choose your **branch** (e.g., main)
-4. Choose the **folder**: / (root) (this means your main directory)
+3. Choose your branch (e.g., `main`)
+4. Choose the folder: / (`root`) — this means your main directory.
 5. Click **Save** and wait for about 1 minute.
 6. Refresh the page.
 7. Click **Visit site** to see your page in browser:
@@ -101,36 +100,49 @@ Your link is active now!
 
 ## Step 3 - Register a Custom Domain (Using Namecheap)
 1. Go to https://ap.www.namecheap.com/ and sign up.
-2. Sign in and enter a desired domain address. Eg., *example_web*. You will see a list of available domains and prices, depending on domain extensions.
+2. Sign in and enter a desired domain address. E.g., *example_web*. You will see a list of available domains and prices, depending on domain extensions.
 
 ![domain_search](media/domain_search.png)
 
 3. Choose your desired domain and proceed to checkout.
 
 ## Step 4 - Configure DNS Settings on the Domain Registrar
-1. Go to your dashboard https://ap.www.namecheap.com/dashboard
+1. Go to your [Namecheap Dashboard](https://ap.www.namecheap.com/dashboard)
 
 ![domain_list](media/domain_list.png)
 
-2. In your GitHub website repository, go to **Settings** -> **Pages**. Under **Custom domain** section, click the link **Learn more about configuring custom domains**. Choose **Managing a custom domain for your GitHub Pages site** and proceed to section 5, where you will find **A** records.
+2. In your GitHub Pages repository, go to **Settings** -> **Pages**. Under **Custom domain** section, click the link **Learn more about configuring custom domains**. Choose **Managing a custom domain for your GitHub Pages site** and proceed to step 5, where you will find **A** records.
 
-> An A record maps your domain to an IP address.
+<details>
+<summary>An A record maps your domain to an IP address.</summary>
+
+| Record Type | Host | Value              |
+|-------------|------|--------------------|
+| A           | @    | 185.199.108.153    |
+| A           | @    | 185.199.109.153    |
+| A           | @    | 185.199.110.153    |
+| A           | @    | 185.199.111.153    |
+| CNAME       | www  | username.github.io |
+> Note: Replace username.github.io with your actual GitHub Pages subdomain (e.g., andrewdev.github.io).
+
+These records tell Namecheap (or your domain registrar) to point to GitHub’s web servers. The A records handle root domains (like example.com), and the CNAME record handles subdomains (like www.example.com).
+</details>
 
 ![section_five](media/section_five.png)
 
-3. Click **Manage** on the right.
+3. go to your Namecheap dashboard and click **Manage** next to your domain.
 
 4. Choose the **Advanced DNS** tab. Add GitHub's four **A** records to your namecheap DNS settings, one by one.
 5. Click **ADD NEW RECORD**.
 
 ![add_new_record](media/add_new_record.png)
 
-6. Choose **A Record** from a dropdown menu. Host - @. Value - your GitHub **A** record.
+6. Choose **A Record** from a dropdown menu. Host — @. Value — your GitHub **A** record.
 
 ![add_a_record](media/add_a_record.png)
 
 7. Repeat the process three more times.
-8. Add a **CNAME Record**. Host - www. Value - your GitHub Pages domain.
+8. Add a **CNAME Record**. Host — www. Value — your GitHub Pages domain.
 
 >A  CNAME links subdomains like www to another domain
 
@@ -142,16 +154,16 @@ Your link is active now!
 In your GitHub website repository:
 
 1. Go to **Settings** -> **Pages**.
-2. Under **Custom domain** section, paste your website domain (e.g,. exampleweb.shop)
-3. Save changes. After a few seconds, you will get a confirmation message **DNS check successful**.
+2. Under **Custom domain** section, paste your custom domain (e.g,. exampleweb.shop).
+3. Save your changes. After a few seconds, you should see the confirmation message: **DNS check successful**.
 
 ## Step 6 - Enforce HTTPS and Final Verification
 After you’ve added your custom domain and configured your DNS records, GitHub Pages allows you to enable HTTPS (recommended).
 
-1. Go to your GitHub repository -> **Settings -> Pages**
-2. Under **Custom domain**, check the box for **Enforce HTTPS**
-3. GitHub will validate your domain and apply a certificate automatically
-4. You should see a green **"DNS check successful"** message
+1. Go to your GitHub repository -> **Settings -> Pages**.
+2. Under **Custom domain**, check the box for **Enforce HTTPS**.
+3. GitHub will validate your domain and apply a certificate automatically.
+4. You should see a green **"DNS check successful"** message.
 
 > If this step is taking long, wait 10–15 minutes and refresh the page. DNS propagation can take time depending on your registrar.
 
@@ -171,7 +183,7 @@ You should see your **"Hello World"** site, now served over HTTPS!
 
 ### “DNS check failed” error on GitHub Pages
 - Double-check that your A records point to the correct GitHub IP addresses:
-```bash
+```text
 185.199.108.153
 185.199.109.153
 185.199.110.153
@@ -188,7 +200,7 @@ You should see your **"Hello World"** site, now served over HTTPS!
 - Go to Settings -> Pages and manually check the Enforce HTTPS box once it's available.
 
 ## Going Further
-Now that your site is live with a custom domain, you might consider:
+Now that your site is live, here are a few project ideas to help you grow your web presence and development skills:
 
 - Creating a personal portfolio using HTML/CSS
 - Building a static blog using [Jekyll](https://jekyllrb.com/) or [Eleventy](https://www.11ty.dev/)
