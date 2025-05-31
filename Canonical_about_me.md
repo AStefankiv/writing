@@ -65,10 +65,33 @@ Though these were not full-time roles, I treated both projects like professional
 - **Describe a significant learning experience you had working on documentation**  
   – What happened, what did you learn, and what did you change as a result?
 
+After deciding to transition into technical writing, I didn’t just start building a portfolio — I also reached out to experienced professionals in the field for coffee chats. These conversations were incredibly helpful. They gave me honest feedback, suggested areas to focus on, and even reviewed some of my early writing samples.
+
+One of the most impactful things I learned was how much thoughtfulness and precision technical writing really requires. A few key lessons that stuck with me:
+
+- Every word matters — even small choices can affect clarity or tone.
+
+- AI can assist, but it can also introduce subtle errors. You have to double-check everything.
+
+- Good documentation starts with solid planning and research, not just good prose.
+
+- Attention to detail is non-negotiable — especially in technical contexts where accuracy builds user trust.
+
+- Always ask “Why?” — why include this step? Why word it this way? What’s the reader supposed to take away?
+
+- Step away from the writing and come back later with a clear head — your editing will always be sharper.
+
+As a result of these conversations and lessons, I completely changed how I approach writing. Now, I plan more carefully, review more critically, and focus more on the user's journey through the documentation.
 
 
 - **In general, what aspect of your documentation work do you find most challenging?**  
   Give an example or two to illustrate the nature of this challenge.
+
+One of the more challenging aspects of documentation for me — and I wouldn’t call it very challenging, just an area I keep working to improve — is deciding on the best order in which to present information. Structuring content isn’t just about logic; it’s about guiding the reader through a journey in a way that’s clear, intuitive, and even a little engaging.
+
+For example, in my [Get Started with NASA’s API](#get-started-with-nasas-api) guide, I originally placed the Visual Demo after the JavaScript and Python code examples. But after reviewing the flow, I realized that a quick visual of what the API can do would actually motivate readers and give them immediate context — especially those less experienced with APIs. So I reorganized that section, putting the demo before the code to spark curiosity and provide a visual goal before diving into the technical details.
+
+This experience taught me how important it is to think like a reader, not just a writer. Now, I often sketch an outline from the user’s perspective first — asking what they need to know, in what order, and how each section prepares them for the next.
 
 ---
 
@@ -79,11 +102,39 @@ You don't need to be a software engineer to be a technical author, but you do ne
 - **Describe your programming skills and experience and what you have enjoyed.**  
   Tell us as much as you like, and feel free to include a link to any publicly-visible work that you’d like to share with us.
 
+I feel confident identifying as a junior developer. Last year, I completed the [Lighthouse Labs](https://www.lighthouselabs.ca/) full-stack web development bootcamp, and I’ll soon be starting another intensive training program with [ComIT](https://www.comit.org/) to reinforce my technical foundations and continue learning in a structured way.
+
+My strongest language is JavaScript — I’m comfortable building both front-end and full-stack applications. I also have hands-on experience with Python and Ruby, particularly in scripting and API interactions.
+
+Here are a few publicly-visible projects I’ve built:
+
+[GrammarGPT](https://gptgrammar.netlify.app/)
+An AI-powered grammar correction app that analyzes and explains mistakes in English sentences. It combines my background in education with my passion for accessible web tools.
+
+[Medium Clone](https://medium-clone-as.netlify.app/)
+A full-stack clone of Medium built using modern frameworks. Users can register, write articles, and engage with content — a great exercise in managing authentication, dynamic content, and user flows.
+
+[Work Learn Travel](https://www.worklearntravel.ca/)
+A production website I created for the company I work at, which helps young Canadians find work and travel opportunities abroad. It gave me experience with stakeholder feedback and building with a real audience in mind.
+
+What I enjoy most about programming is bringing ideas to life — especially ones that help people or simplify something. While I don’t plan to become a full-time developer, coding will absolutely remain part of my toolkit as a technical writer. It helps me understand developer pain points, write better examples, and test documentation more effectively.
+
+
 - **Are there any areas of software technology**  
   (for example: operations, cloud services, infrastructure and application management and deployment; Linux operating systems, robotics, databases, or others)  
   in which you have particular experience or interest?
 
+I prefer developer tools, Linux environments, and backend infrastructure. I’ve spent a lot of time working with Git and Ubuntu, and I’ve used PostgreSQL, Firebase, and Prisma to manage databases in full-stack projects. On the backend, I’m comfortable with Node.js, Express, and Next.js.
+
+Over time, I’ve gotten comfortable working in the terminal and navigating Linux systems. One of the docs I wrote was about installing Node and npm on Ubuntu, and for that, I tested every command on a clean install just to make sure it worked exactly as described — it helped me build confidence with Linux workflows and made me realize how much I enjoy writing docs that simplify technical environments.
+
+I’m also curious to learn more about cloud infrastructure and DevOps. I’d like to go deeper into tools like Docker and CI/CD pipelines, and I’m especially interested in how technical writing can support these areas — whether that’s through setup guides, architecture diagrams, or troubleshooting workflows.
+
 - **What does open-source software mean to you personally?**
+
+To me, open-source software is an incredible opportunity to grow by contributing to real, living projects. Unlike starting something from scratch, you're stepping into something that’s already in motion — with its own style, structure, and user base. It teaches you how to navigate unfamiliar codebases, understand community standards, and find ways to make a meaningful contribution.
+
+As someone passionate about technical writing, I see open-source as a chance to spot areas where the documentation could be clearer, more accessible, or better organized — and then improve them. It’s also a great way to practice collaboration, receive feedback, and become a better communicator while doing something that helps others.
 
 - **Describe any experience you have working in open-source contexts**,  
   including development of software, documentation or community.
