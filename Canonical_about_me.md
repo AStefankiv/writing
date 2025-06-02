@@ -46,19 +46,13 @@
 
 *In this section, we want you to show us what you can do. We want to understand what you think, how you think and how you earned your insights.*
 
-## **Outline your experience working on software documentation (think about: its type, audience, complexity, industry context, how you made a difference to it). Feel free to include a link to any publicly-visible work that you’d like to share with us.**  
+## **Outline your experience working on software documentation (think about: its type, audience, complexity, industry context, how you made a difference to it). Feel free to include a link to any publicly-visible work that you’d like to share with us.** 
 
-One of the software documentation projects I worked on was a guide titled ["Install and Configure Node.js + npm on Ubuntu"](#install-and-configure-nodejs--npm-on-ubuntu-2004-step-by-step-guide). Although it was a personal project, I approached it with professional writing processes in mind. I outlined the goal and structure beforehand, wrote iteratively using Markdown, and tested all terminal commands on a fresh Ubuntu installation to ensure technical accuracy.
-
-What worked well was how I prioritized clarity — I wrote each step assuming the reader might be new to Linux, explained why each command was used, and approached it the way I would explain a complex grammar topic to a student. I also received informal reviews from experienced technical writers, which helped me improve tone and conciseness.
-
-I’d like to add a more formal documentation review pipeline — using GitHub Issues, pull requests, and checklists to better simulate a team workflow. I’d also include versioning notes to account for OS updates and possibly add testing steps for post-installation validation. In the future, I plan to include visual aids and accessibility checks to further improve the user experience.
-
-
+I have written a range of technical documentation—step-by-step tutorials, user guides, and API references—for diverse audiences. For example, I authored a guide titled ["Install and Configure Node.js + npm on Ubuntu"](#install-and-configure-nodejs--npm-on-ubuntu-2004-step-by-step-guide) aimed at developers getting started on Ubuntu, where I explained complex setup steps and package management in clear, concise language. I also created a comprehensive guide to NASA’s public APIs for data enthusiasts and researchers, breaking down advanced topics like authentication and data formats into digestible explanations and sample requests. Each document was carefully structured with headings, numbered steps, and code examples to improve usability, and I often iterated based on peer feedback to refine tone and clarity. In another project, I wrote a GitHub Pages tutorial (with custom domain setup) geared toward open-source contributors, where I emphasized consistent style and practical tips to avoid common pitfalls. Across all these projects, I focused on making complex information accessible: I edited jargon-heavy passages into plain language and added context where readers needed it. I am passionate about clear communication and continuously improving my work, and this user-focused approach demonstrates my growth mindset and dedication to effective documentation.
 
 ## **What is the most significant body of documentation that you have had responsibility for?**
 
-When I lived in Da Nang, Vietnam, I used to work at school, called 'Language Bridge'. I worked there from 2018 to 2021. Over time, the school expanded and grew from one center to three. They needed to hire more teachers, and many of those were foreign teachers. The school administration asked me to write and present a code of conduct to a group of new teachers. The code of conduct included some aspects, as:
+When I lived in Vietnam, I used to work at school, called 'Language Bridge'. Over time, the school expanded and grew from one center to three. They needed to hire more teachers, and many of those were foreign teachers. The school administration asked me to write and present a code of conduct to a group of new teachers. The code of conduct included some aspects, as:
 
 - Lesson planning
 
@@ -77,7 +71,11 @@ I created both a document and a visual presentation.
 
 ## **What is your proudest success or accomplishment as a technical author?**
 
-I haven't had any experience in technical writing yet, but I have strong fundamental skills to start, such as teaching skills (which help me to simplify complex concepts), software development knowledge with some practice and experience living in different countries, such as China, Vietnam, Ukraine, USA and Canada.
+My proudest accomplishment as a technical author was creating a complete beginner-friendly guide on installing Node.js and npm on Ubuntu — not just for the technical content, but for the clarity and confidence it gave to others.
+
+I wrote the guide from scratch, tested every command in a clean environment, and explained each step in plain English. What made me proud was how I approached it as a teacher, not just a developer: anticipating reader questions, removing ambiguity, and turning something intimidating into something accessible.
+
+Later, I shared it with early-career developers and ESL learners — and received messages saying it could help them succeed where official docs would fail.
 
 ## **What open-source software documentation do you use the most? How would you suggest improving its content?**  
   
@@ -319,7 +317,7 @@ Overall, Canonical is doing an amazing job making open-source software accessibl
 
 ---
 
-# **Install and Configure Node.js + npm on Ubuntu 20.04: Step-by-step guide**
+# **Install and Configure Node.js + npm on Ubuntu 20.04: Step-by-step Guide**
 ## **Introduction**
 
 [Node.js](https://nodejs.org/en/about) is a cross-platform, open-source JavaScript runtime environment that can run on server-side. [NPM](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager) (Node Package Manager) is a default package manager for Node.js.
@@ -334,12 +332,12 @@ This ensures your system has the latest version of packages.
 ## **Option 1 – Install via APT from Ubuntu Repositories (Beginner-Friendly)**
 This is the most popular way to get the latest version of Node.js and npm.
 
-### **Step 1 - Install Node.js and npm**
+1. **Install Node.js and npm**
 ```bash
 sudo apt install -y nodejs
 ```
 
-### **Step 2 - Verify installation**
+2. **Verify installation**
 Check that Node.js is installed:
 ```bash
 node -v
@@ -350,11 +348,11 @@ For npm, run:
 ```bash
 npm -v
 ```
-You will get npm 8.z.z to 10.w.w
+You will likely get npm 8.z.z to 10.w.w
 
-![check_node_npm_installed](media/check_node_npm_installed.png)
+![Screenshot showing successful installation of Node.js and npm](media/check_node_npm_installed.png)
 
->If npm fails to install, run `sudo apt install npm`
+> ⚠️ **Warning:** If npm fails to install, run `sudo apt install npm`
 
 You have successfully installed **Node.js** and **npm** using the apt method.
 
@@ -363,11 +361,14 @@ You have successfully installed **Node.js** and **npm** using the apt method.
 ## **Option 2 - Install Using Node Version Manager (NVM)**
 [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#about) allows you to install and switch between different versions of Node.js. Initially, you will get the latest versions for both Node.js and npm.
 
-> **Why use NVM?**  
-> NVM is the preferred tool for developers because it allows you to switch between Node.js versions without affecting your system-wide (global) Node installation.  
-> This is especially useful when working on multiple projects that require different versions of Node.
+> 💡 **Tip: Why use NVM?**
+>
+> **NVM** is the preferred tool for developers because it allows you to **switch between Node.js versions** without affecting your system-wide (global) installation.  
+>  
+> This is especially useful when working on **multiple projects** that require different Node versions.
 
-### **Step 1 - Install NVM**
+
+1. **Install NVM**
 Run the following command:
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -385,14 +386,14 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
 
-### **Restart your terminal or run:**
+**Restart your terminal or run:**
 ```bash
 source ~/.bashrc
 ```
 
-> **Warning:** This command downloads and runs a script from the internet. Only use official sources like the [NVM GitHub](https://github.com/nvm-sh/nvm). You can inspect the script [here](https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh) before running it.
+> ⚠️ **Warning:** This command downloads and runs a script from the internet. Only use official sources like the [NVM GitHub](https://github.com/nvm-sh/nvm). You can inspect the script [here](https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh) before running it.
 
-### **Step 2 - Install Node.js with NVM:**
+2. **Install Node.js with NVM:**
 Install the latest [Long Term Support](https://nodejs.org/en/blog/release/v20.9.0) (LTS) version of Node.js:
 ```bash
 nvm install --lts
@@ -401,7 +402,7 @@ nvm install --lts
 nvm use --lts
 ```
 
-### **Step 3 - Choose any other Node.js version**
+3. **Choose any other Node.js version**
 
 To view the list of available versions, run:
 
@@ -481,16 +482,16 @@ Now using node v18.20.0 (npm v10.5.0)
 ## **Option 3 - Install Using [NodeSource PPA](https://github.com/nodesource/distributions/blob/master/README.md)**
 If you need a different version of Node.js, use a PPA (personal package archive) developed by NodeSource. PPAs have more available versions than default Ubuntu repositories. Node.js v20.x is available as of April 2025
 
-### **Step 1 - Choose your version**
+1. **Choose your version**
 Decide what version you want. For example, if you want Node.js 18.x, you'll use `setup_18.x`.
 
-### **Step 2 - Download the setup script**
+2. **Download the setup script**
 Run the following command to download the setup script:
 ```bash
 cd ~
 curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
 ```
-### **Step 3 - (Optional) Check the script**
+3. **(Optional) Check the script**
 Check the contents of the script before running it.
 
 ```bash
@@ -515,17 +516,17 @@ log() {
 ```
 Press Ctrl + X to exit.
 
-### **Step 4 - Run the setup script**
+4. **Run the setup script**
 Execute the setup script:
 ```bash
 sudo bash nodesource_setup.sh
 ```
-### **Step 5 - Install Node.js + npm**
+5. **Install Node.js + npm**
 Next, install Node.js:
 ```bash
 sudo apt install nodejs -y
 ```
-### **Step 6 - Verify installation**
+6. **Verify installation**
 Check that Node.js and npm are installed:
 ```bash
 node -v
@@ -535,8 +536,8 @@ Output:
 ```bash
 v18.x.x
 ```
-#### **Success!**
-You have successfully installed Node.js and npm. Try building your first CLI app, install a popular framework like Express.js, or explore npm packages to extend your project.
+
+> ✅ **Success!** You have successfully installed Node.js and npm. Try building your first CLI app, install a popular framework like Express.js, or explore npm packages to extend your project.
 
 ## **Visual Summary - Node.js Installation Methods**
 
@@ -552,14 +553,26 @@ The diagram below provides a quick overview of the three different ways to insta
 | **NVM (Option 2)** | Developers who need multiple Node versions  | Lightweight and flexible               |
 | **NodeSource (Opt 3)** | Specific versions without using NVM     | Good for controlled version installs   |
 
-> Only use **one installation method** at a time. If you mix `apt`, `nvm`, and `nodesource`, you might run into version conflicts.
+> 💡 **Tip:** Only use **one installation method** at a time. If you mix `apt`, `nvm`, and `nodesource`, you might run into version conflicts.
 - To remove previous installs:
 ```bash
   sudo apt remove nodejs npm
 ```
 
+## Next Steps
 
----
+Now that you have Node.js and npm installed, try:
+
+- Creating your first Node.js script: `hello.js`
+
+- Installing Express: `npm install express`
+
+- Exploring npm packages: [npmjs.com](https://www.npmjs.com/)
+
+- Creating a CLI tool or a REST API
+
+Happy coding! 🚀
+
 ---
 
 # Get Started with NASA’s API
@@ -569,16 +582,92 @@ The diagram below provides a quick overview of the three different ways to insta
 NASA's [Astronomy Picture of the Day](https://en.wikipedia.org/wiki/Astronomy_Picture_of_the_Day) (APOD) shares a new space-related image every day, each accompanied by a short explanation from a NASA astronomer. This documentation guides developers through the process of obtaining an API Key, making requests to the APOD API, and handling the JSON response to get the media content.
 
 ## Table of Contents
-1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Obtaining an API Key](#obtaining-an-api-key)
-4. [Making API Requests](#making-api-requests)
-5. [Handling API Responses](#handling-api-responses)
-6. [Optional URL Parameters](#optional-url-parameters)
-7. [Code Examples](#code-examples)
-8. [Use Cases](#use-cases)
-9. [Troubleshooting](#troubleshooting)
-10. [Reference](#reference)
+1. [Prerequisites](#prerequisites)
+2. [Obtaining-an-api-key](#obtaining-an-api-key)
+3. [Making API Requests](#making-api-requests)
+4. [Handling API Responses](#handling-api-responses)
+5. [Optional URL Parameters](#optional-url-parameters)
+6. [Code Examples](#code-examples)
+7. [Use Cases](#use-cases)
+8. [Troubleshooting](#troubleshooting)
+9. [Reference](#reference)
+
+---
+
+Before diving into the tutorial, here’s a quick visual preview of what you can build with the APOD API.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APOD Example</title>
+
+  <!-- ✅ Your CSS goes here -->
+  <style>
+    .apod h2 {
+      text-align: center;
+      font-weight: bold;
+    }
+    .apod {
+      border: 1px solid #ccc;
+      padding: 1em;
+      margin: 1em 0;
+      background:rgb(95, 137, 175);
+      border-radius: 10px;
+    }
+
+    .apod img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 8px;
+    }
+
+    .apod-description {
+      margin-top: 1em;
+      font-size: 1.05rem;
+    }
+
+    .apod-facts ul {
+      list-style-type: square;
+      padding-left: 1.5em;
+    }
+
+    .apod-note {
+      margin-top: 1em;
+      background: #e3f2fd;
+      padding: 0.75em;
+      border-left: 5px solid #2196f3;
+      border-radius: 6px;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Your APOD content -->
+  <section class="apod">
+    <h2>UGC 1810: Wildly Interacting Galaxy from Hubble</h2>
+    <img src="https://apod.nasa.gov/apod/image/2506/VeilWide_Alharbi_960.jpg" alt="Galaxy" />
+        <section class="apod-facts">
+      <ul>
+        <li><strong>Title:</strong> Veil Nebula: Wisps of an Ancient Supernova</li>
+        <li><strong>Date:</strong> 2025-06-02</li>
+      </ul>
+    </section>
+    <section class="apod-description">
+      <p>Wisps like this are all that remain visible of a Milky Way star.  About 7,000 years ago that star exploded in a supernova, leaving the Veil Nebula.  At the time, the expanding cloud was likely as bright as a crescent Moon, remaining visible for weeks to people living at the dawn of recorded history.  Today, the resulting supernova remnant, also known as the Cygnus Loop, has faded and is now visible only through a small telescope directed toward the constellation of the Swan (Cygnus).  The remaining Veil Nebula is physically huge, however, and even though it lies about 1,400 light-years distant, it covers over five times the size of the full Moon.  The featured picture was taken in Kuwait in mid-2024 and features light emitted by hydrogen in red and oxygen in blue.  In deep images of the complete Veil Nebula like this, even studious readers might not be able to identify the iconic filaments.   Piece it All Together: Astronomy Puzzle of the Day.</p>
+    </section>
+  </section>
+</body>
+</html>
+
+
+
+> 💡NOTE: This simple HTML page dynamically fetches and displays the Astronomy Picture of the Day using JavaScript.
+
+---
 
 ## Prerequisites
 
@@ -688,22 +777,8 @@ https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY&date=2024-10-01&concept
 
 ## Code Examples
 
-Before diving into the code, here’s a quick visual preview of what you can build with the APOD API.
+You can build a similar sample page as you saw at the beginning of the article using the JavaScript or Python code below. Try customizing the layout or styling to match your needs!
 
-> 💡NOTE: This simple HTML page dynamically fetches and displays the Astronomy Picture of the Day using JavaScript.
-
-### Visual Demo
-
-<!-- START_APOD -->
-**Curly Spiral Galaxy M63**  
-**2025-05-22**
-
-A bright spiral galaxy of the northern sky, Messier 63 is nearby, about 30 million light-years distant toward the loyal constellation Canes Venatici. Also cataloged as NGC 5055, the majestic island universe is nearly 100,000 light-years across—about the size of our own Milky Way. Its bright core and majestic spiral arms lend the galaxy its popular name, *The Sunflower Galaxy*. This exceptionally deep exposure also follows faint loops and curling star streams far into the galaxy's halo. Extending nearly 180,000 light-years from the galactic center, the star streams are likely remnants of tidally disrupted satellites of M63. Other satellite galaxies of M63 can be spotted in the remarkable wide-field image, including dwarf galaxies, which could contribute to M63's star streams in the next few billion years.
-
-![Curly Spiral Galaxy M63](https://apod.nasa.gov/apod/image/2505/M63_HaLRGB_Apod2048.jpg)
-<!-- END_APOD -->
-
-You can build a similar page using the JavaScript or Python code below. Try customizing the layout or styling to match your needs!
 > 💡NOTE: Use **JavaScript** for client-side web applications, or **Python** for backend scripts and data processing.
 
 ---

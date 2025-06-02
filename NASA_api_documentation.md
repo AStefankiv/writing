@@ -5,16 +5,92 @@
 NASA's [Astronomy Picture of the Day](https://en.wikipedia.org/wiki/Astronomy_Picture_of_the_Day) (APOD) shares a new space-related image every day, each accompanied by a short explanation from a NASA astronomer. This documentation guides developers through the process of obtaining an API Key, making requests to the APOD API, and handling the JSON response to get the media content.
 
 ## Table of Contents
-1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Obtaining an API Key](#obtaining-an-api-key)
-4. [Making API Requests](#making-api-requests)
-5. [Handling API Responses](#handling-api-responses)
-6. [Optional URL Parameters](#optional-url-parameters)
-7. [Code Examples](#code-examples)
-8. [Use Cases](#use-cases)
-9. [Troubleshooting](#troubleshooting)
-10. [Reference](#reference)
+1. [Prerequisites](#prerequisites)
+2. [Obtaining-an-api-key](#obtaining-an-api-key)
+3. [Making API Requests](#making-api-requests)
+4. [Handling API Responses](#handling-api-responses)
+5. [Optional URL Parameters](#optional-url-parameters)
+6. [Code Examples](#code-examples)
+7. [Use Cases](#use-cases)
+8. [Troubleshooting](#troubleshooting)
+9. [Reference](#reference)
+
+---
+
+Before diving into the tutorial, here’s a quick visual preview of what you can build with the APOD API.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APOD Example</title>
+
+  <!-- ✅ Your CSS goes here -->
+  <style>
+    .apod h2 {
+      text-align: center;
+      font-weight: bold;
+    }
+    .apod {
+      border: 1px solid #ccc;
+      padding: 1em;
+      margin: 1em 0;
+      background:rgb(95, 137, 175);
+      border-radius: 10px;
+    }
+
+    .apod img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 8px;
+    }
+
+    .apod-description {
+      margin-top: 1em;
+      font-size: 1.05rem;
+    }
+
+    .apod-facts ul {
+      list-style-type: square;
+      padding-left: 1.5em;
+    }
+
+    .apod-note {
+      margin-top: 1em;
+      background: #e3f2fd;
+      padding: 0.75em;
+      border-left: 5px solid #2196f3;
+      border-radius: 6px;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Your APOD content -->
+  <section class="apod">
+    <h2>UGC 1810: Wildly Interacting Galaxy from Hubble</h2>
+    <img src="https://apod.nasa.gov/apod/image/2506/VeilWide_Alharbi_960.jpg" alt="Galaxy" />
+        <section class="apod-facts">
+      <ul>
+        <li><strong>Title:</strong> Veil Nebula: Wisps of an Ancient Supernova</li>
+        <li><strong>Date:</strong> 2025-06-02</li>
+      </ul>
+    </section>
+    <section class="apod-description">
+      <p>Wisps like this are all that remain visible of a Milky Way star.  About 7,000 years ago that star exploded in a supernova, leaving the Veil Nebula.  At the time, the expanding cloud was likely as bright as a crescent Moon, remaining visible for weeks to people living at the dawn of recorded history.  Today, the resulting supernova remnant, also known as the Cygnus Loop, has faded and is now visible only through a small telescope directed toward the constellation of the Swan (Cygnus).  The remaining Veil Nebula is physically huge, however, and even though it lies about 1,400 light-years distant, it covers over five times the size of the full Moon.  The featured picture was taken in Kuwait in mid-2024 and features light emitted by hydrogen in red and oxygen in blue.  In deep images of the complete Veil Nebula like this, even studious readers might not be able to identify the iconic filaments.   Piece it All Together: Astronomy Puzzle of the Day.</p>
+    </section>
+  </section>
+</body>
+</html>
+
+
+
+> 💡NOTE: This simple HTML page dynamically fetches and displays the Astronomy Picture of the Day using JavaScript.
+
+---
 
 ## Prerequisites
 
@@ -124,22 +200,8 @@ https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY&date=2024-10-01&concept
 
 ## Code Examples
 
-Before diving into the code, here’s a quick visual preview of what you can build with the APOD API.
+You can build a similar sample page as you saw at the beginning of the article using the JavaScript or Python code below. Try customizing the layout or styling to match your needs!
 
-> 💡NOTE: This simple HTML page dynamically fetches and displays the Astronomy Picture of the Day using JavaScript.
-
-### Visual Demo
-
-<!-- START_APOD -->
-**Curly Spiral Galaxy M63**  
-**2025-05-22**
-
-A bright spiral galaxy of the northern sky, Messier 63 is nearby, about 30 million light-years distant toward the loyal constellation Canes Venatici. Also cataloged as NGC 5055, the majestic island universe is nearly 100,000 light-years across—about the size of our own Milky Way. Its bright core and majestic spiral arms lend the galaxy its popular name, *The Sunflower Galaxy*. This exceptionally deep exposure also follows faint loops and curling star streams far into the galaxy's halo. Extending nearly 180,000 light-years from the galactic center, the star streams are likely remnants of tidally disrupted satellites of M63. Other satellite galaxies of M63 can be spotted in the remarkable wide-field image, including dwarf galaxies, which could contribute to M63's star streams in the next few billion years.
-
-![Curly Spiral Galaxy M63](https://apod.nasa.gov/apod/image/2505/M63_HaLRGB_Apod2048.jpg)
-<!-- END_APOD -->
-
-You can build a similar page using the JavaScript or Python code below. Try customizing the layout or styling to match your needs!
 > 💡NOTE: Use **JavaScript** for client-side web applications, or **Python** for backend scripts and data processing.
 
 ---

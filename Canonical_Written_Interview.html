@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Canonical_about_me.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="%F0%9F%93%91-table-of-contents">📑 Table of Contents</h1>
+<h2 id="%F0%9F%93%98-documentation-experience-and-insight">📘 Documentation Experience and Insight</h2>
+<ul>
+<li><a href="#outline-your-experience-working-on-software-documentation-think-about-its-type-audience-complexity-industry-context-how-you-made-a-difference-to-it-feel-free-to-include-a-link-to-any-publicly-visible-work-that-youd-like-to-share-with-us">Outline your experience with documentation</a></li>
+<li><a href="#what-is-the-most-significant-body-of-documentation-that-you-have-had-responsibility-for">Most significant documentation work</a></li>
+<li><a href="#what-is-your-proudest-success-or-accomplishment-as-a-technical-author">Proudest documentation accomplishment</a></li>
+<li><a href="#what-open-source-software-documentation-do-you-use-the-most-how-would-you-suggest-improving-its-content">Most used open-source docs</a></li>
+<li><a href="#consider-one-of-the-software-documentation-projects-you-have-worked-on-how-well-did-its-processes-work-and-what-would-you-like-to-improve">Reflection on documentation project process</a></li>
+<li><a href="#describe-a-significant-learning-experience-you-had-working-on-documentation---what-happened-what-did-you-learn-and-what-did-you-change-as-a-result">Significant learning experience</a></li>
+<li><a href="#in-general-what-aspect-of-your-documentation-work-do-you-find-most-challenging-give-an-example-or-two-to-illustrate-the-nature-of-this-challenge">Challenges in documentation work</a></li>
+</ul>
+<h2 id="%F0%9F%92%BB-software-experience">💻 Software Experience</h2>
+<ul>
+<li><a href="#describe-your-programming-skills-and-experience-and-what-you-have-enjoyed-tell-us-as-much-as-you-like-and-feel-free-to-include-a-link-to-any-publicly-visible-work-that-youd-like-to-share-with-us">Programming skills and experience</a></li>
+<li><a href="#are-there-any-areas-of-software-technology-for-example-operations-cloud-services-infrastructure-and-application-management-and-deployment-linux-operating-systems-robotics-databases-or-others-in-which-you-have-particular-experience-or-interest">Technology domain interests</a></li>
+<li><a href="#what-does-open-source-software-mean-to-you-personally">Meaning of open source</a></li>
+<li><a href="#describe-any-experience-you-have-working-in-open-source-contexts-including-development-of-software-documentation-or-community">Open-source involvement</a></li>
+<li><a href="#consider-one-of-those-contexts-did-you-observe-any-practices-that-you-would-like-to-improve">Suggestions for improving OSS practices</a></li>
+</ul>
+<h2 id="%F0%9F%8C%8D-leadership-and-professional-engagement">🌍 Leadership and Professional Engagement</h2>
+<ul>
+<li><a href="#describe-any-speaking-experience-at-events-and-conferences-or-other-events-or-public-writing-about-documentation-or-software">Speaking and public writing experience</a></li>
+<li><a href="#what-influence-have-you-had-on-others-in-the-industry-through-your-speaking-writing-or-other-work">Industry influence</a></li>
+<li><a href="#describe-your-engagement-or-participation-in-any-professional-or-industry-communities-that-focus-on-a-relevant-discipline-documentation-software-etc">Community engagement</a></li>
+</ul>
+<h2 id="%F0%9F%8E%93-education">🎓 Education</h2>
+<ul>
+<li><a href="#how-did-you-rank-amongst-your-peers-in-your-final-year-of-high-school-in-mathematics-and-the-sciences-what-was-your-strongest-subject">High school ranking - STEM</a></li>
+<li><a href="#how-did-you-rank-amongst-your-peers-in-your-final-year-of-high-school-in-languages-and-the-arts-what-was-your-strongest-subject">High school ranking - Arts</a></li>
+<li><a href="#what-were-your-results-in-your-school-leaving-andor-university-entrance-examinations-gpa-ib-matriculation-a-levels-sat-act-etc">Exam results</a></li>
+<li><a href="#what-sort-of-high-school-student-were-you-beyond-your-studies-what-were-your-interests-and-hobbies-how-do-you-think-you-are-remembered-by-your-peers">Student personality and hobbies</a></li>
+<li><a href="#what-degree-and-university-did-you-choose-and-why">Degree and university choice</a></li>
+<li><a href="#at-university-did-you-do-particularly-well-in-any-area-of-your-degree">Strongest university subject</a></li>
+<li><a href="#overall-what-was-your-degree-result-and-how-did-that-reflect-on-your-ability-note-that-different-education-traditions-around-the-world-use-different-scoring-systems-please-give-us-additional-context-so-that-we-understand-what-your-degree-result-indicates-even-if-were-not-familiar-with-that-particular-system">Final degree result</a></li>
+<li><a href="#in-high-school-and-university-what-did-you-achieve-that-was-exceptional">Exceptional achievements</a></li>
+<li><a href="#what-leadership-roles-did-you-take-on-during-your-education">Leadership roles in education</a></li>
+</ul>
+<h2 id="%F0%9F%A7%AD-canonical-in-context">🧭 Canonical in Context</h2>
+<ul>
+<li><a href="#why-do-you-want-to-be-a-technical-author-at-canonical">Why Canonical?</a></li>
+<li><a href="#which-canonical-products-or-technology-domains-are-you-most-interested-in-working-on">Products or domains of interest</a></li>
+<li><a href="#what-is-your-understanding-of-canonicals-position-in-the-open-source-software-market-what-strengths-and-weaknesses-do-you-see">Canonical in the open-source market</a></li>
+</ul>
+<h2 id="%F0%9F%93%84-project-samples">📄 Project Samples</h2>
+<ul>
+<li><a href="#install-and-configure-nodejs--npm-on-ubuntu-2004-step-by-step-guide">Install Node.js + npm on Ubuntu</a></li>
+<li><a href="#get-started-with-nasas-api">Get Started with NASA API</a></li>
+</ul>
+<h1 id="%F0%9F%93%98-documentation-experience-and-insight">📘 Documentation Experience and Insight</h1>
+<p><em>In this section, we want you to show us what you can do. We want to understand what you think, how you think and how you earned your insights.</em></p>
+<h2 id="outline-your-experience-working-on-software-documentation-think-about-its-type-audience-complexity-industry-context-how-you-made-a-difference-to-it-feel-free-to-include-a-link-to-any-publicly-visible-work-that-youd-like-to-share-with-us"><strong>Outline your experience working on software documentation (think about: its type, audience, complexity, industry context, how you made a difference to it). Feel free to include a link to any publicly-visible work that you’d like to share with us.</strong></h2>
+<p>I have written a range of technical documentation—step-by-step tutorials, user guides, and API references—for diverse audiences. For example, I authored a guide titled <a href="#install-and-configure-nodejs--npm-on-ubuntu-2004-step-by-step-guide">&quot;Install and Configure Node.js + npm on Ubuntu&quot;</a> aimed at developers getting started on Ubuntu, where I explained complex setup steps and package management in clear, concise language. I also created a comprehensive guide to NASA’s public APIs for data enthusiasts and researchers, breaking down advanced topics like authentication and data formats into digestible explanations and sample requests. Each document was carefully structured with headings, numbered steps, and code examples to improve usability, and I often iterated based on peer feedback to refine tone and clarity. In another project, I wrote a GitHub Pages tutorial (with custom domain setup) geared toward open-source contributors, where I emphasized consistent style and practical tips to avoid common pitfalls. Across all these projects, I focused on making complex information accessible: I edited jargon-heavy passages into plain language and added context where readers needed it. I am passionate about clear communication and continuously improving my work, and this user-focused approach demonstrates my growth mindset and dedication to effective documentation.</p>
+<h2 id="what-is-the-most-significant-body-of-documentation-that-you-have-had-responsibility-for"><strong>What is the most significant body of documentation that you have had responsibility for?</strong></h2>
+<p>When I lived in Vietnam, I used to work at school, called 'Language Bridge'. Over time, the school expanded and grew from one center to three. They needed to hire more teachers, and many of those were foreign teachers. The school administration asked me to write and present a code of conduct to a group of new teachers. The code of conduct included some aspects, as:</p>
+<ul>
+<li>
+<p>Lesson planning</p>
+</li>
+<li>
+<p>Arrival time</p>
+</li>
+<li>
+<p>Vacation leave</p>
+</li>
+<li>
+<p>Uniform</p>
+</li>
+<li>
+<p>Critical situations</p>
+</li>
+<li>
+<p>Communication with parents
+etc.</p>
+</li>
+</ul>
+<p>I created both a document and a visual presentation.</p>
+<h2 id="what-is-your-proudest-success-or-accomplishment-as-a-technical-author"><strong>What is your proudest success or accomplishment as a technical author?</strong></h2>
+<p>My proudest accomplishment as a technical author was creating a complete beginner-friendly guide on installing Node.js and npm on Ubuntu — not just for the technical content, but for the clarity and confidence it gave to others.</p>
+<p>I wrote the guide from scratch, tested every command in a clean environment, and explained each step in plain English. What made me proud was how I approached it as a teacher, not just a developer: anticipating reader questions, removing ambiguity, and turning something intimidating into something accessible.</p>
+<p>Later, I shared it with early-career developers and ESL learners — and received messages saying it could help them succeed where official docs would fail.</p>
+<h2 id="what-open-source-software-documentation-do-you-use-the-most-how-would-you-suggest-improving-its-content"><strong>What open-source software documentation do you use the most? How would you suggest improving its content?</strong></h2>
+<p>After receiving the written interview questions from Holly Hall last Sunday, this particular question stood out to me — and it actually motivated me to start contributing. While both pull requests are still awaiting approval, here’s what I’ve submitted so far:</p>
+<ol>
+<li><a href="https://github.com/tldr-pages/tldr/pull/16628">TLDR Pages – Added a new section titled “VI. Periodic Maintenance Tasks” to the Maintainer’s Guide</a></li>
+</ol>
+<p>I found an open issue in their repository that mentioned a lack of visibility into long-term maintainer responsibilities. I contributed a new section that outlines recurring tasks like reviewing staleness, link health, and automation checks.</p>
+<ol start="2">
+<li><a href="https://github.com/scikit-learn/scikit-learn/pull/31451">Scikit-learn – Added contextual links to improve code clarity in the SVM ANOVA example</a></li>
+</ol>
+<p>In this contribution, I added references to the official Scikit-learn documentation in the <a href="https://github.com/scikit-learn/scikit-learn/blob/main/examples/svm/plot_svm_anova.py">plot_svm_anova.py</a> example. This helps users more easily understand how the code relates to core SVM and ANOVA features, especially if they’re not yet familiar with those concepts.</p>
+<p>These contributions taught me that it’s more effective to focus on a small number of open-source projects. When you take the time to learn their style, structure, and workflows, you can spot issues more easily — and your contributions tend to align better with community expectations.</p>
+<h2 id="consider-one-of-the-software-documentation-projects-you-have-worked-on-how-well-did-its-processes-work-and-what-would-you-like-to-improve"><strong>Consider one of the software documentation projects you have worked on. How well did its processes work, and what would you like to improve?</strong></h2>
+<p>My experience with software documentation has grown through a series of technical writing projects I’ve created independently and refined with help from experienced reviewers. I specialize in writing tutorials and API documentation for developers, especially those who are early in their learning journey or transitioning to new technologies.</p>
+<p>For example, in my guide <a href="#install-and-configure-nodejs--npm-on-ubuntu-2004-step-by-step-guide">&quot;Install and Configure Node.js + npm on Ubuntu&quot;</a> I wrote for developers setting up their environment on Linux. The complexity was moderate — it involved shell commands, repository setup, and system permissions. I made a difference by explaining why each command mattered and tailoring the tone for non-experts. The guide lives on GitHub and has been reviewed by others in the tech writing space:</p>
+<p><a href="#install-and-configure-nodejs--npm-on-ubuntu-2004-step-by-step-guide">&quot;Install and Configure Node.js + npm on Ubuntu&quot;</a></p>
+<p>Another project, “NASA API Documentation,” is a more technical reference and tutorial hybrid for the Astronomy Picture of the Day API. The audience is developers building apps or educational tools using the API. The project involved documenting endpoints, authentication, and usage examples, with a focus on clarity and usefulness.</p>
+<p><a href="#get-started-with-nasas-api">Get Started with NASA’s API</a></p>
+<p>Though these were not full-time roles, I treated both projects like professional deliverables — outlining purpose, identifying target users, testing content, and incorporating feedback. I use Markdown, Git, and VS Code regularly, and I’m excited to bring this skillset into a collaborative, open-source-focused environment like Canonical’s.</p>
+<h2 id="describe-a-significant-learning-experience-you-had-working-on-documentation---what-happened-what-did-you-learn-and-what-did-you-change-as-a-result"><strong>Describe a significant learning experience you had working on documentation - What happened, what did you learn, and what did you change as a result?</strong></h2>
+<p>After deciding to transition into technical writing, I didn’t just start building a portfolio — I also reached out to experienced professionals in the field for coffee chats. These conversations were incredibly helpful. They gave me honest feedback, suggested areas to focus on, and even reviewed some of my early writing samples.</p>
+<p>One of the most impactful things I learned was how much thoughtfulness and precision technical writing really requires. A few key lessons that stuck with me:</p>
+<ul>
+<li>
+<p>Every word matters — even small choices can affect clarity or tone.</p>
+</li>
+<li>
+<p>AI can assist, but it can also introduce subtle errors. You have to double-check everything.</p>
+</li>
+<li>
+<p>Good documentation starts with solid planning and research, not just good prose.</p>
+</li>
+<li>
+<p>Attention to detail is non-negotiable — especially in technical contexts where accuracy builds user trust.</p>
+</li>
+<li>
+<p>Always ask “Why?” — why include this step? Why word it this way? What’s the reader supposed to take away?</p>
+</li>
+<li>
+<p>Step away from the writing and come back later with a clear head — your editing will always be sharper.</p>
+</li>
+</ul>
+<p>As a result of these conversations and lessons, I completely changed how I approach writing. Now, I plan more carefully, review more critically, and focus more on the user's journey through the documentation.</p>
+<h2 id="in-general-what-aspect-of-your-documentation-work-do-you-find-most-challenging-give-an-example-or-two-to-illustrate-the-nature-of-this-challenge"><strong>In general, what aspect of your documentation work do you find most challenging? Give an example or two to illustrate the nature of this challenge.</strong></h2>
+<p>One of the more challenging aspects of documentation for me — and I wouldn’t call it very challenging, just an area I keep working to improve — is deciding on the best order in which to present information. Structuring content isn’t just about logic; it’s about guiding the reader through a journey in a way that’s clear, intuitive, and even a little engaging.</p>
+<p>For example, in my <a href="#get-started-with-nasas-api">Get Started with NASA’s API</a> guide, I originally placed the Visual Demo after the JavaScript and Python code examples. But after reviewing the flow, I realized that a quick visual of what the API can do would actually motivate readers and give them immediate context — especially those less experienced with APIs. So I reorganized that section, putting the demo before the code to spark curiosity and provide a visual goal before diving into the technical details.</p>
+<p>This experience taught me how important it is to think like a reader, not just a writer. Now, I often sketch an outline from the user’s perspective first — asking what they need to know, in what order, and how each section prepares them for the next.</p>
+<hr>
+<h1 id="%F0%9F%92%BB-software-experience">💻 Software Experience</h1>
+<p><em>You don't need to be a software engineer to be a technical author, but you do need technical curiosity and to share the programmer's mindset. We want to understand what software means to you, and why you care about it.</em></p>
+<h2 id="describe-your-programming-skills-and-experience-and-what-you-have-enjoyed-tell-us-as-much-as-you-like-and-feel-free-to-include-a-link-to-any-publicly-visible-work-that-youd-like-to-share-with-us"><strong>Describe your programming skills and experience and what you have enjoyed. Tell us as much as you like, and feel free to include a link to any publicly-visible work that you’d like to share with us.</strong></h2>
+<p>I feel confident identifying as a junior developer. Last year, I completed the <a href="https://www.lighthouselabs.ca/">Lighthouse Labs</a> full-stack web development bootcamp, and I’ll soon be starting another intensive training program with <a href="https://www.comit.org/">ComIT</a> to reinforce my technical foundations and continue learning in a structured way.</p>
+<p>My strongest language is JavaScript — I’m comfortable building both front-end and full-stack applications. I also have hands-on experience with Python and Ruby, particularly in scripting and API interactions.</p>
+<p>Here are a few publicly-visible projects I’ve built:</p>
+<p><a href="https://gptgrammar.netlify.app/">GrammarGPT</a>
+An AI-powered grammar correction app that analyzes and explains mistakes in English sentences. It combines my background in education with my passion for accessible web tools.</p>
+<p><a href="https://medium-clone-as.netlify.app/">Medium Clone</a>
+A full-stack clone of Medium built using modern frameworks. Users can register, write articles, and engage with content — a great exercise in managing authentication, dynamic content, and user flows.</p>
+<p><a href="https://www.worklearntravel.ca/">Work Learn Travel</a>
+A production website I created for the company I work at, which helps young Canadians find work and travel opportunities abroad. It gave me experience with stakeholder feedback and building with a real audience in mind.</p>
+<p>What I enjoy most about programming is bringing ideas to life — especially ones that help people or simplify something. While I don’t plan to become a full-time developer, coding will absolutely remain part of my toolkit as a technical writer. It helps me understand developer pain points, write better examples, and test documentation more effectively.</p>
+<h2 id="are-there-any-areas-of-software-technology-for-example-operations-cloud-services-infrastructure-and-application-management-and-deployment-linux-operating-systems-robotics-databases-or-others-in-which-you-have-particular-experience-or-interest"><strong>Are there any areas of software technology (for example: operations, cloud services, infrastructure and application management and deployment; Linux operating systems, robotics, databases, or others) in which you have particular experience or interest?</strong></h2>
+<p>I prefer developer tools, Linux environments, and backend infrastructure. I’ve spent a lot of time working with Git and Ubuntu, and I’ve used PostgreSQL, Firebase, and Prisma to manage databases in full-stack projects. On the backend, I’m comfortable with Node.js, Express, and Next.js.</p>
+<p>Over time, I’ve gotten comfortable working in the terminal and navigating Linux systems. One of the docs I wrote was about installing Node and npm on Ubuntu, and for that, I tested every command on a clean install just to make sure it worked exactly as described — it helped me build confidence with Linux workflows and made me realize how much I enjoy writing docs that simplify technical environments.</p>
+<p>I’m also curious to learn more about cloud infrastructure and DevOps. I’d like to go deeper into tools like Docker and CI/CD pipelines, and I’m especially interested in how technical writing can support these areas — whether that’s through setup guides, architecture diagrams, or troubleshooting workflows.</p>
+<h2 id="what-does-open-source-software-mean-to-you-personally"><strong>What does open-source software mean to you personally?</strong></h2>
+<p>To me, open-source software is an incredible opportunity to grow by contributing to real, living projects. Unlike starting something from scratch, you're stepping into something that’s already in motion — with its own style, structure, and user base. It teaches you how to navigate unfamiliar codebases, understand community standards, and find ways to make a meaningful contribution.</p>
+<p>As someone passionate about technical writing, I see open-source as a chance to spot areas where the documentation could be clearer, more accessible, or better organized — and then improve them. It’s also a great way to practice collaboration, receive feedback, and become a better communicator while doing something that helps others.</p>
+<h2 id="describe-any-experience-you-have-working-in-open-source-contexts-including-development-of-software-documentation-or-community"><strong>Describe any experience you have working in open-source contexts, including development of software, documentation or community.</strong></h2>
+<p>After exploring a wide range of open-source projects, I realized it’s best to focus on just a few that truly interest you. Once I committed to that approach, I found it much easier to dig into a project, understand its purpose, and spot areas where I could contribute — especially when it comes to documentation.</p>
+<p>I’ve learned the importance of taking the time to explore a project’s structure and community standards before jumping in. Reading through existing issues, past pull requests, and contributing guides helped me avoid guesswork. I also found that reaching out to maintainers or reviewers early on is a great way to clarify expectations and avoid rework.</p>
+<p>Overall, I’ve gotten better at identifying the right projects for me, understanding them more deeply, and contributing more efficiently. It’s made the whole process more enjoyable and productive — and it’s helped me grow both as a writer and a collaborator.</p>
+<h2 id="consider-one-of-those-contexts-did-you-observe-any-practices-that-you-would-like-to-improve"><strong>Consider one of those contexts: did you observe any practices that you would like to improve?</strong></h2>
+<p>Yes — while setting up my environment to contribute using VSCode, I followed the project’s instructions closely but still ran into some package mismatch errors. It took a while to figure out the solution by digging through GitHub issues and external resources.</p>
+<p>I think a dedicated “Troubleshooting” or “FAQ” section would’ve made a big difference. Just listing a few common setup problems and their solutions — especially those that other contributors have run into — could save people a lot of time and frustration. It’s a small addition, but it makes the onboarding experience much smoother, especially for first-time contributors.</p>
+<hr>
+<h1 id="%F0%9F%8C%8D-leadership-and-professional-engagement">🌍 Leadership and Professional Engagement</h1>
+<p><em>A Canonical technical author is a participant, not a bystander. We want to know how you have made a difference to the professional practice of others.</em></p>
+<h2 id="describe-any-speaking-experience-at-events-and-conferences-or-other-events-or-public-writing-about-documentation-or-software"><strong>Describe any speaking experience at events and conferences or other events, or public writing about documentation or software.</strong></h2>
+<p>I’ve had quite a bit of experience speaking in front of groups, even if not always in technical settings. While working in Vietnam, I often acted as the MC during school events, holiday celebrations, and opening ceremonies — sometimes in front of large audiences. It helped me become comfortable with public speaking and learn how to engage diverse groups of people.</p>
+<p>In my current role as an ESL instructor, I regularly present to new students, walking them through school policies, behavioral expectations, and orientation materials — all in a clear and welcoming way.</p>
+<p>I’m also a member of <a href="https://calgaryagile.com/">Calgary Agile</a>, a local tech community group, where I help with hosting events. I typically give the opening and closing remarks during our meetups, welcoming attendees and summarizing key takeaways.</p>
+<p>While I haven’t yet spoken at conferences about documentation specifically, these experiences have helped me become a confident, clear communicator — and I look forward to sharing more about writing and software as I grow in this field.</p>
+<h2 id="what-influence-have-you-had-on-others-in-the-industry-through-your-speaking-writing-or-other-work"><strong>What influence have you had on others in the industry, through your speaking, writing, or other work?</strong></h2>
+<p>As I mentioned earlier, I’ve contributed to open-source projects like <a href="https://github.com/tldr-pages">tldr-pages</a> and <a href="https://github.com/scikit-learn/scikit-learn">scikit-learn</a>, focusing on improving documentation to help contributors and users better understand and navigate these projects. While my contributions have been modest so far, they reflect my commitment to clarity, attention to detail, and community engagement.</p>
+<p>Outside of open source, I regularly help newcomers and friends — especially those new to Canada — by reviewing and improving their resumes, making the language clearer and helping with layout and formatting. It’s a small way I use my writing and editing skills to support others in their career development.</p>
+<h2 id="describe-your-engagement-or-participation-in-any-professional-or-industry-communities-that-focus-on-a-relevant-discipline-documentation-software-etc"><strong>Describe your engagement or participation in any professional or industry communities that focus on a relevant discipline (documentation, software, etc).</strong></h2>
+<p>I stay actively involved in Calgary’s local tech scene. I occasionally volunteer at events like <a href="https://www.techstars.com/communities/startup-weekend">Tech Startup Weekend</a> and <a href="https://developers.google.com/community/devfest">Google Dev Fest</a>, hosted at <a href="https://www.platformcalgary.com/">Platform Calgary</a>. These events give me a chance to connect with early-stage innovators, contribute behind the scenes, and stay inspired by what others are building.</p>
+<p>I'm also a regular participant at Calgary Agile meetups, where I help host and introduce speakers. It’s a simple role, but it lets me contribute to creating an inclusive space for open discussion around software development, agile practices, and team collaboration.</p>
+<hr>
+<h1 id="%F0%9F%8E%93-education">🎓 Education</h1>
+<p><em>It is Canonical hiring policy to consider a candidate's academic record, as evidence of excellence and ability. Any information or context that helps us understand your attainment is helpful. Please provide as much concrete detail – including grades, awards, final results, and so on – as you can.</em></p>
+<h2 id="how-did-you-rank-amongst-your-peers-in-your-final-year-of-high-school-in-mathematics-and-the-sciences-what-was-your-strongest-subject"><strong>How did you rank amongst your peers in your final year of high school in mathematics and the sciences? What was your strongest subject?</strong></h2>
+<p>In my final year of high school, I consistently ranked near the top of my class in mathematics, science, and especially physics. I genuinely enjoyed those subjects. I even had an extracurricular tutor in math and physics because I wanted to go deeper and understand how things work and how they're connected. That curiosity has stayed with me ever since.</p>
+<p>My strongest subject overall was actually English language. I’ve always loved expressing ideas clearly and creatively, and that blend of analytical thinking from STEM with strong communication skills is what eventually led me toward technical writing.</p>
+<h2 id="how-did-you-rank-amongst-your-peers-in-your-final-year-of-high-school-in-languages-and-the-arts-what-was-your-strongest-subject"><strong>How did you rank amongst your peers in your final year of high school in languages and the arts? What was your strongest subject?</strong></h2>
+<p>Thanks to my mom, who is an ESL teacher, I started learning English from a very young age. That early exposure gave me a head start—by the time I was in high school, I was consistently one of the top students in English. I loved reading as a kid. Some of my earliest favorites were The Berenstain Bears books, which made learning feel like a fun adventure. I also got really into scientific magazines — especially anything about dinosaurs or encyclopedias. English remained my strongest subject, and it laid the groundwork for my later work in teaching and technical writing.</p>
+<h2 id="what-were-your-results-in-your-school-leaving-andor-university-entrance-examinations-gpa-ib-matriculation-a-levels-sat-act-etc"><strong>What were your results in your school-leaving and/or university entrance examinations (GPA, IB, matriculation, A-levels, SAT, ACT etc)?</strong></h2>
+<p>I studied in a different country, so my grades don’t directly translate into the Canadian grading system. That said, I was a fairly hard-working student, especially in subjects I was passionate about like English, German, Literature, math, and science. I’ll admit there were a few subjects I studied just enough to pass — but overall, I stayed focused and curious, which helped me build a strong foundation for both my academic and professional journey.</p>
+<h2 id="what-sort-of-high-school-student-were-you-beyond-your-studies-what-were-your-interests-and-hobbies-how-do-you-think-you-are-remembered-by-your-peers"><strong>What sort of high school student were you? Beyond your studies, what were your interests and hobbies? How do you think you are remembered by your peers?</strong></h2>
+<p>I was a curious and supportive student in high school. I enjoyed most subjects and was always willing to help classmates who asked. I never wanted to be better than others; I just wanted to earn a fair grade based on my effort and understanding.</p>
+<p>Outside of class, I was really into the gym (still am), mixed martial arts, and history. In fact, I often found myself reading historical articles late into the night when I probably should have been doing homework. I especially enjoyed historical debates — not to prove others wrong, but to exchange perspectives and share knowledge.</p>
+<p>I moved around quite a bit growing up, both within my country and internationally, so I made friends in many places. Despite being in new environments often, I was never one to cause conflict. I’ve always believed that words carry weight, and I tried to be thoughtful in how I communicated with others. I think my peers would remember me as calm, kind, and easy to talk to — someone who listened and tried to make others feel respected.</p>
+<h2 id="what-degree-and-university-did-you-choose-and-why"><strong>What degree and university did you choose, and why?</strong></h2>
+<p>I chose to study English and German Language &amp; Literature because language was always my strongest subject. I’ve loved learning how language works, and I’ve been surrounded by it since childhood — especially thanks to my mom, who’s an ESL teacher. I completed both my bachelor's and master's degrees in this field, which sharpened my writing and communication skills and now support my work as a technical writer.</p>
+<h2 id="at-university-did-you-do-particularly-well-in-any-area-of-your-degree"><strong>At university, did you do particularly well in any area of your degree?</strong></h2>
+<p>Yes, I did best in English Language, History of Languages, and Foreign Literature. I enjoyed exploring how language evolves and shapes meaning.</p>
+<h2 id="overall-what-was-your-degree-result-and-how-did-that-reflect-on-your-ability-note-that-different-education-traditions-around-the-world-use-different-scoring-systems-please-give-us-additional-context-so-that-we-understand-what-your-degree-result-indicates-even-if-were-not-familiar-with-that-particular-system"><strong>Overall, what was your degree result and how did that reflect on your ability? (Note that different education traditions around the world use different scoring systems. Please give us additional context so that we understand what your degree result indicates, even if we're not familiar with that particular system.)</strong></h2>
+<p>I earned a Master’s degree in English and German Language &amp; Literature. My university didn’t use a GPA system like in Canada, but I graduated with strong results — especially in subjects like English Linguistics, Foreign Literature, and Academic Writing. I was always one of the better students in my class, and I put a lot of effort into understanding not just the language, but how it works and how to explain it clearly.</p>
+<h2 id="in-high-school-and-university-what-did-you-achieve-that-was-exceptional"><strong>In high school and university, what did you achieve that was exceptional?</strong></h2>
+<p>In high school, I was part of our school’s English language team and competed in contests against other schools.I really enjoyed representing my school that way.
+At university, English Language was definitely my strongest subject. I consistently had some of the top grades in my class and was known for having a strong vocabulary.</p>
+<h2 id="what-leadership-roles-did-you-take-on-during-your-education"><strong>What leadership roles did you take on during your education?</strong></h2>
+<p>During my time at university, I had a couple of small but meaningful leadership roles. One moment that stands out is when a group of representatives from various European universities visited our campus — I was chosen as one of the student hosts to greet them and show them around. It was a nice experience that helped me develop confidence and communication skills.</p>
+<p>I was also part of a university comedy team, where I took on a more behind-the-scenes leadership role — managing sound and audio effects during performances. It might not sound like much, but it taught me the importance of timing, collaboration, and contributing to a team’s success in creative ways.</p>
+<hr>
+<h1 id="%F0%9F%A7%AD-canonical-in-context">🧭 Canonical in Context</h1>
+<p><em>In this section, we want to know how you see and understand Canonical and its mission.</em></p>
+<h2 id="why-do-you-want-to-be-a-technical-author-at-canonical"><strong>Why do you want to be a technical author at Canonical?</strong></h2>
+<p>I’m excited about the opportunity to be a Technical Author at Canonical for a few reasons.</p>
+<p>First, I appreciate being selected for this writing interview — it shows that Canonical values thoughtful communication, and it gives me a chance to express not just my skills, but also my mindset.</p>
+<p>Second, I genuinely like the title 'Technical Author'. To me, it reflects someone who not only writes, but has the 'technical authority' to explain complex systems clearly.</p>
+<p>Another thing that stood out is that your Technical Authors are involved in the development process. That’s a big plus for me. I’ve spent a lot of time learning to code, and I’d love to bring that technical understanding into my documentation work.</p>
+<p>Finally, I saw on your website that Canonical is a diverse team with people from many different backgrounds. I thrive in environments like that. I’m curious, open-minded, and always learning — I feel like I’d easiyl fit in.</p>
+<h2 id="which-canonical-products-or-technology-domains-are-you-most-interested-in-working-on"><strong>Which Canonical products, or technology domains, are you most interested in working on?</strong></h2>
+<p>I'm particularly interested in working on Ubuntu Desktop and WSL (Windows Subsystem for Linux). I'm quite familiar with this environment. During my full-stack web development bootcamp, we used Ubuntu on WSL throughout the entire program. We started with the installation, terminal basics, and Git configuration, and used it daily for over six months to run and build full-stack applications.</p>
+<p>Because of this hands-on experience, I feel comfortable navigating Ubuntu and helping others understand and use it effectively. I also have a personal project related to Ubuntu, so this domain feels like a natural fit — both technically and personally.</p>
+<h2 id="what-is-your-understanding-of-canonicals-position-in-the-open-source-software-market-what-strengths-and-weaknesses-do-you-see"><strong>What is your understanding of Canonical’s position in the open-source software market? What strengths and weaknesses do you see?</strong></h2>
+<p>After my research, I see Canonical as a big player in the open-source world, mainly because of Ubuntu — one of the most popular Linux distros out there. Here’s what I think about their strengths and weaknesses:</p>
+<p>Strengths:</p>
+<ul>
+<li>
+<p>Ubuntu is free, which makes it accessible for everyone.</p>
+</li>
+<li>
+<p>It’s generally safer and more secure compared to some other operating systems.</p>
+</li>
+<li>
+<p>Very developer-friendly thanks to the Bash shell and powerful Linux tools.</p>
+</li>
+<li>
+<p>It’s a versatile platform, used from desktops to servers and cloud environments.</p>
+</li>
+</ul>
+<p>Weaknesses:</p>
+<ul>
+<li>
+<p>Many popular applications, especially for graphic design and gaming, don’t have official Linux versions yet.</p>
+</li>
+<li>
+<p>Ubuntu requires a bit more technical know-how compared to Windows or macOS, which can be intimidating for beginners.</p>
+</li>
+<li>
+<p>Gaming support has improved but still isn’t as comprehensive or smooth as on other platforms.</p>
+</li>
+</ul>
+<p>Overall, Canonical is doing an amazing job making open-source software accessible and usable for a wide audience. However, there’s still room to grow, especially for non-technical users.</p>
+<hr>
+<h1 id="install-and-configure-nodejs--npm-on-ubuntu-2004-step-by-step-guide"><strong>Install and Configure Node.js + npm on Ubuntu 20.04: Step-by-step Guide</strong></h1>
+<h2 id="introduction"><strong>Introduction</strong></h2>
+<p><a href="https://nodejs.org/en/about">Node.js</a> is a cross-platform, open-source JavaScript runtime environment that can run on server-side. <a href="https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager">NPM</a> (Node Package Manager) is a default package manager for Node.js.
+By the end of this tutorial, you will have Node.js and npm installed using three different methods — whether you want the latest version, multiple versions, or long-term support (LTS) versions.</p>
+<h2 id="prerequisites"><strong>Prerequisites</strong></h2>
+<p>Before installing anything, make sure your system is up to date. Run this command directly in your Ubuntu terminal:</p>
+<pre class="hljs"><code><div>sudo apt update &amp;&amp; sudo apt upgrade -y
+</div></code></pre>
+<p>This ensures your system has the latest version of packages.</p>
+<h2 id="option-1-%E2%80%93-install-via-apt-from-ubuntu-repositories-beginner-friendly"><strong>Option 1 – Install via APT from Ubuntu Repositories (Beginner-Friendly)</strong></h2>
+<p>This is the most popular way to get the latest version of Node.js and npm.</p>
+<ol>
+<li><strong>Install Node.js and npm</strong></li>
+</ol>
+<pre class="hljs"><code><div>sudo apt install -y nodejs
+</div></code></pre>
+<ol start="2">
+<li><strong>Verify installation</strong>
+Check that Node.js is installed:</li>
+</ol>
+<pre class="hljs"><code><div>node -v
+</div></code></pre>
+<p>You will likely get Node.js 16.z.z or 18.w.w</p>
+<p>For npm, run:</p>
+<pre class="hljs"><code><div>npm -v
+</div></code></pre>
+<p>You will likely get npm 8.z.z to 10.w.w</p>
+<p><img src="file:///home/labber/lighthouse/others/writing/media/check_node_npm_installed.png" alt="Screenshot showing successful installation of Node.js and npm"></p>
+<blockquote>
+<p>⚠️ <strong>Warning:</strong> If npm fails to install, run <code>sudo apt install npm</code></p>
+</blockquote>
+<p>You have successfully installed <strong>Node.js</strong> and <strong>npm</strong> using the apt method.</p>
+<hr>
+<h2 id="option-2---install-using-node-version-manager-nvm"><strong>Option 2 - Install Using Node Version Manager (NVM)</strong></h2>
+<p><a href="https://github.com/nvm-sh/nvm?tab=readme-ov-file#about">NVM</a> allows you to install and switch between different versions of Node.js. Initially, you will get the latest versions for both Node.js and npm.</p>
+<blockquote>
+<p>💡 <strong>Tip: Why use NVM?</strong></p>
+<p><strong>NVM</strong> is the preferred tool for developers because it allows you to <strong>switch between Node.js versions</strong> without affecting your system-wide (global) installation.</p>
+<p>This is especially useful when working on <strong>multiple projects</strong> that require different Node versions.</p>
+</blockquote>
+<ol>
+<li><strong>Install NVM</strong>
+Run the following command:</li>
+</ol>
+<pre class="hljs"><code><div>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+</div></code></pre>
+<p>In your terminal, you'll see a message like this:</p>
+<pre class="hljs"><code><div>=&gt; =&gt; Compressing and cleaning up git repository
+
+=&gt; nvm <span class="hljs-built_in">source</span> string already <span class="hljs-keyword">in</span> /home/labber/.bashrc
+=&gt; bash_completion <span class="hljs-built_in">source</span> string already <span class="hljs-keyword">in</span> /home/labber/.bashrc
+=&gt; Close and reopen your terminal to start using nvm or run the following to use it now:
+
+<span class="hljs-built_in">export</span> NVM_DIR=<span class="hljs-string">"<span class="hljs-variable">$HOME</span>/.nvm"</span>
+[ -s <span class="hljs-string">"<span class="hljs-variable">$NVM_DIR</span>/nvm.sh"</span> ] &amp;&amp; \. <span class="hljs-string">"<span class="hljs-variable">$NVM_DIR</span>/nvm.sh"</span>  <span class="hljs-comment"># This loads nvm</span>
+[ -s <span class="hljs-string">"<span class="hljs-variable">$NVM_DIR</span>/bash_completion"</span> ] &amp;&amp; \. <span class="hljs-string">"<span class="hljs-variable">$NVM_DIR</span>/bash_completion"</span>  <span class="hljs-comment"># This loads nvm bash_completion</span>
+</div></code></pre>
+<p><strong>Restart your terminal or run:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-built_in">source</span> ~/.bashrc
+</div></code></pre>
+<blockquote>
+<p>⚠️ <strong>Warning:</strong> This command downloads and runs a script from the internet. Only use official sources like the <a href="https://github.com/nvm-sh/nvm">NVM GitHub</a>. You can inspect the script <a href="https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh">here</a> before running it.</p>
+</blockquote>
+<ol start="2">
+<li><strong>Install Node.js with NVM:</strong>
+Install the latest <a href="https://nodejs.org/en/blog/release/v20.9.0">Long Term Support</a> (LTS) version of Node.js:</li>
+</ol>
+<pre class="hljs"><code><div>nvm install --lts
+</div></code></pre>
+<pre class="hljs"><code><div>nvm use --lts
+</div></code></pre>
+<ol start="3">
+<li><strong>Choose any other Node.js version</strong></li>
+</ol>
+<p>To view the list of available versions, run:</p>
+<pre class="hljs"><code><div>nvm list-remote
+</div></code></pre>
+<p>Example output</p>
+<pre class="hljs"><code><div>        v22.4.1
+        v22.5.0
+        v22.5.1
+        v22.6.0
+        v22.7.0
+        v22.8.0
+        v22.9.0
+        v22.10.0
+        v22.11.0   (LTS: Jod)
+        v22.12.0   (LTS: Jod)
+        v22.13.0   (LTS: Jod)
+        v22.13.1   (LTS: Jod)
+-&gt;      v22.14.0   (Latest LTS: Jod)
+        v23.0.0
+        v23.1.0
+        v23.2.0
+        v23.3.0
+        v23.4.0
+</div></code></pre>
+<p>Choose the version and install it:</p>
+<pre class="hljs"><code><div>nvm install v18.20.0
+</div></code></pre>
+<p>View the list of your installed Node.js versions:</p>
+<pre class="hljs"><code><div>nvm list
+</div></code></pre>
+<pre class="hljs"><code><div>       v18.20.0
+-&gt;     v19.9.0
+       v22.14.0
+default -&gt; lts/* (-&gt; v22.14.0)
+iojs -&gt; N/A (default)
+unstable -&gt; N/A (default)
+node -&gt; stable (-&gt; v22.14.0) (default)
+stable -&gt; 22.14 (-&gt; v22.14.0) (default)
+</div></code></pre>
+<p>The current version is marked with an arrow sign <strong>-&gt;</strong>, occasionally followed by some name aliases.</p>
+<p>There are different aliases for the <a href="https://nodejs.org/en/about/previous-releases">long-term support releases</a>:</p>
+<pre class="hljs"><code><div>lts/* -&gt; lts/hydrogen (-&gt; N/A)
+lts/argon -&gt; v4.9.1 (-&gt; N/A)
+lts/boron -&gt; v6.17.1 (-&gt; N/A)
+lts/carbon -&gt; v8.17.0 (-&gt; N/A)
+lts/dubnium -&gt; v10.24.1 (-&gt; N/A)
+lts/erbium -&gt; v12.22.12 (-&gt; N/A)
+lts/fermium -&gt; v14.21.2
+lts/gallium -&gt; v16.19.0 (-&gt; N/A)
+lts/hydrogen -&gt; v18.13.0 (-&gt; N/A)
+</div></code></pre>
+<p>You can install Node.js versions based on aliases as well. For example, to install the latest long-term support version, <strong>Jod</strong>, run this command:</p>
+<pre class="hljs"><code><div>nvm install lts/jod
+</div></code></pre>
+<pre class="hljs"><code><div>Downloading and installing node v22.14.0...
+. . .
+Now using node v22.14.0 (npm v10.9.2)
+</div></code></pre>
+<p>You can switch any other version, using <code>nvm use</code>:</p>
+<pre class="hljs"><code><div>nvm use v18.20.0
+</div></code></pre>
+<pre class="hljs"><code><div>Now using node v18.20.0 (npm v10.5.0)
+</div></code></pre>
+<h2 id="option-3---install-using-nodesource-ppa"><strong>Option 3 - Install Using <a href="https://github.com/nodesource/distributions/blob/master/README.md">NodeSource PPA</a></strong></h2>
+<p>If you need a different version of Node.js, use a PPA (personal package archive) developed by NodeSource. PPAs have more available versions than default Ubuntu repositories. Node.js v20.x is available as of April 2025</p>
+<ol>
+<li>
+<p><strong>Choose your version</strong>
+Decide what version you want. For example, if you want Node.js 18.x, you'll use <code>setup_18.x</code>.</p>
+</li>
+<li>
+<p><strong>Download the setup script</strong>
+Run the following command to download the setup script:</p>
+</li>
+</ol>
+<pre class="hljs"><code><div><span class="hljs-built_in">cd</span> ~
+curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
+</div></code></pre>
+<ol start="3">
+<li><strong>(Optional) Check the script</strong>
+Check the contents of the script before running it.</li>
+</ol>
+<pre class="hljs"><code><div>nano nodesource_setup.sh
+</div></code></pre>
+<p>You will see:</p>
+<pre class="hljs"><code><div>Logger Function
+<span class="hljs-function"><span class="hljs-title">log</span></span>() {
+  <span class="hljs-built_in">local</span> message=<span class="hljs-string">"<span class="hljs-variable">$1</span>"</span>
+  <span class="hljs-built_in">local</span> <span class="hljs-built_in">type</span>=<span class="hljs-string">"<span class="hljs-variable">$2</span>"</span>
+  <span class="hljs-built_in">local</span> timestamp=$(date <span class="hljs-string">'+%Y-%m-%d %H:%M:%S'</span>)
+  <span class="hljs-built_in">local</span> color
+  <span class="hljs-built_in">local</span> endcolor=<span class="hljs-string">"\033[0m"</span>
+
+  <span class="hljs-keyword">case</span> <span class="hljs-string">"<span class="hljs-variable">$type</span>"</span> <span class="hljs-keyword">in</span>
+    <span class="hljs-string">"info"</span>) color=<span class="hljs-string">"\033[38;5;79m"</span> ;;
+    <span class="hljs-string">"success"</span>) color=<span class="hljs-string">"\033[1;32m"</span> ;;
+    <span class="hljs-string">"error"</span>) color=<span class="hljs-string">"\033[1;31m"</span> ;;
+    *) color=<span class="hljs-string">"\033[1;34m"</span> ;;
+  <span class="hljs-keyword">esac</span>
+</div></code></pre>
+<p>Press Ctrl + X to exit.</p>
+<ol start="4">
+<li><strong>Run the setup script</strong>
+Execute the setup script:</li>
+</ol>
+<pre class="hljs"><code><div>sudo bash nodesource_setup.sh
+</div></code></pre>
+<ol start="5">
+<li><strong>Install Node.js + npm</strong>
+Next, install Node.js:</li>
+</ol>
+<pre class="hljs"><code><div>sudo apt install nodejs -y
+</div></code></pre>
+<ol start="6">
+<li><strong>Verify installation</strong>
+Check that Node.js and npm are installed:</li>
+</ol>
+<pre class="hljs"><code><div>node -v
+npm -v
+</div></code></pre>
+<p>Output:</p>
+<pre class="hljs"><code><div>v18.x.x
+</div></code></pre>
+<blockquote>
+<p>✅ <strong>Success!</strong> You have successfully installed Node.js and npm. Try building your first CLI app, install a popular framework like Express.js, or explore npm packages to extend your project.</p>
+</blockquote>
+<h2 id="visual-summary---nodejs-installation-methods"><strong>Visual Summary - Node.js Installation Methods</strong></h2>
+<p>The diagram below provides a quick overview of the three different ways to install Node.js and npm on Ubuntu:</p>
+<p><img src="file:///home/labber/lighthouse/others/writing/media/node_npm_ubuntu.png" alt="node_npm_ubuntu"></p>
+<h2 id="which-method-should-i-use"><strong>Which method should I Use?</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Best for...</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Apt (Option 1)</strong></td>
+<td>Beginners, simple installs</td>
+<td>May not have the latest version</td>
+</tr>
+<tr>
+<td><strong>NVM (Option 2)</strong></td>
+<td>Developers who need multiple Node versions</td>
+<td>Lightweight and flexible</td>
+</tr>
+<tr>
+<td><strong>NodeSource (Opt 3)</strong></td>
+<td>Specific versions without using NVM</td>
+<td>Good for controlled version installs</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>💡 <strong>Tip:</strong> Only use <strong>one installation method</strong> at a time. If you mix <code>apt</code>, <code>nvm</code>, and <code>nodesource</code>, you might run into version conflicts.</p>
+</blockquote>
+<ul>
+<li>To remove previous installs:</li>
+</ul>
+<pre class="hljs"><code><div>  sudo apt remove nodejs npm
+</div></code></pre>
+<h2 id="next-steps">Next Steps</h2>
+<p>Now that you have Node.js and npm installed, try:</p>
+<ul>
+<li>
+<p>Creating your first Node.js script: <code>hello.js</code></p>
+</li>
+<li>
+<p>Installing Express: <code>npm install express</code></p>
+</li>
+<li>
+<p>Exploring npm packages: <a href="https://www.npmjs.com/">npmjs.com</a></p>
+</li>
+<li>
+<p>Creating a CLI tool or a REST API</p>
+</li>
+</ul>
+<p>Happy coding! 🚀</p>
+<hr>
+<h1 id="get-started-with-nasas-api">Get Started with NASA’s API</h1>
+<h2 id="overview">Overview</h2>
+<p>NASA's <a href="https://en.wikipedia.org/wiki/Astronomy_Picture_of_the_Day">Astronomy Picture of the Day</a> (APOD) shares a new space-related image every day, each accompanied by a short explanation from a NASA astronomer. This documentation guides developers through the process of obtaining an API Key, making requests to the APOD API, and handling the JSON response to get the media content.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#obtaining-an-api-key">Obtaining-an-api-key</a></li>
+<li><a href="#making-api-requests">Making API Requests</a></li>
+<li><a href="#handling-api-responses">Handling API Responses</a></li>
+<li><a href="#optional-url-parameters">Optional URL Parameters</a></li>
+<li><a href="#code-examples">Code Examples</a></li>
+<li><a href="#use-cases">Use Cases</a></li>
+<li><a href="#troubleshooting">Troubleshooting</a></li>
+<li><a href="#reference">Reference</a></li>
+</ol>
+<hr>
+<p>Before diving into the tutorial, here’s a quick visual preview of what you can build with the APOD API.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APOD Example</title>
+</head></html>  <!-- ✅ Your CSS goes here -->
+  <style>
+    .apod h2 {
+      text-align: center;
+      font-weight: bold;
+    }
+    .apod {
+      border: 1px solid #ccc;
+      padding: 1em;
+      margin: 1em 0;
+      background:rgb(95, 137, 175);
+      border-radius: 10px;
+    }
+
+    .apod img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 8px;
+    }
+
+    .apod-description {
+      margin-top: 1em;
+      font-size: 1.05rem;
+    }
+
+    .apod-facts ul {
+      list-style-type: square;
+      padding-left: 1.5em;
+    }
+
+    .apod-note {
+      margin-top: 1em;
+      background: #e3f2fd;
+      padding: 0.75em;
+      border-left: 5px solid #2196f3;
+      border-radius: 6px;
+      font-style: italic;
+    }
+  </style>
+
+<body>
+  <!-- Your APOD content -->
+  <section class="apod">
+    <h2>UGC 1810: Wildly Interacting Galaxy from Hubble</h2>
+    <img src="https://apod.nasa.gov/apod/image/2506/VeilWide_Alharbi_960.jpg" alt="Galaxy">
+        <section class="apod-facts">
+      <ul>
+        <li><strong>Title:</strong> Veil Nebula: Wisps of an Ancient Supernova</li>
+        <li><strong>Date:</strong> 2025-06-02</li>
+      </ul>
+    </section>
+    <section class="apod-description">
+      <p>Wisps like this are all that remain visible of a Milky Way star.  About 7,000 years ago that star exploded in a supernova, leaving the Veil Nebula.  At the time, the expanding cloud was likely as bright as a crescent Moon, remaining visible for weeks to people living at the dawn of recorded history.  Today, the resulting supernova remnant, also known as the Cygnus Loop, has faded and is now visible only through a small telescope directed toward the constellation of the Swan (Cygnus).  The remaining Veil Nebula is physically huge, however, and even though it lies about 1,400 light-years distant, it covers over five times the size of the full Moon.  The featured picture was taken in Kuwait in mid-2024 and features light emitted by hydrogen in red and oxygen in blue.  In deep images of the complete Veil Nebula like this, even studious readers might not be able to identify the iconic filaments.   Piece it All Together: Astronomy Puzzle of the Day.</p>
+    </section>
+  </section>
+</body>
+
+<blockquote>
+<p>💡NOTE: This simple HTML page dynamically fetches and displays the Astronomy Picture of the Day using JavaScript.</p>
+</blockquote>
+<hr>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>To get started with the APOD API, make sure you have:</p>
+<ul>
+<li>Basic knowledge of JavaScript and HTML</li>
+<li>A code editor (e.g., <a href="https://code.visualstudio.com/">Visual Studio Code</a>)</li>
+<li><a href="https://www.postman.com/">Postman</a> API testing tool</li>
+</ul>
+<h2 id="obtaining-an-api-key">Obtaining an API Key</h2>
+<p>To access NASA's APIs:</p>
+<ol>
+<li>Navigate to <a href="https://api.nasa.gov/">NASA APIs</a></li>
+<li>Fill out the registration form with your first name, last name, and email address.</li>
+<li>Submit the form to receive an email with your unique API Key.</li>
+</ol>
+<blockquote>
+<p>💡NOTE: NASA's demo API Key is limited to 30 requests per IP address per hour or 50 requests per IP address per day. For increased limits, register for a free API Key.</p>
+</blockquote>
+<h2 id="making-api-requests">Making API Requests</h2>
+<p>The basic APOD API endpoint:</p>
+<pre class="hljs"><code><div>https://api.nasa.gov/planetary/apod?api_key=<span class="hljs-variable">${YOUR_API_KEY}</span>
+</div></code></pre>
+<p>Replace YOUR_API_KEY with your API key (or use <code>DEMO_KEY</code> for limited testing).</p>
+<h3 id="javascript-fetch-api">JavaScript (Fetch API):</h3>
+<pre class="hljs"><code><div><span class="hljs-keyword">const</span> apiKey = <span class="hljs-string">'YOUR_API_KEY'</span>;
+<span class="hljs-keyword">const</span> url = <span class="hljs-string">`https://api.nasa.gov/planetary/apod?api_key=<span class="hljs-subst">${apiKey}</span>`</span>;
+
+fetch(url)
+  .then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.json())
+  .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+  <span class="hljs-built_in">console</span>.log(data);
+  })
+  .catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {
+    <span class="hljs-built_in">console</span>.error(<span class="hljs-string">'Error fetching APOD:'</span>, error);
+  });
+</div></code></pre>
+<p>This snippet uses the <strong>Fetch API</strong> to send a GET request and log the JSON response to the console.</p>
+<h3 id="test-with-postman">Test with Postman</h3>
+<p>To manually test the API using <a href="https://www.postman.com/">Postman</a>, follow these steps:</p>
+<ol>
+<li>Open Postman and start a new tab</li>
+<li>Select the <code>GET</code> type request.</li>
+<li>Paste your request URL:</li>
+</ol>
+<pre class="hljs"><code><div>https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY
+</div></code></pre>
+<ol start="4">
+<li>Click <strong>Send</strong></li>
+<li>Receive the JSON response</li>
+</ol>
+<h2 id="handling-api-responses">Handling API Responses</h2>
+<p>When <strong>successful</strong>, the APOD API returns a JSON object that includes the image or video of the day, its metadata, and a written description.</p>
+<details>
+<summary>Click to view sample JSON response example</summary>
+</details><pre class="hljs"><code><div>{
+  <span class="hljs-attr">"copyright"</span>: <span class="hljs-string">"\nTaavi Niittee  \n(Tõrva Astronomy Club) \n"</span>,
+  <span class="hljs-attr">"date"</span>: <span class="hljs-string">"2025-04-16"</span>,
+  <span class="hljs-attr">"explanation"</span>: <span class="hljs-string">"What created the unusual halo around the Cat's Eye Nebula? No one is sure..."</span>,
+  <span class="hljs-attr">"hdurl"</span>: <span class="hljs-string">"https://apod.nasa.gov/apod/image/2504/CatsEyeWide_Niittee_960.jpg"</span>,
+  <span class="hljs-attr">"media_type"</span>: <span class="hljs-string">"image"</span>,
+  <span class="hljs-attr">"service_version"</span>: <span class="hljs-string">"v1"</span>,
+  <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Halo of the Cat's Eye"</span>,
+  <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://apod.nasa.gov/apod/image/2504/CatsEyeWide_Niittee_960.jpg"</span>,
+  ...
+}
+</div></code></pre>
+
+<h3 id="response-fields">Response fields</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>Title of the image or video.</td>
+</tr>
+<tr>
+<td><code>date</code></td>
+<td>Date of the APOD in <code>YYYY-MM-DD</code> format.</td>
+</tr>
+<tr>
+<td><code>explanation</code></td>
+<td>Description written by a NASA astronomer.</td>
+</tr>
+<tr>
+<td><code>media_type</code></td>
+<td>Either <code>image</code> or <code>video</code>.</td>
+</tr>
+<tr>
+<td><code>url</code></td>
+<td>Link to the image or video.</td>
+</tr>
+<tr>
+<td><code>hdurl</code></td>
+<td>High-definition image URL (if available).</td>
+</tr>
+<tr>
+<td><code>thumbnail_url</code></td>
+<td>URL of the video thumbnail (if <code>thumbs=true</code> and media is a video).</td>
+</tr>
+<tr>
+<td><code>copyright</code></td>
+<td>Name of the media's copyright holder.</td>
+</tr>
+<tr>
+<td><code>service_version</code></td>
+<td>Version of the API.</td>
+</tr>
+<tr>
+<td><code>concept_tags</code></td>
+<td>Indicates if concept tags were requested.</td>
+</tr>
+<tr>
+<td><code>concepts</code></td>
+<td>Array of relevant concept tags (if <code>concept_tags=true</code>).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="optional-url-parameters">Optional URL Parameters</h3>
+<p>Customize your request with the following URL query parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>date</code></td>
+<td>string</td>
+<td>Specific date in <code>YYYY-MM-DD</code> format. Cannot be used with <code>count</code>.</td>
+</tr>
+<tr>
+<td><code>start_date</code></td>
+<td>string</td>
+<td>Start of a date range. Returns multiple results.</td>
+</tr>
+<tr>
+<td><code>end_date</code></td>
+<td>string</td>
+<td>End of a date range (optional). Defaults to today if omitted.</td>
+</tr>
+<tr>
+<td><code>count</code></td>
+<td>int</td>
+<td>Returns a random list of images. Max: 100. Cannot be used with <code>date</code>.</td>
+</tr>
+<tr>
+<td><code>thumbs</code></td>
+<td>bool</td>
+<td>If true, returns a video thumbnail (only applies to video media).</td>
+</tr>
+<tr>
+<td><code>api_key</code></td>
+<td>string</td>
+<td>api.nasa.gov key for personal usage.</td>
+</tr>
+</tbody>
+</table>
+<p>Examples:</p>
+<pre class="hljs"><code><div>https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY&amp;date=2024-10-01&amp;concept_tags=<span class="hljs-literal">true</span>
+</div></code></pre>
+<h2 id="code-examples">Code Examples</h2>
+<p>You can build a similar sample page as you saw at the beginning of the article using the JavaScript or Python code below. Try customizing the layout or styling to match your needs!</p>
+<blockquote>
+<p>💡NOTE: Use <strong>JavaScript</strong> for client-side web applications, or <strong>Python</strong> for backend scripts and data processing.</p>
+</blockquote>
+<hr>
+<h3 id="javascript-example-client-side-web-app">JavaScript Example: Client-Side Web App</h3>
+<pre class="hljs"><code><div><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>NASA APOD Viewer<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>NASA Astronomy Picture of the Day<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"apod"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">const</span> apiKey = <span class="hljs-string">'YOUR_API_KEY'</span>;  <span class="hljs-comment">// Replace with your API key</span>
+    <span class="hljs-keyword">const</span> url = <span class="hljs-string">`https://api.nasa.gov/planetary/apod?api_key=<span class="hljs-subst">${apiKey}</span>`</span>;
+
+    fetch(url)
+      .then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.json())
+      .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+        <span class="hljs-keyword">const</span> container = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'apod'</span>);
+        container.innerHTML = <span class="hljs-string">`
+          &lt;h2&gt;<span class="hljs-subst">${data.title}</span>&lt;/h2&gt;
+          &lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; <span class="hljs-subst">${data.date}</span>&lt;/p&gt;
+          &lt;img src="<span class="hljs-subst">${data.url}</span>" alt="<span class="hljs-subst">${data.title}</span>" width="600"&gt;
+          &lt;p&gt;<span class="hljs-subst">${data.explanation}</span>&lt;/p&gt;
+        `</span>;
+      })
+      .catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {
+        <span class="hljs-built_in">console</span>.error(<span class="hljs-string">'Error fetching APOD:'</span>, error);
+      });
+  </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</div></code></pre>
+<h3 id="python-example-backend-script">Python Example: Backend Script</h3>
+<pre class="hljs"><code><div><span class="hljs-keyword">import</span> requests
+
+API_KEY = <span class="hljs-string">"YOUR_API_KEY"</span>  <span class="hljs-comment"># Replace with your API key</span>
+url = <span class="hljs-string">f"https://api.nasa.gov/planetary/apod?api_key=<span class="hljs-subst">{API_KEY}</span>"</span>
+
+response = requests.get(url)  <span class="hljs-comment"># Send the GET request to NASA's APOD API</span>
+
+<span class="hljs-keyword">if</span> response.status_code == <span class="hljs-number">200</span>:
+    data = response.json()
+    print(<span class="hljs-string">"Title:"</span>, data[<span class="hljs-string">"title"</span>])
+    print(<span class="hljs-string">"Date:"</span>, data[<span class="hljs-string">"date"</span>])
+    print(<span class="hljs-string">"URL:"</span>, data[<span class="hljs-string">"url"</span>])
+    print(<span class="hljs-string">"Explanation:"</span>, data[<span class="hljs-string">"explanation"</span>])
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">"Failed to retrieve data. Status code:"</span>, response.status_code)
+</div></code></pre>
+<h2 id="use-cases">Use Cases</h2>
+<p>NASA's APOD API can be used in a variety of projects. Here are some ideas:</p>
+<ol>
+<li>
+<p>Daily Image Website
+Build a personal or public site that displays the Astronomy Picture of the Day. Use HTML/CSS/JavaScript to fetch and update the content daily via the API.</p>
+</li>
+<li>
+<p>Desktop Widget or Wallpaper Rotator
+Use the API to fetch a new image each day and set it as your desktop wallpaper (using Python with pywallpaper or platform-specific tools).</p>
+</li>
+<li>
+<p>Mobile App
+Integrate APOD into a mobile app using frameworks like React Native or Flutter, displaying daily space content in a beautiful layout.</p>
+</li>
+<li>
+<p>Classroom/Education Tool
+Use it to introduce astronomy in educational settings. Create an interactive gallery or timeline with daily images, explanations, and media types.</p>
+</li>
+<li>
+<p>AI/ML Projects
+Use the image metadata and explanations to build a dataset for natural language processing, concept extraction, or image classification.</p>
+</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>If you're experiencing issues with the APOD API, here are some common problems and their solutions:</p>
+<p><strong>API Key Errors:</strong></p>
+<ul>
+<li>Problem: “API_KEY_INVALID” or similar message</li>
+<li>Solution: Double-check you copied your API Key correctly and didn’t accidentally include spaces or quotes.</li>
+</ul>
+<br>
+<p><strong>Rate Limit Exceeded</strong></p>
+<ul>
+<li>Problem: You hit the demo key’s rate limit.</li>
+<li>Solution: Register for a free API Key to unlock more requests (30 requests per hour with a demo key vs. higher limits with a registered key).</li>
+</ul>
+<br>
+<p><strong>Invalid Date Format</strong></p>
+<ul>
+<li>Problem: <code>date</code> parameter returns an error.</li>
+<li>Solution: Make sure the format is <code>YYYY-MM-DD</code>. Avoid dates before June 1995, when APOD started.</li>
+</ul>
+<br>
+<p><strong>Empty or Incomplete Response</strong></p>
+<ul>
+<li>Problem: The JSON response is missing fields like <code>hdurl</code>.</li>
+<li>Solution: Not all images have HD versions. Check <code>media_type</code> and use fallbacks where needed.</li>
+</ul>
+<br>
+<p><strong>Video Handling</strong></p>
+<ul>
+<li>Problem: Trying to display a video as an image.</li>
+<li>Solution: If <code>media_type</code> is <code>&quot;video&quot;</code>, use an <code>&lt;iframe&gt;</code> instead of <code>&lt;img&gt;</code>, or request the <code>thumbnail_url</code> with <code>thumbs=true</code>.</li>
+</ul>
+<p><strong>Example:</strong> Handling Media Types in JS</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">if</span> (data.media_type === <span class="hljs-string">"image"</span>) {
+  <span class="hljs-built_in">document</span>.body.innerHTML += <span class="hljs-string">`&lt;img src="<span class="hljs-subst">${data.url}</span>" width="600"&gt;`</span>;
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (data.media_type === <span class="hljs-string">"video"</span>) {
+  <span class="hljs-built_in">document</span>.body.innerHTML += <span class="hljs-string">`&lt;iframe width="600" src="<span class="hljs-subst">${data.url}</span>" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;`</span>;
+}
+</div></code></pre>
+<h2 id="reference">Reference</h2>
+<p><strong>GitHub APOD API Documentation</strong>: <a href="https://github.com/nasa/apod-api">https://github.com/nasa/apod-api</a></p>
+
+</body>
+</html>
