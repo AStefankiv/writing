@@ -1,3 +1,14 @@
+# 📚 Table of Contents
+
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Option 1 - Install via APT](#option-1---install-via-apt-from-ubuntu-repositories-beginner-friendly)
+- [Option 2 - Install Using NVM](#option-2---install-using-node-version-manager-nvm)
+- [Option 3 - Install Using NodeSource PPA](#option-3---install-using-nodesource-ppa)
+- [Which method should I Use?](#which-method-should-i-use)
+- [Next Steps](#next-steps)
+
+
 # **Install and Configure Node.js + npm on Ubuntu 20.04: Step-by-step Guide**
 ## **Introduction**
 
@@ -10,7 +21,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 This ensures your system has the latest version of packages.
 
-## **Option 1 – Install via APT from Ubuntu Repositories (Beginner-Friendly)**
+## **Option 1 - Install via APT from Ubuntu Repositories (Beginner-Friendly)**
 This is the most popular way to get the latest version of Node.js and npm.
 
 1. **Install Node.js and npm**
