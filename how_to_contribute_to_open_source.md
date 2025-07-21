@@ -19,14 +19,19 @@ Besides leaving your name in the project forever, contributing to open source is
 
 Whether you're fixing typos, writing documentation, or adding features—every contribution counts. Open source isn’t just about code; it’s about community.
 
-## Where to Find Beginner-Friendly Repos? (links, Narrow down your options)
+## Where to Find Beginner-Friendly Projects?
 
-Going to [GitLab](https://about.gitlab.com/) and searching from there may be overwhelming.
+Jumping into open source can feel overwhelming at first—especially if you're staring at thousands of unfamiliar projects on GitHub or GitLab. But don’t worry: there are some great websites designed to help beginners like you find the right place to start.
 
-If you are a beginner, start with the websites:
-- [First Contributions](https://firstcontributions.github.io/) – has some of the easiest issues to fix, that is to say aims at first-time GitHub contributors. It also includes a guided tutorial.
-- [Up For Grabs](https://up-for-grabs.net/) – filters projects by tags like `documentation`, `beginner-friendly`, and `good-first-issue` and programming languages or project names.
-- [Good First Issue](https://goodfirstissue.dev/) – aggregates issues from GitHub that are tagged with `good first issue`.
+Here are a few go-to platforms where you can find beginner-friendly repositories, especially ones that welcome help with documentation, typos, or simple code fixes:
+- [First Contributions](https://firstcontributions.github.io/)
+This is one of the best places to start. It includes a step-by-step tutorial on how to contribute, and lists projects that are beginner-friendly. Many of them welcome documentation contributions.
+- [Up For Grabs](https://up-for-grabs.net/)
+A searchable database of projects that need help. You can filter by tags like `documentation`, `good first issue`, or your preferred programming language.
+- [Good First Issue](https://goodfirstissue.dev/)
+This site curates open GitHub issues labeled `good first issue`. These are usually well-scoped tasks with clear instructions—perfect for getting your feet wet.
+
+Once you find a project that interests you—whether it's in ed tech, healthcare, climate data, or even developer tools—spend a few minutes browsing its README. Does the project excite you? Do you understand its purpose? If yes, that’s a great sign.
 
 ## Anatomy of Open Source Projects
 ## Forking, Cloning, Branches, and Pull Requests
