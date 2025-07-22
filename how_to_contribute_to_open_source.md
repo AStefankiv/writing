@@ -34,7 +34,49 @@ This site curates open GitHub issues labeled `good first issue`. These are usual
 Once you find a project that interests you—whether it's in ed tech, healthcare, climate data, or even developer tools—spend a few minutes browsing its README. Does the project excite you? Do you understand its purpose? If yes, that’s a great sign.
 
 ## Anatomy of Open Source Projects
+
+Jumping into an open source project can sometimes feel overwhelming. Each project has it's contribution guide, markdown style, and structure.
+
+Luckily, most open source projects share some common things:
+- README.md
+
+What it is: The front door of the project.
+Purpose: Explains what the project does, how to install and use it, and sometimes how to contribute.
+Why it matters: If you don’t understand the README, it may not be the right project for you (yet).
+> **Tip**: Read this file carefully—it’s often your first guide to the project.
+
+- CONTRIBUTING.md (also "Contributor's guide", "How to contribute", "Development" etc.)
+
+What it is: A guide for contributors (like you).
+Purpose: Tells you how to set up the project, submit issues, create pull requests (PRs), and follow coding/documentation standards.
+Why it matters: Every project has different expectations. Reading this avoids accidental mistakes.
+> **Tip**: Look for things like coding style rules, required tools, or review processes.
+
+- `ISSUE` Tracker
+
+Where it is: On GitHub under the “Issues” tab.
+Purpose: A list of bugs, feature requests, and other tasks that need to be done.
+Why it matters: This is where you’ll often find beginner-friendly issues labeled like `good first issue` or `help wanted`.
+> **Tip**: Comment on an issue before working on it—many maintainers expect this.
+
+- PULL REQUESTS
+
+Where it is: On GitHub under the “Pull Requests” tab.
+Purpose: This is where contributors propose changes to the project.
+Why it matters: Your contribution won’t be added automatically—you submit a PR and wait for review.
+> **Tip**: Be polite, write clear descriptions, and be open to feedback. It’s part of the process.
+
+- LICENSE
+
+What it is: A file that tells you how the project can be used or reused.
+Purpose: Explains your legal rights to use, modify, and distribute the code.
+Why it matters: Some licenses are very open (like MIT), while others have restrictions.
+> **Tip**: You don’t need to be a lawyer—but knowing whether something is “free to use” is essential.
+
 ## Forking, Cloning, Branches, and Pull Requests
+
+If you happen to see a mistake or would like to add or edit information in someone's book, you don't edit the original book—you copy your own first, work on it, then suggest your changes. The same . . .
+
 ## Writing Meaningful Commit Messages
 ## Commit Git/GitHub Workflows
 ## How to Write Good Documentation as a Contributor
