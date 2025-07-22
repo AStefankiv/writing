@@ -75,7 +75,27 @@ Why it matters: Some licenses are very open (like MIT), while others have restri
 
 ## Forking, Cloning, Branches, and Pull Requests
 
-If you happen to see a mistake or would like to add or edit information in someone's book, you don't edit the original book—you copy your own first, work on it, then suggest your changes. The same . . .
+If you happen to see a mistake or would like to add or edit information in someone's book, you don't edit the original book—you copy your own first, work on it, then suggest your changes. The same applies to open source projects.
+
+After you found the project you want to edit, follow the steps below:
+
+1) Forking. It's an essential first step, which creates a personal copy of the project under your GitHub account. You can't push directly to someone else's project.
+
+Click the 'Fork' button to create a personal copy under your Github account.
+![open_source_fork_button](./media/open_source_fork.png)
+
+It will lead you to the next page with the same URL + `/fork` extension. Click 'Create fork'
+![open_source_create_fork](./media/open_source_create_fork.png)
+Now you have your own copy of the open source project.
+
+2) Cloning is copying the repo from GitHub to your local machine(computer). This step is strongly recommended, as it's much more convenient to edit the files from a code editor, such as VSCode, rather than directly in GitHub.
+
+In your terminal, run ` git clone https://github.com/your-username/project-name.git`
+> **Tip**: Don't forget to replace 'project-name.git' with the real project name.
+
+After cloning, run `cd project-name` to access the local repo.
+
+3) Why and How to Create a Branch
 
 ## Writing Meaningful Commit Messages
 ## Commit Git/GitHub Workflows
