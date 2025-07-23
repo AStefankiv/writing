@@ -75,13 +75,13 @@ Why it matters: Some licenses are very open (like MIT), while others have restri
 
 ## Forking, Cloning, Branches, and Pull Requests
 
-If you happen to see a mistake or would like to add or edit information in someone's book, you don't edit the original book—you copy your own first, work on it, then suggest your changes. The same applies to open source projects.
+If you happen to see a mistake or would like to add or edit information in someone's book, you don't edit the original book—you make your own copy first, work on it, then suggest your changes. The same applies to open source projects.
 
 After you found the project you want to edit, follow the steps below:
 
 1) Forking. It's an essential first step, which creates a personal copy of the project under your GitHub account. You can't push directly to someone else's project.
 
-Click the 'Fork' button to create a personal copy under your Github account.
+Go to the project you found. Click the 'Fork' button to create a personal copy under your Github account.
 ![open_source_fork_button](./media/open_source_fork.png)
 
 It will lead you to the next page with the same URL + `/fork` extension. Click 'Create fork'
@@ -96,6 +96,33 @@ In your terminal, run ` git clone https://github.com/your-username/project-name.
 After cloning, run `cd project-name` to access the local repo.
 
 3) Why and How to Create a Branch
+
+By default, each repository has a branch. The default repository branch name is 'main' or 'master'. *Never* work on those branches. Create demo branches and work there first. Then, merge them with the original branch.
+Think of it as your signature on an important original document, that you can't re-sign. First you create a copy of a document, practice your signature there, and when your signature finally looks perfect, you can sign the original document.
+
+- When you are in your project folder in terminal, run 'git branch' to reassure that you are on the 'main' or 'master' branch.
+- Run 'git checkout -b new_branch' to create and go to the 'new_branch'(or any other name) branch.
+- Make sure you are on the new branch and run 'git branch'
+- You are ready to make changes safely
+
+4) Make Your Changes (Locally)
+You can now find work on the issue you chose. After you made changes, save your changes on your newly-created branch.
+- Run `git add .` to add all the changes to your branch
+- Run `git commit -m "Describe your change"` to leave a commit message of what changes you made
+
+5) Push Your Branch Back to GitHub
+- Run `git push` to push your changes to your GitHub account.
+To check your commits on GitHub, go to https://github.com/your_user_name/your_project_name/commits/your_branch_name/ and you will see all the latest commits.
+
+6) Open a Pull Request (PR)
+
+Now it's time to demonstrate your changes to the original project maintainers. In your forked project, click "Compare & pull request".
+
+Each open source project has it's own requirements and contribution guide on how to open a pull request, but normally a good PR etiquette is:
+- Write a clean title and description.
+- Link to the issue (if any).
+- Be polite and open to feedback.
+> **Tip**: Reviewers might ask for changes—that's normal!
 
 ## Writing Meaningful Commit Messages
 ## Commit Git/GitHub Workflows
