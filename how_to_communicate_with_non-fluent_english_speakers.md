@@ -61,7 +61,7 @@ Even if your listener seems to understand, reinforce meaning by restating key po
 
 ## 🖼️ Support Your Message with Visuals or Writing
 Pair spoken language with visuals, gestures, or written words whenever possible. This helps bridge gaps in vocabulary or abstract ideas. If a word is hard to explain—like a specific animal, dish, or tool—look it up and show a picture. Visuals often communicate faster and more clearly than words.
-> **Example**: Instead of describing a “moose,” show a photo. Instead of explaining a dish like “borscht,” show it.
+> **Example**: Instead of describing a “moose”, show a photo. Instead of explaining a dish like “borscht,” show it.
 
 
 ---

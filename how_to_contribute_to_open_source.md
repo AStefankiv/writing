@@ -2,7 +2,7 @@
 
 ## What is Open Source? (Definitions, examples with links, why contribute)
 
-Open source is source code or documentation that is made freely available for possible modification and redistribution(source: Wikipedia)—often hosted on platforms like [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/). To make it simple - anyone, who believes in collaboration, transparency and innovation, can contribute to open source projects to make a positive impact.
+Open source is source code or documentation that is made freely available for possible modification and redistribution (source: [Wikipedia](https://en.wikipedia.org/wiki/Open_source))—often hosted on platforms like [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/). Simply put, anyone who believes in collaboration, transparency, and innovation can contribute to open source projects to make a positive impact.
 
 You've probably used open-source tools without even realizing it! For example:
 - [Mozilla Firefox](https://github.com/mozilla-firefox/firefox) – an open-source web browser
@@ -35,10 +35,10 @@ Once you find a project that interests you—whether it's in ed tech, healthcare
 
 ## Anatomy of Open Source Projects
 
-Jumping into an open source project can sometimes feel overwhelming. Each project has it's contribution guide, markdown style, and structure.
+Jumping into an open source project can sometimes feel overwhelming. Each project typically has a contribution guide, markdown formatting rules, and a folder structure.
 
 Luckily, most open source projects share some common things:
-- README.md
+- `README.md`
 
 What it is: The front door of the project.
 Purpose: Explains what the project does, how to install and use it, and sometimes how to contribute.
@@ -79,54 +79,54 @@ If you happen to see a mistake or would like to add or edit information in someo
 
 After you found the project you want to edit, follow the steps below:
 
-1) Forking. It's an essential first step, which creates a personal copy of the project under your GitHub account. You can't push directly to someone else's project.
+### 1. Forking. It's an essential first step, which creates a personal copy of the project under your GitHub account. You can't push directly to someone else's project.
 
 Go to the project you found. Click the 'Fork' button to create a personal copy under your Github account.
 ![open_source_fork_button](./media/open_source_fork.png)
 
-It will lead you to the next page with the same URL + `/fork` extension. Click 'Create fork'
+It will lead you to the next page with the same URL + `/fork` extension. Click 'Create fork'.
 ![open_source_create_fork](./media/open_source_create_fork.png)
 Now you have your own copy of the open source project.
 
-2) Cloning is copying the repo from GitHub to your local machine(computer). This step is strongly recommended, as it's much more convenient to edit the files from a code editor, such as VSCode, rather than directly in GitHub.
+### 2. Cloning means copying the repository from GitHub to your local machine (your computer). This step is strongly recommended, as it's much more convenient to edit files in a code editor like VSCode than directly on GitHub.
 
 In your terminal, run ` git clone https://github.com/your-username/project-name.git`
 > **Tip**: Don't forget to replace 'project-name.git' with the real project name.
 
 After cloning, run `cd project-name` to access the local repo.
 
-3) Why and How to Create a Branch
+### 3. Why and How to Create a Branch
 
-By default, each repository has a branch. The default repository branch name is 'main' or 'master'. *Never* work on those branches. Create demo branches and work there first. Then, merge them with the original branch.
-Think of it as your signature on an important original document, that you can't re-sign. First you create a copy of a document, practice your signature there, and when your signature finally looks perfect, you can sign the original document.
+By default, each repository has a branch. The default repository branch name is `main` or `master`. *Never* work on those branches. Create demo branches and work there first. Then, merge them with the original branch.
+Think of it like signing an important  document—you wouldn't write directly on the original. Instead, you'd practice your signature on a copy first.
 
-- When you are in your project folder in terminal, run 'git branch' to reassure that you are on the 'main' or 'master' branch.
-- Run 'git checkout -b new_branch' to create and go to the 'new_branch'(or any other name) branch.
-- Make sure you are on the new branch and run 'git branch'
-- You are ready to make changes safely
+- When you are in your project folder in terminal, run `git branch` to confirm that you are currently on the `main` or `master` branch.
+- Run `git checkout -b new_branch` to create and switch to a new branch (you can name it anything you like, e.g., `fix-typo` or `add-footer`).
+- Make sure you are on the new branch and run `git branch`.
+- You are ready to make changes safely.
 
-4) Make Your Changes (Locally)
-You can now find work on the issue you chose. After you made changes, save your changes on your newly-created branch.
-- Run `git add .` to add all the changes to your branch
-- Run `git commit -m "Describe your change"` to leave a commit message of what changes you made
+### 4. Make Your Changes (Locally)
+Now you can start working on the issue you chose. After you made changes, save your changes to your newly-created branch.
+- Run `git add .` to add all the changes to your branch.
+- Run `git commit -m "Describe your change"` to leave a commit message of what changes you made.
 
-5) Push Your Branch Back to GitHub
+### 5. Push Your Branch Back to GitHub
 - Run `git push` to push your changes to your GitHub account.
-To check your commits on GitHub, go to https://github.com/your_user_name/your_project_name/commits/your_branch_name/ and you will see all the latest commits.
+To check your commits on GitHub, go to `https://github.com/your-username/your-project-name/commits/your-branch-name` and you will see all the latest commits.
 
-6) Open a Pull Request (PR)
+### 6. Open a Pull Request (PR)
 
-Now it's time to demonstrate your changes to the original project maintainers. In your forked project, click "Compare & pull request".
+Now it's time to propose your changes to the original project maintainers for review. In your forked project, click the green button "Compare & pull request" at the top.
 
-Each open source project has it's own requirements and contribution guide on how to open a pull request, but normally a good PR etiquette is:
+You will get redirected to the pull request message page, where you'll have to describe your latest changes. Make sure you push your changes from your `new_branch` to the project's `main` or `master` branch.
+
+## Writing Meaningful Commit Messages
+
+Each open source project has its own requirements and contribution guide on how to open a pull request, but normally a good PR etiquette is:
 - Write a clean title and description.
 - Link to the issue (if any).
 - Be polite and open to feedback.
 > **Tip**: Reviewers might ask for changes—that's normal!
 
-## Writing Meaningful Commit Messages
 ## Commit Git/GitHub Workflows
 ## How to Write Good Documentation as a Contributor
-
-## Source:
-https://en.wikipedia.org/wiki/Open_source
