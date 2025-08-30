@@ -26,7 +26,7 @@ Before diving into the tutorial, here’s a quick visual preview of what you can
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>APOD Example</title>
 
-  <!-- ✅ Your CSS goes here -->
+  <!-- ✅ CSS -->
   <style>
     .apod h2 {
       text-align: center;
@@ -71,22 +71,20 @@ Before diving into the tutorial, here’s a quick visual preview of what you can
 <body>
   <!-- Your APOD content -->
   <section class="apod">
-    <h2>UGC 1810: Wildly Interacting Galaxy from Hubble</h2>
-    <img src="https://apod.nasa.gov/apod/image/2506/VeilWide_Alharbi_960.jpg" alt="Galaxy" />
+    <h2>A Two Percent Moon</h2>
+    <img src="https://apod.nasa.gov/apod/image/2508/IMG_4081.jpeg" alt="Galaxy" />
         <section class="apod-facts">
       <ul>
-        <li><strong>Title:</strong> Veil Nebula: Wisps of an Ancient Supernova</li>
-        <li><strong>Date:</strong> 2025-06-02</li>
+        <li><strong>Title:</strong> A Two Percent Moon</li>
+        <li><strong>Date:</strong> 2025-08-30</li>
       </ul>
     </section>
     <section class="apod-description">
-      <p>Wisps like this are all that remain visible of a Milky Way star.  About 7,000 years ago that star exploded in a supernova, leaving the Veil Nebula.  At the time, the expanding cloud was likely as bright as a crescent Moon, remaining visible for weeks to people living at the dawn of recorded history.  Today, the resulting supernova remnant, also known as the Cygnus Loop, has faded and is now visible only through a small telescope directed toward the constellation of the Swan (Cygnus).  The remaining Veil Nebula is physically huge, however, and even though it lies about 1,400 light-years distant, it covers over five times the size of the full Moon.  The featured picture was taken in Kuwait in mid-2024 and features light emitted by hydrogen in red and oxygen in blue.  In deep images of the complete Veil Nebula like this, even studious readers might not be able to identify the iconic filaments.   Piece it All Together: Astronomy Puzzle of the Day.</p>
+      <p>A young crescent moon can be hard to see. That's because when the Moon shows it's crescent phase (young or old) it can never be far from the Sun in planet Earth's sky. And even though the sky is still bright, a slender sunlit lunar crescent is cleary visible in this early evening skyscape. The telephoto snapshot was captured on August 24, with the Moon very near the western horizon at sunset. Seen in a narrow crescent phase about 1.5 days old, the visible sunlit portion is a mere two percent of the surface of the Moon's familiar nearside. At the Canary Islands Space Centre, a steerable radio dish for communication with spacecraft is titled in the direction of the two percent Moon. The sunset sky's pastel pinkish coloring is partly due to fine sand and dust from the Sahara Desert blown by the prevailing winds.</p>
     </section>
   </section>
 </body>
 </html>
-
-
 
 > 💡NOTE: This simple HTML page dynamically fetches and displays the Astronomy Picture of the Day using JavaScript.
 

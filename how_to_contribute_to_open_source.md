@@ -122,7 +122,9 @@ You will get redirected to the pull request message page, where you'll have to d
 
 ## Writing Meaningful Commit Messages
 
-Each open source project has its own requirements and contribution guide on how to open a pull request, but normally a good PR etiquette is:
+Each open source project has its own requirements and contribution guide on how to open a pull request. As it was mentioned above, you can find the details on how to contribute in `CONTRIBUTING.md` (also "Contributor's guide", "How to contribute", "Development" etc.)
+
+Normally, a good PR etiquette is:
 - Write a clean title and description.
 - Link to the issue (if any).
 - Be polite and open to feedback.
