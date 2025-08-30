@@ -17,76 +17,18 @@ NASA's [Astronomy Picture of the Day](https://en.wikipedia.org/wiki/Astronomy_Pi
 
 ---
 
-Before diving into the tutorial, here’s a quick visual preview of what you can build with the APOD API.
+Before diving into the tutorial, here's a quick visual preview of what you can build with the APOD API.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>APOD Example</title>
+## Today's Astronomy Picture of the Day
 
-  <!-- ✅ CSS -->
-  <style>
-    .apod h2 {
-      text-align: center;
-      font-weight: bold;
-    }
-    .apod {
-      border: 1px solid #ccc;
-      padding: 1em;
-      margin: 1em 0;
-      background:rgb(95, 137, 175);
-      border-radius: 10px;
-    }
+### A Two Percent Moon
+![A Two Percent Moon](https://apod.nasa.gov/apod/image/2508/IMG_4081.jpeg)
 
-    .apod img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    border-radius: 8px;
-    }
+**Date:** 2025-08-30
 
-    .apod-description {
-      margin-top: 1em;
-      font-size: 1.05rem;
-    }
+A young crescent moon can be hard to see. That's because when the Moon shows it's crescent phase (young or old) it can never be far from the Sun in planet Earth's sky. And even though the sky is still bright, a slender sunlit lunar crescent is clearly visible in this early evening skyscape. The telephoto snapshot was captured on August 24, with the Moon very near the western horizon at sunset. Seen in a narrow crescent phase about 1.5 days old, the visible sunlit portion is a mere two percent of the surface of the Moon's familiar nearside. At the Canary Islands Space Centre, a steerable radio dish for communication with spacecraft is titled in the direction of the two percent Moon. The sunset sky's pastel pinkish coloring is partly due to fine sand and dust from the Sahara Desert blown by the prevailing winds.
 
-    .apod-facts ul {
-      list-style-type: square;
-      padding-left: 1.5em;
-    }
-
-    .apod-note {
-      margin-top: 1em;
-      background: #e3f2fd;
-      padding: 0.75em;
-      border-left: 5px solid #2196f3;
-      border-radius: 6px;
-      font-style: italic;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- Your APOD content -->
-  <section class="apod">
-    <h2>A Two Percent Moon</h2>
-    <img src="https://apod.nasa.gov/apod/image/2508/IMG_4081.jpeg" alt="Galaxy" />
-        <section class="apod-facts">
-      <ul>
-        <li><strong>Title:</strong> A Two Percent Moon</li>
-        <li><strong>Date:</strong> 2025-08-30</li>
-      </ul>
-    </section>
-    <section class="apod-description">
-      <p>A young crescent moon can be hard to see. That's because when the Moon shows it's crescent phase (young or old) it can never be far from the Sun in planet Earth's sky. And even though the sky is still bright, a slender sunlit lunar crescent is cleary visible in this early evening skyscape. The telephoto snapshot was captured on August 24, with the Moon very near the western horizon at sunset. Seen in a narrow crescent phase about 1.5 days old, the visible sunlit portion is a mere two percent of the surface of the Moon's familiar nearside. At the Canary Islands Space Centre, a steerable radio dish for communication with spacecraft is titled in the direction of the two percent Moon. The sunset sky's pastel pinkish coloring is partly due to fine sand and dust from the Sahara Desert blown by the prevailing winds.</p>
-    </section>
-  </section>
-</body>
-</html>
-
-> 💡NOTE: This simple HTML page dynamically fetches and displays the Astronomy Picture of the Day using JavaScript.
+> 💡NOTE: This example demonstrates how to fetch and display the Astronomy Picture of the Day using JavaScript.
 
 ---
 
