@@ -16,6 +16,8 @@ We live in an era where technology shapes almost every part of our daily lives. 
 
 This blog is for anyone curious about technology, digital marketing, research, or just understanding the web better. We'll explore how Google Search scans billions of web pages and decides which results to show. And if you’re not a tech expert, don’t worry—the infographic below breaks down each step of a Google search by comparing it to a librarian finding the right information in a library, making complex processes simple and visual.
 
+![google_search_infographic](./media/google_search_infographic.png)
+
 Infographic
 Upload the image of your infographic. Make sure the alt-text for the infographic image is your desired keyword. 
 What This Means For You (Optional)
