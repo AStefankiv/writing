@@ -4,10 +4,11 @@
 
 We live in an era where technology shapes almost every part of our daily lives. From smartphones to smart homes, advanced devices make things easier—but we rarely stop to ask how they actually work. Have you ever wondered what happens behind the scenes when you type a query into Google?
 
-This blog is for anyone curious about technology, digital marketing, research, or just understanding the web better. We'll explore how Google Search scans billions of web pages and decides which results to show. And if you’re not a tech expert, don’t worry—the infographic below breaks down each step of a Google search by comparing it to a librarian finding the right information in a library, making complex processes simple and visual.
+This blog is for anyone curious about technology, digital marketing, research, or just understanding the web better. We'll explore how Google Search scans billions of web pages and decides which results to show. And if you’re not a tech expert, don’t worry. The infographic below breaks down each step of a Google search by comparing it to a librarian finding the right information in a library. making complex processes simple and visual.
 
 ## Infographic
-![google search infographic](./media/google_search_infographic.png)
+The infographic below demonstrates each stage of the Google Search process—discovery, crawling, analyzing content, indexing, ranking, serving results—using a librarian's process as a simplified visual guide.
+![Infographic showing how Google Search works: discovery, crawling, analyzing content, indexing, ranking, and serving results compared to a librarian’s process](./media/google_search_infographic.png)
 
 ## Quick Summary:
 - **Crawling** - Google uses bots (crawlers) to scan the web.
