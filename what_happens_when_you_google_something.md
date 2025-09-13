@@ -11,6 +11,8 @@ The infographic below demonstrates each stage of the Google Search process—dis
 
 ![Infographic showing how Google Search works: discovery, crawling, content analysis, indexing, ranking, and serving results compared to a librarian’s process](./media/google_search_infographic.png)
 
+> 💡Tip: The text breakdown below repeats the key points in the infographic. If you’ve already studied the image, you can skip to Final Thoughts or the glossary.
+
 ## Step-by-Step Breakdown
 
 ### 1. **Discovery** — Google starts with known URLs and submitted sitemaps, like a librarian beginning with a list of familiar books and a delivery list of new arrivals.
