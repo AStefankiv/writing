@@ -22,8 +22,6 @@ The infographic below demonstrates each stage of the Google Search process—dis
 ### 5. **Ranking** — Algorithms evaluate hundreds of page signals (quality, backlinks, freshness) to rank results; a librarian picks the best books for the library visitor's question.
 ### 6. **Serving** — The most relevant results are returned to your query, like the librarian handling you the most useful book with a sticky note pointing to the right chapter.
 
-If you feel it’s necessary, copy the wording from the original infographic into this section and add more context, backlinks, sources, and information. You can also use this as an opportunity to help the post rank, as search engines can crawl the text in the body of a blog post. 
-
 ## Final Thoughts
 
 Understanding how Google Search works isn't just trivia—it's practical power. If you run a business, knowing that Google only shows indexed and relevant results can help you improve your SEO strategy. And even if you're just curious, next time you type a query, you'll know the invisible steps behind the scenes.
