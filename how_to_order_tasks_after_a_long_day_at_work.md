@@ -22,10 +22,6 @@ In this post, we’ll show you how to plan your after-work time effectively: wha
 Evening productivity simply means using the hours after work with intention instead of having them disappear.
 Whether you're studying foa certification, searching for a new job, or maintaining your fitness, evenings are a hidden block of time—about five hours a day on weekdays and much more on weekends. Used wisely, they add up to nearly 50 hours each week.
 
-How to [Task] 
-This section should make up the bulk of the writing in your blog post. It’s enormously important for each step to have its own section header for optimal organization, clarity for the reader, and search engine optimization. Additionally, breaking instructions up by sections also lets you include visual aids for each step as needed in the form of a GIF, image, or video. 
-It’s important to remember to be clear, concise, and accurate in the steps you provide your readers. Any extra “fluff” to the article may confuse them, resulting in some readers not achieving the results they intended. 
-
 If what you’re explaining how to do is solve an equation (i.e. “How to Calculate Break Even”), provide a step-by-step explanation and example of how to calculate the rate, point, or number you’re explaining how to reach. Show all of your work so the reader can follow along easily.
 
 ## Goals, Duties, and Recreation
@@ -48,31 +44,25 @@ Realistically, you can devote for your:
 - Duties: 10–12 hrs (≈20–25%)
 - Recreation: 10–12 hrs (≈20–25%)
 
-## How to Distribute Tasks Correctly
-When you arrive home from work, gradually start with duties. Spend some time with family or so some chores. It will give you some mental break from your job.
-After that, get down to your goals. For the beginning, pick some easy to do tasks, like answering an email or review some material. THis way you won't get overwhelmed and enjoy the feeling of ticking off the tasks.
-Before bed, take some time away from the screen. Instead, find yourself some relaxing activity. Read a book, review your next day's plans, or spend time with your dear people.
+## How to Structure Your Evening Tasks
+When you arrive home from work, gradually start with duties. Spend time with family or handle some small chores. It will give you a mental buffer between work and personal goals.
+Next, get down to your goals. Start with some easy to do tasks, like answering an email or reviewing material. This prevents overwhelm and gives the satisfaction of ticking off  tasks.
+Before bed, take some time away from the screen. read, review plans for the next day, or spend time with loved ones.
 
-An example of a weekday would probably include:
-- Duty: 2 hours
-- Goal: 3 hours
-- Recreation: 1 hour
-
-Weekend:
-- Duty: 3 hours
-- Goal: 6 hours
-- Recreation: 6 hour
+Typical time distribution:
+Weekday: Duties 2 hrs • Goals 3 hrs • Recreation 1 hr
+Weekend: Duties 3 hrs • Goals 6 hrs • Recreation 6 hrs
 
 ## Quick Tips to Stay on Track
-- Write a weekly to-do list and update daily. Start with an easy win to build momentum.
-- Fix your posture while studying. Good alignment keeps energy up.
-- Move your body. A walk or light jog can spark creativity and help with sleep.
-- Take a power nap if needed. Dark, cool, and quiet—no more than 20 minutes.
-- Reward yourself. A snack, a favorite show, or quiet time—without screens if possible.
-- Use focus tools. Screen-time trackers or site blockers cut distractions.
+- **Write a weekly to-do list** and update it daily. Start with an easy win to build momentum.
+- **Maintain good posture** while working at the desk or studying; good alignment keeps energy up.
+- **Move your body**. A walk or light jog can spark creativity and help with sleep.
+- **Take a power nap** if needed. Dark, cool, and quiet—no more than 20 minutes.
+- **Reward yourself** with a snack, a favorite show, or quiet time—without screens if possible.
+- **Use focus tools.** Screen-time trackers or site blockers remove distractions.
 
 ## Example
-Let's say you live with a spouse and a kid. You are currently doing a survival job, but your goal is to become a web developer. You return home at 5 pm. Your weekly schedule may look like this:
+Let's say you live with a spouse and a child. You work a "survival job", but want to become a web developer. You return home at 5 PM. A sample weekly schedule may look like this:
 
 ## Weekly Evening Schedule (5–11 PM, G = Goal • D = Duty • R = Recreation)
 
