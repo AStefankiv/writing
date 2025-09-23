@@ -18,6 +18,9 @@ If you want to make progress in your career, achieve your personal goals, or kee
 
 In this post, we’ll show you how to plan your after-work time effectively: what to start with and which tasks to do last, how to boost energy, improve focus, and eliminate distractions.
 
+## What is "Evening Productivity", and Why It Matters
+Evening productivity simply means using the hours after work with intention instead of having them disappear.
+Whether you're studying foa certification, searching for a new job, or maintaining your fitness, evenings are a hidden block of time—about five hours a day on weekdays and much more on weekends. Used wisely, they add up to nearly 50 hours each week.
 
 How to [Task] 
 This section should make up the bulk of the writing in your blog post. It’s enormously important for each step to have its own section header for optimal organization, clarity for the reader, and search engine optimization. Additionally, breaking instructions up by sections also lets you include visual aids for each step as needed in the form of a GIF, image, or video. 
@@ -27,9 +30,7 @@ If what you’re explaining how to do is solve an equation (i.e. “How to Calcu
 
 ## Goals, Duties, and Recreation
 
-Are you a student, pursuing a better career, or someone with active lifestyle? It's important to define your goals.
-Whether you like it or not, but most of us–adults–have daily/weekly duties, like cleaning, cooking meals etc.
-And of course, don't forget to have a "me time".
+First, define your priorities—career growth, learning a skill, improving your health, or something else. At the same time, you can't simply ignore housework or family responsibilities; chores, errands, and appointments will always be around. And remember about the most important—yourself. Deliberately leave space for what you love to do.
 
 | **Goals**                                 | **Duties**                        | **Recreation**                                         |
 |--------------------------------------------|-------------------------------------|--------------------------------------------------------|
@@ -38,12 +39,76 @@ And of course, don't forget to have a "me time".
 | Physical Well-Being (exercise, meal prep, sleep hygiene) | Appointments (dentist, doctor, bank visits, paperwork) |   Hobby, Socializing, Travel     |
 
 
-After you defined your goal, let's see how much time you have. There are 24 hours in a day. An average person works 8 hours, sleeps 8 hours, and has 8 hours for other things. We'll take away commuting, phone calls and rest. Let's assume you have around 5 hours on weekdays after work and 12 hours on weekends. In total it's 49 hours, but let's round it up to 50 hours.
+## How Much Time Do You Really Have?
+An average weekday: 8 hours work + 8 hours sleep = 8 hours left.
+After commuting and basic tasks, you probably have about 5-6 free hours each workday and around 12 hours each weekend day—roughly 50 hours per week.
 
 Realistically, you can devote for your:
-- Goals: 28 hours
-- Duties: 12 hours
-- Recreation: 10 hours
+- Goals: 25–30 hrs (≈50–60%)
+- Duties: 10–12 hrs (≈20–25%)
+- Recreation: 10–12 hrs (≈20–25%)
+
+## How to Distribute Tasks Correctly
+When you arrive home from work, gradually start with duties. Spend some time with family or so some chores. It will give you some mental break from your job.
+After that, get down to your goals. For the beginning, pick some easy to do tasks, like answering an email or review some material. THis way you won't get overwhelmed and enjoy the feeling of ticking off the tasks.
+Before bed, take some time away from the screen. Instead, find yourself some relaxing activity. Read a book, review your next day's plans, or spend time with your dear people.
+
+An example of a weekday would probably include:
+- Duty: 2 hours
+- Goal: 3 hours
+- Recreation: 1 hour
+
+Weekend:
+- Duty: 3 hours
+- Goal: 6 hours
+- Recreation: 6 hour
+
+## Quick Tips to Stay on Track
+- Write a weekly to-do list and update daily. Start with an easy win to build momentum.
+- Fix your posture while studying. Good alignment keeps energy up.
+- Move your body. A walk or light jog can spark creativity and help with sleep.
+- Take a power nap if needed. Dark, cool, and quiet—no more than 20 minutes.
+- Reward yourself. A snack, a favorite show, or quiet time—without screens if possible.
+- Use focus tools. Screen-time trackers or site blockers cut distractions.
+
+## Example
+Let's say you live with a spouse and a kid. You are currently doing a survival job, but your goal is to become a web developer. You return home at 5 pm. Your weekly schedule may look like this:
+
+## Weekly Evening Schedule (5–11 PM, G = Goal • D = Duty • R = Recreation)
+
+| Time     | Mon                        | Tue                  | Wed                           | Thu                        | Fri                           |
+| -------- | -------------------------- | -------------------- | ----------------------------- | -------------------------- | ----------------------------- |
+| 5–6 pm   | D – Family/kid time        | D – Family/kid time  | D – Family/kid time           | D – Family/kid time        | D – Family/kid time           |
+| 6–7 pm   | D – Dinner & chores        | D – Dinner & chores  | D – Dinner & chores           | D – Dinner & chores        | D – Dinner & chores           |
+| 7–8 pm   | G – Coding / Online course | G – Job applications | G – Portfolio update          | G – Coding / Online course | G – Resume & personal project |
+| 8–9 pm   | G – Coding / Online course | G – Job applications | G – Portfolio update          | G – Coding / Online course | G – Resume & personal project |
+| 9–10 pm  | G – Reading / notes        | G – Reading / notes  | G – Networking / side project | G – Side project           | G – Reading / notes           |
+| 10–11 pm | R – Relax / reading        | R – Relax / reading  | R – Relax / reading           | R – Relax / reading        | R – Relax / reading           |
+
+Weekday Totals:
+- Goals: 3 hrs/day × 5 = 15 hrs
+- Duties: 2 hrs/day × 5 = 10 hrs
+- Recreation: 1 hr/day × 5 = 5 hrs
+
+## Weekend Schedule (Sat–Sun, 8 AM–11 PM, G = Goal • D = Duty • R = Recreation)
+| Time     | Sat                    | Sun                    |
+| -------- | ---------------------- | ---------------------- |
+| 8–10 am  | G – Coding project     | G – Study / course     |
+| 10–12 pm | G – Portfolio build    | G – Networking tasks   |
+| 12–1 pm  | D – Meal prep / chores | D – Meal prep / chores |
+| 1–3 pm   | G – Study session      | G – Skill practice     |
+| 3–4 pm   | R – Sports / gym       | R – Sports / gym       |
+| 4–5 pm   | R – Walk / leisure     | R – Walk / leisure     |
+| 5–6 pm   | D – Family activity    | D – Family activity    |
+| 6–7 pm   | D – Dinner / chores    | D – Dinner / chores    |
+| 7–8 pm   | R – Hobby / social     | R – Hobby / social     |
+| 8–9 pm   | R – Movie / reading    | R – Movie / reading    |
+| 9–11 pm  | R – Relax / reading    | R – Relax / reading    |
+
+Weekend Totals:
+- Goals: 12 hrs
+- Duties: 6 hrs
+- Recreation: 12 hrs
 
 # Tips and Reminders for [Term] (Optional)
 If you’re breaking down a difficult concept or task, some readers may still feel overwhelmed and unsure of their ability to tackle it. Break down a few suggestions on how to best approach the concept, and/or a few reminders about it. This is not a list post, so keep this short list to three to five pieces of advice. 
@@ -53,16 +118,6 @@ Closing
 Wrap up your amazing new blog post with a great closing. Remind your readers of the key takeaway you want them to walk away with and consider pointing them to other resources you have on your website. 
 Call-to-Action
 Last but not least, place a call-to-action at the bottom of your blog post. This should be to a lead-generating piece of content or to a sales-focused landing page for a demo or consultation. For example, if your product or service helps your readers do what it is they searched “how to” do, or if you have a template in your content resource library that does what they searched “how to” do, that would be a perfect CTA for this post. 
-
-
-- Write a to-do-list (start with the easiest tasks to give you the feeling of accomplishment)
-- Fix your body posture
-- Walk / Jog for the creative output / Gym (melatonin)
-- Take a power nap (don't force yourself) dark, quiet, cool
-- Reward yourself (snack / soda / no devices)
-- Review study materials when low mental focus
-- Screen Time tracker/self-control apps.
-
 
 
 Checklist Before Publishing
