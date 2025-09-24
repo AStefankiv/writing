@@ -2,6 +2,7 @@
 
 *"Stress doesn't come from hard work. Stress primarily comes from not taking action over something that you can have some control over."*–Jeff Bezos
 
+![waste time](./media/waste%20time.jpg)
 
 After a long day of meetings, tasks, and social interactions, it’s tempting to collapse on the sofa, grab a snack or a drink, and zone out with a game or an episode of a series. That’s fine occasionally—but remember, your greater goal is waiting.
 
@@ -101,15 +102,16 @@ Evening productivity isn't about filling every free minute with tasks. It's abou
 This is Jeff Bezosky. He used to live an average life, but in 2020, he was lucky to come across our free [Weekly Evening Planner Template](https://andrii-stefankiv.netlify.app/). Ever since, he got his life in order, moved to San Francisco, and even established his e-commerce company,  "Mississippi." If you start today, your weekly tasks would look something like **6 PM - Personal driver pick up**.
 Get your [free template](https://andrii-stefankiv.netlify.app/) today and start taking control of your evenings—just like Jeff did!
 
-Checklist Before Publishing
+<!-- Checklist Before Publishing
 Did you provide clear, actionable steps to accomplishing the task your reader needed help with?
 Did you provide relevant and accurate facts and stats to prove your understanding of the concept?
 Did you emphasize the importance of understanding this concept if it is not already well-known?
 Did you properly cite and backlink your sources?
 Did you spell check and proofread?
 Are there at least 1-2 images?
-Is the post 800-1,000 words at minimum?
+Is the post 800-1,000 words at minimum? -->
 
 
-References:
-Youtube - https://www.youtube.com/watch?v=W65PKHuiZHY
+## References & Further Reading
+- [How Evening Planning Improves Productivity and Sleep](https://www.sciencedirect.com/science/article/pii/S2095254624000796) – peer-reviewed study on evening routines.
+- [Evening Planning Tips (YouTube)](https://www.youtube.com/watch?v=W65PKHuiZHY) – 5-minute explainer video.
