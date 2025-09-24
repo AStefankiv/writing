@@ -71,22 +71,11 @@ Weekday Totals:
 - Recreation: 1 hr/day × 5 = 5 hrs
 
 ## Weekend Schedule (Sat–Sun, 8 AM–11 PM, G = Goal • D = Duty • R = Recreation)
-| Time                         | Sat                    | Sun                    |
-| ---------------------------- | ---------------------- | ---------------------- |
-| **Morning (8 am – 12 pm)**   |                        |                        |
-| 8–10 am                      | G – Coding project     | G – Study / course     |
-| 10–12 pm                     | G – Portfolio build    | G – Networking tasks   |
-| **Afternoon (12 pm – 5 pm)**                                                   |
-| 12–1 pm                      | D – Meal prep / chores | D – Meal prep / chores |
-| 1–3 pm                       | G – Study session      | G – Skill practice     |
-| 3–4 pm                       | R – Sports / gym       | R – Sports / gym       |
-| 4–5 pm                       | R – Walk / leisure     | R – Walk / leisure     |
-| **Evening (5 pm – 11 pm)**                                                     |
-| 5–6 pm                       | D – Family activity    | D – Family activity    |
-| 6–7 pm                       | D – Dinner / chores    | D – Dinner / chores    |
-| 7–8 pm                       | R – Hobby / social     | R – Hobby / social     |
-| 8–9 pm                       | R – Movie / reading    | R – Movie / reading    |
-| 9–11 pm                      | R – Relax / reading    | R – Relax / reading    |
+| Day / Time | 8–10 am            | 10–12 pm             | 12–1 pm                | 1–3 pm             | 3–4 pm           | 4–5 pm             | 5–6 pm              | 6–7 pm              | 7–8 pm             | 8–9 pm              | 9–11 pm             |
+| ---------- | ------------------ | -------------------- | ---------------------- | ------------------ | ---------------- | ------------------ | ------------------- | ------------------- | ------------------ | ------------------- | ------------------- |
+| **Sat**    | G – Coding project | G – Portfolio build  | D – Meal prep / chores | G – Study session  | R – Sports / gym | R – Walk / leisure | D – Family activity | D – Dinner / chores | R – Hobby / social | R – Movie / reading | R – Relax / reading |
+| **Sun**    | G – Study / course | G – Networking tasks | D – Meal prep / chores | G – Skill practice | R – Sports / gym | R – Walk / leisure | D – Family activity | D – Dinner / chores | R – Hobby / social | R – Movie / reading | R – Relax / reading |
+
 
 
 
