@@ -35,8 +35,7 @@ Realistically, you can devote for your:
 
 ## How to Structure Your Evening Tasks for Maximum Productivity
 When you arrive home from work, gradually start with duties. Spend time with family or handle some small chores. It will give you a mental buffer between work and personal goals.
-Next, get down to your goals. Start with some easy to do tasks, like answering an email or reviewing study material. This prevents overwhelm and gives the satisfaction of ticking off  tasks.
-Before bed, take some time away from the screen, read, review plans for the next day, or—best of all—spend time with loved ones.
+Next, get down to your goals. Start with some easy to do tasks, like answering an email or reviewing study material. This prevents overwhelm and gives the satisfaction of ticking off  tasks. Before bed, take some time away from the screen, read, review plans for the next day, or—best of all—spend time with loved ones.
 
 Typical time distribution:
 Weekday: Duties 2 hrs • Goals 3 hrs • Recreation 1 hr
@@ -71,11 +70,22 @@ Weekday Totals:
 - Recreation: 1 hr/day × 5 = 5 hrs
 
 ## Weekend Schedule (Sat–Sun, 8 AM–11 PM, G = Goal • D = Duty • R = Recreation)
-| Day / Time | 8–10 am            | 10–12 pm             | 12–1 pm                | 1–3 pm             | 3–4 pm           | 4–5 pm             | 5–6 pm              | 6–7 pm              | 7–8 pm             | 8–9 pm              | 9–11 pm             |
-| ---------- | ------------------ | -------------------- | ---------------------- | ------------------ | ---------------- | ------------------ | ------------------- | ------------------- | ------------------ | ------------------- | ------------------- |
-| **Sat**    | G – Coding project | G – Portfolio build  | D – Meal prep / chores | G – Study session  | R – Sports / gym | R – Walk / leisure | D – Family activity | D – Dinner / chores | R – Hobby / social | R – Movie / reading | R – Relax / reading |
-| **Sun**    | G – Study / course | G – Networking tasks | D – Meal prep / chores | G – Skill practice | R – Sports / gym | R – Walk / leisure | D – Family activity | D – Dinner / chores | R – Hobby / social | R – Movie / reading | R – Relax / reading |
-
+| Time                         | Sat                    | Sun                    |
+| ---------------------------- | ---------------------- | ---------------------- |
+| **Morning (8 am – 12 pm)**   |                        |                        |
+| 8–10 am                      | G – Coding project     | G – Study / course     |
+| 10–12 pm                     | G – Portfolio build    | G – Networking tasks   |
+| **Afternoon (12 pm – 5 pm)** |                        |                        |
+| 12–1 pm                      | D – Meal prep / chores | D – Meal prep / chores |
+| 1–3 pm                       | G – Study session      | G – Skill practice     |
+| 3–4 pm                       | R – Sports / gym       | R – Sports / gym       |
+| 4–5 pm                       | R – Walk / leisure     | R – Walk / leisure     |
+| **Evening (5 pm – 11 pm)**   |                        |                        |
+| 5–6 pm                       | D – Family activity    | D – Family activity    |
+| 6–7 pm                       | D – Dinner / chores    | D – Dinner / chores    |
+| 7–8 pm                       | R – Hobby / social     | R – Hobby / social     |
+| 8–9 pm                       | R – Movie / reading    | R – Movie / reading    |
+| 9–11 pm                      | R – Relax / reading    | R – Relax / reading    |
 
 
 
@@ -87,7 +97,9 @@ Weekend Totals:
 Evening productivity isn't about filling every free minute with tasks. It's about taking control of your evenings—and, by extension, your week and life. Try it, and you will soon notice how much easier it is to fall asleep knowing you made the most of your day. You'll enjoy your free time even more, savoring it fully because it comes after dedicated, purposeful effort.
 
 ![Jeff Bezosky before and after](./media/bezos.png)
+
 This is Jeff Bezosky. He used to live an average life, but in 2020, he was lucky to come across our free [Weekly Evening Planner Template](https://andrii-stefankiv.netlify.app/). Ever since, he got his life in order, moved to San Francisco, and even established his e-commerce company,  "Mississippi." If you start today, your weekly tasks would look something like **6 PM - Personal driver pick up**.
+Get your [free template](https://andrii-stefankiv.netlify.app/) today and start taking control of your evenings—just like Jeff did!
 
 Checklist Before Publishing
 Did you provide clear, actionable steps to accomplishing the task your reader needed help with?
