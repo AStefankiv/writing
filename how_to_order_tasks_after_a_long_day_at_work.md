@@ -71,29 +71,23 @@ Weekday Totals:
 - Recreation: 1 hr/day × 5 = 5 hrs
 
 ## Weekend Schedule (Sat–Sun, 8 AM–11 PM, G = Goal • D = Duty • R = Recreation)
-**Morning (8 am – 12 pm)**
+| Time                         | Sat                    | Sun                    |
+| ---------------------------- | ---------------------- | ---------------------- |
+| **Morning (8 am – 12 pm)**   |                        |                        |
+| 8–10 am                      | G – Coding project     | G – Study / course     |
+| 10–12 pm                     | G – Portfolio build    | G – Networking tasks   |
+| **Afternoon (12 pm – 5 pm)** |                        |                        |
+| 12–1 pm                      | D – Meal prep / chores | D – Meal prep / chores |
+| 1–3 pm                       | G – Study session      | G – Skill practice     |
+| 3–4 pm                       | R – Sports / gym       | R – Sports / gym       |
+| 4–5 pm                       | R – Walk / leisure     | R – Walk / leisure     |
+| **Evening (5 pm – 11 pm)**   |                        |                        |
+| 5–6 pm                       | D – Family activity    | D – Family activity    |
+| 6–7 pm                       | D – Dinner / chores    | D – Dinner / chores    |
+| 7–8 pm                       | R – Hobby / social     | R – Hobby / social     |
+| 8–9 pm                       | R – Movie / reading    | R – Movie / reading    |
+| 9–11 pm                      | R – Relax / reading    | R – Relax / reading    |
 
-| Time     | Sat                 | Sun                  |
-| -------- | ------------------- | -------------------- |
-| 8–10 am  | G – Coding project  | G – Study / course   |
-| 10–12 pm | G – Portfolio build | G – Networking tasks |
-
-**Afternoon (12 pm – 5 pm)**
-| Time    | Sat                    | Sun                    |
-| ------- | ---------------------- | ---------------------- |
-| 12–1 pm | D – Meal prep / chores | D – Meal prep / chores |
-| 1–3 pm  | G – Study session      | G – Skill practice     |
-| 3–4 pm  | R – Sports / gym       | R – Sports / gym       |
-| 4–5 pm  | R – Walk / leisure     | R – Walk / leisure     |
-
-**Evening (5 pm – 11 pm)**
-| Time    | Sat                 | Sun                 |
-| ------- | ------------------- | ------------------- |
-| 5–6 pm  | D – Family activity | D – Family activity |
-| 6–7 pm  | D – Dinner / chores | D – Dinner / chores |
-| 7–8 pm  | R – Hobby / social  | R – Hobby / social  |
-| 8–9 pm  | R – Movie / reading | R – Movie / reading |
-| 9–11 pm | R – Relax / reading | R – Relax / reading |
 
 
 Weekend Totals:
