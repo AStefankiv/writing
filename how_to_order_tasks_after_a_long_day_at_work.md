@@ -76,12 +76,12 @@ Weekday Totals:
 | **Morning (8 am – 12 pm)**   |                        |                        |
 | 8–10 am                      | G – Coding project     | G – Study / course     |
 | 10–12 pm                     | G – Portfolio build    | G – Networking tasks   |
-| **Afternoon (12 pm – 5 pm)** |                        |                        |
+| **Afternoon (12 pm – 5 pm)**                                                   |
 | 12–1 pm                      | D – Meal prep / chores | D – Meal prep / chores |
 | 1–3 pm                       | G – Study session      | G – Skill practice     |
 | 3–4 pm                       | R – Sports / gym       | R – Sports / gym       |
 | 4–5 pm                       | R – Walk / leisure     | R – Walk / leisure     |
-| **Evening (5 pm – 11 pm)**   |                        |                        |
+| **Evening (5 pm – 11 pm)**                                                     |
 | 5–6 pm                       | D – Family activity    | D – Family activity    |
 | 6–7 pm                       | D – Dinner / chores    | D – Dinner / chores    |
 | 7–8 pm                       | R – Hobby / social     | R – Hobby / social     |
