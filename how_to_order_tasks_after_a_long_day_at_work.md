@@ -56,15 +56,14 @@ Let's say you live with a spouse and a child or two. You work a "survival job", 
 
 ### Weekly Evening Schedule (5–11 PM, G = Goal • D = Duty • R = Recreation)
 
-| Time     | Mon                                                         | Tue                                                   | Wed                                                            | Thu                                                         | Fri                                                            |
-| -------- | ----------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------- |
-| 5–6 pm   | <span style="color:blue">D – Family/kid time</span>         | <span style="color:blue">D – Family/kid time</span>   | <span style="color:blue">D – Family/kid time</span>            | <span style="color:blue">D – Family/kid time</span>         | <span style="color:blue">D – Family/kid time</span>            |
-| 6–7 pm   | <span style="color:blue">D – Dinner & chores</span>         | <span style="color:blue">D – Dinner & chores</span>   | <span style="color:blue">D – Dinner & chores</span>            | <span style="color:blue">D – Dinner & chores</span>         | <span style="color:blue">D – Dinner & chores</span>            |
-| 7–8 pm   | <span style="color:green">G – Coding / Online course</span> | <span style="color:green">G – Job applications</span> | <span style="color:green">G – Portfolio update</span>          | <span style="color:green">G – Coding / Online course</span> | <span style="color:green">G – Resume & personal project</span> |
-| 8–9 pm   | <span style="color:green">G – Coding / Online course</span> | <span style="color:green">G – Job applications</span> | <span style="color:green">G – Portfolio update</span>          | <span style="color:green">G – Coding / Online course</span> | <span style="color:green">G – Resume & personal project</span> |
-| 9–10 pm  | <span style="color:green">G – Reading / notes</span>        | <span style="color:green">G – Reading / notes</span>  | <span style="color:green">G – Networking / side project</span> | <span style="color:green">G – Side project</span>           | <span style="color:green">G – Reading / notes</span>           |
-| 10–11 pm | <span style="color:orange">R – Relax / reading</span>       | <span style="color:orange">R – Relax / reading</span> | <span style="color:orange">R – Relax / reading</span>          | <span style="color:orange">R – Relax / reading</span>       | <span style="color:orange">R – Relax / reading</span>          |
-
+| Time     | Mon                        | Tue                  | Wed                           | Thu                        | Fri                           |
+| -------- | -------------------------- | -------------------- | ----------------------------- | -------------------------- | ----------------------------- |
+| 5–6 pm   | D – Family/kid time        | D – Family/kid time  | D – Family/kid time           | D – Family/kid time        | D – Family/kid time           |
+| 6–7 pm   | D – Dinner & chores        | D – Dinner & chores  | D – Dinner & chores           | D – Dinner & chores        | D – Dinner & chores           |
+| 7–8 pm   | G – Coding / Online course | G – Job applications | G – Portfolio update          | G – Coding / Online course | G – Resume & personal project |
+| 8–9 pm   | G – Coding / Online course | G – Job applications | G – Portfolio update          | G – Coding / Online course | G – Resume & personal project |
+| 9–10 pm  | G – Reading / notes        | G – Reading / notes  | G – Networking / side project | G – Side project           | G – Reading / notes           |
+| 10–11 pm | R – Relax / reading        | R – Relax / reading  | R – Relax / reading           | R – Relax / reading        | R – Relax / reading           |
 
 Weekday Totals:
 - Goals: 3 hrs/day × 5 = 15 hrs
@@ -72,19 +71,30 @@ Weekday Totals:
 - Recreation: 1 hr/day × 5 = 5 hrs
 
 ## Weekend Schedule (Sat–Sun, 8 AM–11 PM, G = Goal • D = Duty • R = Recreation)
-| Time     | Sat                    | Sun                    |
-| -------- | ---------------------- | ---------------------- |
-| 8–10 am  | G – Coding project     | G – Study / course     |
-| 10–12 pm | G – Portfolio build    | G – Networking tasks   |
-| 12–1 pm  | D – Meal prep / chores | D – Meal prep / chores |
-| 1–3 pm   | G – Study session      | G – Skill practice     |
-| 3–4 pm   | R – Sports / gym       | R – Sports / gym       |
-| 4–5 pm   | R – Walk / leisure     | R – Walk / leisure     |
-| 5–6 pm   | D – Family activity    | D – Family activity    |
-| 6–7 pm   | D – Dinner / chores    | D – Dinner / chores    |
-| 7–8 pm   | R – Hobby / social     | R – Hobby / social     |
-| 8–9 pm   | R – Movie / reading    | R – Movie / reading    |
-| 9–11 pm  | R – Relax / reading    | R – Relax / reading    |
+**Morning (8 am – 12 pm)**
+
+| Time     | Sat                 | Sun                  |
+| -------- | ------------------- | -------------------- |
+| 8–10 am  | G – Coding project  | G – Study / course   |
+| 10–12 pm | G – Portfolio build | G – Networking tasks |
+
+**Afternoon (12 pm – 5 pm)**
+| Time    | Sat                    | Sun                    |
+| ------- | ---------------------- | ---------------------- |
+| 12–1 pm | D – Meal prep / chores | D – Meal prep / chores |
+| 1–3 pm  | G – Study session      | G – Skill practice     |
+| 3–4 pm  | R – Sports / gym       | R – Sports / gym       |
+| 4–5 pm  | R – Walk / leisure     | R – Walk / leisure     |
+
+**Evening (5 pm – 11 pm)**
+| Time    | Sat                 | Sun                 |
+| ------- | ------------------- | ------------------- |
+| 5–6 pm  | D – Family activity | D – Family activity |
+| 6–7 pm  | D – Dinner / chores | D – Dinner / chores |
+| 7–8 pm  | R – Hobby / social  | R – Hobby / social  |
+| 8–9 pm  | R – Movie / reading | R – Movie / reading |
+| 9–11 pm | R – Relax / reading | R – Relax / reading |
+
 
 Weekend Totals:
 - Goals: 12 hrs
