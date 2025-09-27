@@ -1,4 +1,4 @@
-# OAuth: The Case for a Protocol of Permission in a Connected World
+# OAuth: Why Permission Matters in a Connected World
 
 For developers and architects building modern applications, authentication and authorization aren't just features—they’re essential for protecting data and maintaining user trust. But getting them right is notoriously difficult. After many missteps, OAuth became the main lesson learned.
 
