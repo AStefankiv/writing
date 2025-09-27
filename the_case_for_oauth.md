@@ -43,7 +43,9 @@ The "valet key" analogy is perfect. It allows someone to park your car but doesn
 
 For senior engineers, the elegance of OAuth 2.0's Authorization Code flow is in its simplicity. Let's break down the canonical example of your project management app needing access to a user's Google Calendar.
 
-1. **Initiation:** The user clicks "Connect Calendar" in your app. Your app redirects their browser to Google's authorization server with essential parameters: your app's ID (client_id), the desired permissions (scope), and a callback URL (redirect_uri).
+![how oauth works](./media/how_oauth_works.png)
+
+<!-- 1. **Initiation:** The user clicks "Connect Calendar" in your app. Your app redirects their browser to Google's authorization server with essential parameters: your app's ID (client_id), the desired permissions (scope), and a callback URL (redirect_uri).
 
 2. **Authentication & Consent:** Google handles the hard part. It signs in the user through their Google account and presents a clear consent screen: "ProjectMgmtApp wants to view your calendars. Is that okay?" This is the key moment when the user grants or denies access.
 
@@ -53,7 +55,7 @@ For senior engineers, the elegance of OAuth 2.0's Authorization Code flow is in 
 
 5. **Access Granted:** Google responds with an access token (and often a refresh token). This access token is the valet key. It's a string that represents the granted permission.
 
-6. **API Calls:** Your app includes this access token in the header of its requests to the Google Calendar API. The API validates the token and grants access according to its scopes.
+6. **API Calls:** Your app includes this access token in the header of its requests to the Google Calendar API. The API validates the token and grants access according to its scopes. -->
 
 ### The Best Part: What Doesn't Happen
 
