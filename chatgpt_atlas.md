@@ -4,6 +4,8 @@ But even with all that power, something’s always felt… off. I kept copying a
 
 OpenAI says its new [ChatGPT Atlas](https://chatgpt.com/atlas/) browser claims to have it all. But is it really the first true **Chrome competitor** in 17 years?
 
+![ai_shake_hands](/media/ai_shake_hands.png)
+
 ## What is Atlas
 Imagine opening a tab to read an article, highlighting a paragraph, and instantly asking, ‘summarize this for a tweet.’ That’s what Atlas does. ChatGPT Atlas is an AI-powered browser that feels like a mix of a browser with ChatGPT. Think of it as ChatGPT with tabs — part search engine, part AI assistant, part workspace.
 
