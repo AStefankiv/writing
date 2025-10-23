@@ -31,18 +31,7 @@ Atlas might feel fresh and exciting, but Chrome still wins on sheer reliability 
 ## New Browser War
 So, are we witnessing the start of a new browser war? Google is quietly weaving AI into Chrome through its Gemini models, while OpenAI is building a browser completely around AI. The difference isn’t just technical — it’s philosophical. Google is adding AI; OpenAI is starting with it.
 
-![infographic_atlas_vs_chrome](/infographic_atlas_vs_chrome.png)
-
-| Feature          | **Chrome (2008–2025)**                | **ChatGPT Atlas (2025–)**           |
-| ---------------- | ------------------------------------- | ----------------------------------- |
-| Core purpose     | Fast, secure, minimalist browser      | AI-native assistant for web & work  |
-| Search           | Keyword-based (Google)                | Natural language, contextual        |
-| AI integration   | Gemini-powered snippets, image search | Full ChatGPT assistant & agent mode |
-| Writing tools    | Extensions required                   | Built-in inline editor              |
-| Platform support | macOS, Windows, Linux, Android, iOS   | macOS (Windows coming soon)         |
-| Ecosystem        | Deep Google integration               | Deep OpenAI ecosystem               |
-| Business model   | Ads + data                            | Subscription-based AI service       |
-| Privacy stance   | Uses browsing data for ads            | Optional memory, local control      |
+![infographic_atlas_vs_chrome](/media/infographic_atlas_vs_chrome.png)
 
 This isn’t just about speed anymore — it’s about intelligence. And that’s a battlefield Google hasn’t fully entered yet.
 
