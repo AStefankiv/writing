@@ -1,8 +1,8 @@
-№ The Smart Way to Use AI for Writing
+# The Smart Way to Use AI for Writing
 
 Disclaimer: This blog was crafted with a little help from my AI friends (but the jokes are all mine).
 
-
+![ai_assistanse](./media/ai_assistanse.png)
 
 ## Let's Talk About the Elephant in the Room
 
@@ -68,7 +68,7 @@ I don’t recommend using AI for every single step of writing. Instead, try it o
 
 Of course, there are many other ways to use AI for writing. I’ve only listed the ones I think are truly helpful and still keep your writing authentic.
 
-
+![ai_ethics](./media/ai_ethics.png)
 
 ## Writing Ethically with AI
 
