@@ -32,6 +32,8 @@ Here are some top AI tools, which I’ve (subjectively) ranked by how effective 
 
 - **ChatGPT (or GPT-5)**: Great for brainstorming, drafting, and reworking awkward sentences.
 
+- **Gemini (Google)**: Great for research-based writing. It pulls real-time info from Google, summarizes sources, and fact-checks as you write. It’s ideal for blogs that mix data, visuals, and analysis.
+
 - **Claude**: Great at understanding your instructions, following context, and giving you clear, well-structured writing. If you want an AI that understands what you mean, even when you’re unsure, Claude is a solid choice.
 
 - **Notion AI**: Great for writing within your notes, summarizing long articles, and making sense of your endless to-do lists.
